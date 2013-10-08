@@ -13,7 +13,7 @@ class Population(metaclass=ABCMeta):
 
     def select(self):
         '''Selection mechanism'''
-        self.individuals.sort(key=lambda x: x.fitness)
+        self.individuals.sort(key=lambda x: -x.fitness())
         self.individuals = self.individuals[:self.size]
 
     @abstractmethod

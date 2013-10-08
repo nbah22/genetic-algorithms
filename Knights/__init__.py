@@ -5,7 +5,7 @@ import random
 
 
 class Population(Genetic.Population):
-    def breed():
+    def breed(mother, father):
         pass
 
     def __repr__(self):
@@ -16,6 +16,9 @@ class Population(Genetic.Population):
                 ret += ' '.join([str(i) for i in self.individuals[i].field[y]])
                 ret += ' | '
             ret += '\n'
+        # for i in self.individuals:
+        #     width = self.attributes['x_size']
+        #         ret += ' ' * width + str(i.fitness()) + ' ' * width
         return ret
 
 
@@ -25,8 +28,32 @@ class Field(Genetic.Species):
                       for x in range(args['x_size'])]
                       for y in range(args['y_size'])]
 
-    def fitness():
-        return 0
+    def fitness(self):
+        f = 0
+        x_size = len(self.field[0])
+        y_size = len(self.field)
+        for x in range(x_size):
+            for y in range(y_size):
+                if self.field[y][x]:
+                    f += 1
+                    if y >= 2 and x >= 1 and self.field[y-2][x-1]:
+                        f -= 1
+                    if y >= 2 and x < x_size-1 and self.field[y-2][x+1]:
+                        f -= 1
+                    if y < y_size-2 and x >= 1 and self.field[y+2][x-1]:
+                        f -= 1
+                    if y < y_size-2 and x < x_size-1 and self.field[y+2][x+1]:
+                        f -= 1
+
+                    if y >= 1 and x >= 2 and self.field[y-1][x-2]:
+                        f -= 1
+                    if y >= 1 and x < x_size-2 and self.field[y-1][x+2]:
+                        f -= 1
+                    if y < y_size-1 and x >= 2 and self.field[y+1][x-2]:
+                        f -= 1
+                    if y < y_size-1 and x < x_size-2 and self.field[y+1][x+2]:
+                        f -= 1
+        return f
 
     def mutate(self):
         x = random.randint(0, len(self.field) - 1)
