@@ -1,12 +1,20 @@
 import sys
 sys.path.append("..")
 import Genetic
+import tkinter as Tk
 import random
 
 
 class Population(Genetic.Population):
     def kind(self, args):
         return Field(args)
+
+    def is_stable(self):
+        individ = self.individuals[0]
+        for i in self.individuals[1:]:
+            if i.field != individ.field:
+                return False
+        return True
 
     def __repr__(self):
         ret = ''
@@ -56,6 +64,7 @@ class Field(Genetic.Species):
                         p += 1
                     if y < y_size-1 and x < x_size-2 and self.field[y+1][x+2]:
                         p += 1
+        p = p // 2
         return k - p*2
 
     def mutate(self):
@@ -76,3 +85,15 @@ class Field(Genetic.Species):
                 else:
                     child.field[y][x] = self.field[y][x]
         return child
+
+    def draw(self, master):
+        frame = Tk.Frame(master=master, borderwidth=2)
+        frame.pack(side='left')
+        for y in range(len(self.field)):
+            for x in range(len(self.field[0])):
+                if self.field[y][x]:
+                    color = 'black'
+                else:
+                    color = 'grey'
+                Tk.Frame(master=frame, bg=color, padx=1, pady=1,
+                         width=20, height=20).grid(row=y, column=x)
