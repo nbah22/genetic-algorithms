@@ -5,20 +5,22 @@ import random
 
 
 class Population(Genetic.Population):
-    def breed(mother, father):
-        pass
+    def kind(self, args):
+        return Field(args)
 
     def __repr__(self):
         ret = ''
         for y in range(self.attributes['y_size']):
             ret += '| '
-            for i in range(self.size):
+            for i in range(len(self.individuals)):
                 ret += ' '.join([str(i) for i in self.individuals[i].field[y]])
                 ret += ' | '
             ret += '\n'
-        # for i in self.individuals:
-        #     width = self.attributes['x_size']
-        #         ret += ' ' * width + str(i.fitness()) + ' ' * width
+        for i in self.individuals:
+            num = str(i.fitness())
+            width = self.attributes['x_size']
+            ret += ' ' * (width + 1 - len(num)) + num + ' ' * (width + 1)
+        ret += '\n'
         return ret
 
 
@@ -29,36 +31,48 @@ class Field(Genetic.Species):
                       for y in range(args['y_size'])]
 
     def fitness(self):
-        f = 0
-        x_size = len(self.field[0])
+        k = 0
+        p = 0
         y_size = len(self.field)
-        for x in range(x_size):
-            for y in range(y_size):
+        x_size = len(self.field[0])
+        for y in range(y_size):
+            for x in range(x_size):
                 if self.field[y][x]:
-                    f += 1
+                    k += 1
                     if y >= 2 and x >= 1 and self.field[y-2][x-1]:
-                        f -= 1
+                        p += 1
                     if y >= 2 and x < x_size-1 and self.field[y-2][x+1]:
-                        f -= 1
+                        p += 1
                     if y < y_size-2 and x >= 1 and self.field[y+2][x-1]:
-                        f -= 1
+                        p += 1
                     if y < y_size-2 and x < x_size-1 and self.field[y+2][x+1]:
-                        f -= 1
+                        p += 1
 
                     if y >= 1 and x >= 2 and self.field[y-1][x-2]:
-                        f -= 1
+                        p += 1
                     if y >= 1 and x < x_size-2 and self.field[y-1][x+2]:
-                        f -= 1
+                        p += 1
                     if y < y_size-1 and x >= 2 and self.field[y+1][x-2]:
-                        f -= 1
+                        p += 1
                     if y < y_size-1 and x < x_size-2 and self.field[y+1][x+2]:
-                        f -= 1
-        return f
+                        p += 1
+        return k - p*2
 
     def mutate(self):
-        x = random.randint(0, len(self.field) - 1)
-        y = random.randint(0, len(self.field[0]) - 1)
-        if self.field[x][y]:
-            self.field[x][y] = 0
-        else:
-            self.field[x][y] = 1
+        for i in range(random.randint(0, 7)):
+            y = random.randint(0, len(self.field) - 1)
+            x = random.randint(0, len(self.field[0]) - 1)
+            if self.field[y][x]:
+                self.field[y][x] = 0
+            else:
+                self.field[y][x] = 1
+
+    def breed(self, mate, attributes):
+        child = Field(attributes)
+        for y in range(len(self.field)):
+            for x in range(len(self.field[0])):
+                if random.randint(0, 1):
+                    child.field[y][x] = mate.field[y][x]
+                else:
+                    child.field[y][x] = self.field[y][x]
+        return child
