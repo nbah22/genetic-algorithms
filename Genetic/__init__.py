@@ -1,4 +1,5 @@
 from abc import ABCMeta, abstractmethod, abstractproperty
+import random
 import tkinter as Tk
 from tkinter import filedialog
 
@@ -24,16 +25,29 @@ class Population(metaclass=ABCMeta):
 
     def breed_all(self):
         new_generation = []
-        for mother in self.individuals:
-            for father in self.individuals:
-                new_generation.append(mother.breed(father, self.attributes))
-        self.individuals = new_generation
+        for i in range(len(self.individuals)):
+            mother = self.choose_parent()
+            father = self.choose_parent()
+            new_generation.append(mother.breed(father, self.attributes))
+        self.individuals += new_generation
+
+    def choose_parent(self):
+        fitnesses = [i.fitness() for i in self.individuals]
+        min_fitness = min(fitnesses)
+        fitnesses = list(map(lambda x: x - min_fitness + 1, fitnesses))
+        overall_fitness = sum(fitnesses)
+        rnd = random.random()
+        t = 0
+        for i in range(len(self.individuals)):
+            t += fitnesses[i] / overall_fitness
+            if t >= rnd:
+                return self.individuals[i]
 
     def cycle(self):
-        self.mutate_all()
         self.breed_all()
         self.mutate_all()
         self.select()
+        print(repr(self))
 
     def dump(self, file):
         with open(file, 'a') as f:

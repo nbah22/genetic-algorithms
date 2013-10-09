@@ -95,5 +95,5 @@ class Field(Genetic.Species):
                     color = 'black'
                 else:
                     color = 'grey'
-                Tk.Frame(master=frame, bg=color, padx=1, pady=1,
-                         width=20, height=20).grid(row=y, column=x)
+                Tk.Frame(master=frame, bg=color, width=20,
+                         height=20).grid(row=y, column=x, padx=0, pady=0)
