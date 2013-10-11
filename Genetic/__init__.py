@@ -3,6 +3,8 @@ import random
 import tkinter as Tk
 from tkinter import filedialog
 
+import time
+
 
 class Population(metaclass=ABCMeta):
     @abstractproperty
@@ -20,15 +22,23 @@ class Population(metaclass=ABCMeta):
 
     def select(self):
         '''Selection mechanism'''
-        self.individuals.sort(key=lambda x: -x.fitness())
-        self.individuals = self.individuals[:self.size]
+        lst = []
+        for individ in self.individuals:
+            if individ not in lst:
+                lst.append(individ)
+        self.individuals = sorted(lst, key=lambda x: -x.fitness())[:self.size]
 
     def breed_all(self):
         new_generation = []
+
         for i in range(len(self.individuals)):
             mother = self.choose_parent()
             father = self.choose_parent()
             new_generation.append(mother.breed(father, self.attributes))
+        # for mother in self.individuals:
+        #     for father in self.individuals:
+        #         new_generation.append(mother.breed(father, self.attributes))
+
         self.individuals += new_generation
 
     def choose_parent(self):
@@ -44,22 +54,21 @@ class Population(metaclass=ABCMeta):
                 return self.individuals[i]
 
     def cycle(self):
+        start = time.time()
         self.breed_all()
         self.mutate_all()
         self.select()
-        print(repr(self))
+        print(str(self), 'Cycle time: ', time.time() - start)
 
     def dump(self, file):
         with open(file, 'a') as f:
-            f.write(repr(self))
+            f.write(str(self))
+
+    # def is_stable():
+    #     return all(x == self.individuals[0] for x in self.individuals)
 
     @abstractmethod
-    def is_stable():
-        '''Says whether population has stopped evolving'''
-        return True
-
-    @abstractmethod
-    def __repr__():
+    def __str__():
         '''Returns a visual representation of population'''
         return ''
 
@@ -81,9 +90,19 @@ class Species(metaclass=ABCMeta):
     def fitness(self):
         '''Fit - function'''
 
+    @abstractproperty
+    def likeness(self, other):
+        '''Return the coefficient of likeness of two individuals'''
+        return 0
+
     @abstractmethod
     def draw(self, master):
         '''Used in GUI'''
+
+    @abstractmethod
+    def __eq__(self, other):
+        '''Says whether two individuals are equal'''
+        return True
 
 
 class GUI():
@@ -97,16 +116,20 @@ class GUI():
             self.win.title("Genetic")
 
         butframe = Tk.Frame()
-        Tk.Button(command=lambda: self.redraw(population.cycle),
+        Tk.Button(command=lambda: self.redraw(self.population.cycle),
                   text='Cycle', master=butframe).pack(side='left')
-        Tk.Button(command=lambda: self.redraw(population.mutate_all),
+        Tk.Button(command=lambda: self.redraw(self.population.mutate_all),
                   text='Mutate', master=butframe).pack(side='left')
-        Tk.Button(command=lambda: self.redraw(population.breed_all),
+        Tk.Button(command=lambda: self.redraw(self.population.breed_all),
                   text='Breed', master=butframe).pack(side='left')
-        Tk.Button(command=lambda: self.redraw(population.select),
+        Tk.Button(command=lambda: self.redraw(self.population.select),
                   text='Select', master=butframe).pack(side='left')
+
         Tk.Button(command=self.dump, text='Dump to file',
                   master=butframe).pack(side='left')
+        Tk.Button(command=self.restart, text='Restart',
+                  master=butframe).pack(side='left')
+
         butframe.pack()
         self.popframe = None
         self.redraw()
@@ -134,3 +157,7 @@ class GUI():
         filename = filedialog.asksaveasfilename()
         if filename:
             self.population.dump(filename)
+
+    def restart(self):
+        self.population = self.population.__class__(self.population.size, **self.population.attributes)
+        self.redraw()

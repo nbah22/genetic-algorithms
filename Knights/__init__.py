@@ -9,14 +9,7 @@ class Population(Genetic.Population):
     def kind(self, args):
         return Field(args)
 
-    def is_stable(self):
-        individ = self.individuals[0]
-        for i in self.individuals[1:]:
-            if i.field != individ.field:
-                return False
-        return True
-
-    def __repr__(self):
+    def __str__(self):
         ret = ''
         for y in range(self.attributes['y_size']):
             ret += '| '
@@ -97,3 +90,14 @@ class Field(Genetic.Species):
                     color = 'grey'
                 Tk.Frame(master=frame, bg=color, width=20,
                          height=20).grid(row=y, column=x, padx=0, pady=0)
+
+    def likeness(self, other):
+        result = 0
+        for y in range(len(self.field)):
+            for x in range(len(self.field[0])):
+                if self.field[y][x] == other.field[y][x]:
+                    result += 1
+        return result
+
+    def __eq__(self, other):
+        return self.field == other.field
