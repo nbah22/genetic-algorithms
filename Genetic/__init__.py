@@ -26,20 +26,28 @@ class Population(metaclass=ABCMeta):
         for individ in self.individuals:
             if individ not in lst:
                 lst.append(individ)
+        # likenesses = [sum(a.likeness(b) for b in lst) for a in lst]
+        # i = 0
+        # while i < len(lst):
+        #     if likenesses[i] > sum(likenesses) / len(lst):
+        #         del lst[i]
+        #         del likenesses[i]
+        #     else:
+        #         i += 1
         self.individuals = sorted(lst, key=lambda x: -x.fitness())[:self.size]
 
     def breed_all(self):
         new_generation = []
 
-        for i in range(len(self.individuals)):
-            mother = self.choose_parent()
-            father = self.choose_parent()
-            new_generation.append(mother.breed(father, self.attributes))
-        # for mother in self.individuals:
-        #     for father in self.individuals:
-        #         new_generation.append(mother.breed(father, self.attributes))
+        # for i in range(len(self.individuals)):
+        #     mother = self.choose_parent()
+        #     father = self.choose_parent()
+        #     new_generation.append(mother.breed(father, self.attributes))
+        for mother in self.individuals:
+            for father in self.individuals:
+                new_generation.append(mother.breed(father, self.attributes))
 
-        self.individuals += new_generation
+        self.individuals = new_generation
 
     def choose_parent(self):
         fitnesses = [i.fitness() for i in self.individuals]
