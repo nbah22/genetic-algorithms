@@ -17,4 +17,3 @@ To launch the project, execute _Launch.py_
 - Breeding display to see which genes came from whom
   * Some kind of genealogical tree
 - `choose_parents(n)`
-- Try the algorithm with Conway's Game of Life
