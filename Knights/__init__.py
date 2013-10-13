@@ -36,22 +36,19 @@ class Field(Genetic.Species):
         p = 0
         y_size = len(self.field)
         x_size = len(self.field[0])
-        under_attack = [[0 for x in range(x_size)] for y in range(y_size)]
         for y in range(y_size):
             for x in range(x_size):
                 if self.field[y][x]:
                     k += 1
-                    if (not under_attack[y][x] and
-                       ((y >= 2 and x >= 1 and self.field[y-2][x-1]) or
-                       (y >= 2 and x < x_size-1 and self.field[y-2][x+1]) or
-                       (y < y_size-2 and x >= 1 and self.field[y+2][x-1]) or
-                       (y < y_size-2 and x < x_size-1 and self.field[y+2][x+1]) or
-                       (y >= 1 and x >= 2 and self.field[y-1][x-2]) or
-                       (y >= 1 and x < x_size-2 and self.field[y-1][x+2]) or
-                       (y < y_size-1 and x >= 2 and self.field[y+1][x-2]) or
-                       (y < y_size-1 and x < x_size-2 and self.field[y+1][x+2]))):
-                        under_attack[y][x] = 1
-        p = sum(sum(under_attack[y]) for y in range(y_size))
+                    if ((y >= 2 and x >= 1 and self.field[y-2][x-1]) or
+                        (y >= 2 and x < x_size-1 and self.field[y-2][x+1]) or
+                        (y < y_size-2 and x >= 1 and self.field[y+2][x-1]) or
+                        (y < y_size-2 and x < x_size-1 and self.field[y+2][x+1]) or
+                        (y >= 1 and x >= 2 and self.field[y-1][x-2]) or
+                        (y >= 1 and x < x_size-2 and self.field[y-1][x+2]) or
+                        (y < y_size-1 and x >= 2 and self.field[y+1][x-2]) or
+                        (y < y_size-1 and x < x_size-2 and self.field[y+1][x+2])):
+                            p += 1
         return k - p
 
     def mutate(self):
