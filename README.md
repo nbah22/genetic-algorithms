@@ -13,6 +13,8 @@ To launch the project, execute _Launch.py_
 - Make individuals differentiate
   * Think of a better use of `likeness()` function
   * Maybe `mutate(f(likeness()))`?
+  * Maybe breed only individuals who are alike?
+  * Maybe isolate species into several populations?
 - Add some description and documentation
 - Breeding display to see which genes came from whom
   * Some kind of genealogical tree
