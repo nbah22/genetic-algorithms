@@ -1,20 +1,13 @@
+import sys
+sys.path.append("..")
 import Genetic
 import tkinter as Tk
 import random
-import Knights.encode
 
 
 class Population(Genetic.Population):
     def kind(self, **args):
         return Field(**args)
-
-    def b64decode(self, seed):
-        binary = bin(encode.num_decode(seed))[2:]
-        binary = '0'*(self.attributes['x_size']*self.attributes['y_size'] - len(binary)) + binary
-        print(binary)
-        individual = Field(**self.attributes)
-        individual.field = [[binary[x + y*len(individual.field)] for x in range(len(individual.field[y]))] for y in range(len(individual.field))]
-        return individual
 
     def __str__(self):
         ret = ''
@@ -92,7 +85,3 @@ class Field(Genetic.Species):
 
     def __eq__(self, other):
         return self.field == other.field
-
-    def b64(self):
-        binary = ''.join(''.join(str(self.field[y][x]) for x in range(len(self.field[y]))) for y in range(len(self.field)))
-        return encode.num_encode(int(binary, base=2))

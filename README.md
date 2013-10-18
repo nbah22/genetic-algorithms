@@ -9,14 +9,11 @@ The genetic algorithm lying in the base of this project can also be applied to d
 To launch the project, execute _Launch.py_
 
 **TODO:**
-- Improve `redraw()`
 - Make individuals differentiate
-  * Think of a better use of `likeness()` function
-  * Maybe `mutate(f(likeness()))`?
-  * Maybe breed only individuals who are alike?
-  * Maybe isolate species into several populations?
 - Add some description and documentation
 - Breeding display to see which genes came from whom
   * Some kind of genealogical tree
-- `choose_parents(n)`
-- Try the algorithm with Conway's Game of Life
+- Statistics
+- Seeds
+- Settings file
+- Improve recently added functions (b64)
