@@ -5,16 +5,30 @@ import Knights.encode
 
 
 class Population(Genetic.Population):
+
+    def __init__(self, size, x_size, y_size, seed=None):
+        if seed:
+            self.size = size
+            self.attributes = {'x_size': x_size, 'y_size': y_size}
+            binary = bin(encode.num_decode(seed))[2:]
+            binary = '0'*(x_size*y_size*self.size - len(binary)) + binary
+            seeds = [binary[i:i+x_size*y_size]
+                     for i in range(0, len(binary), x_size*y_size)]
+            self.individuals = [Field(seed=seeds[i], **self.attributes)
+                                for i in range(size)]
+        else:
+            super(Population, self).__init__(size, x_size=x_size, y_size=y_size)
+
     def kind(self, **args):
         return Field(**args)
 
-    def b64decode(self, seed):
-        binary = bin(encode.num_decode(seed))[2:]
-        binary = '0'*(self.attributes['x_size']*self.attributes['y_size'] - len(binary)) + binary
-        print(binary)
-        individual = Field(**self.attributes)
-        individual.field = [[binary[x + y*len(individual.field)] for x in range(len(individual.field[y]))] for y in range(len(individual.field))]
-        return individual
+    def get_seed(self):
+        binary = ''
+        for individ in self.individuals:
+            for y in range(self.attributes['y_size']):
+                for x in range(self.attributes['y_size']):
+                    binary += str(individ.field[y][x])
+        return encode.num_encode(int(binary, base=2))
 
     def __str__(self):
         ret = ''
@@ -33,11 +47,16 @@ class Population(Genetic.Population):
 
 
 class Field(Genetic.Species):
-    def __init__(self, **args):
+    def __init__(self, seed=None, **args):
         self.attributes = args
-        self.field = [[random.randint(0, 1)
-                      for x in range(args['x_size'])]
-                      for y in range(args['y_size'])]
+        if seed:
+            self.field = [[int(seed[x+y*args['y_size']])
+                          for x in range(args['x_size'])]
+                          for y in range(args['y_size'])]
+        else:
+            self.field = [[random.randint(0, 1)
+                          for x in range(args['x_size'])]
+                          for y in range(args['y_size'])]
 
     def fitness(self):
         k = 0
@@ -92,7 +111,3 @@ class Field(Genetic.Species):
 
     def __eq__(self, other):
         return self.field == other.field
-
-    def b64(self):
-        binary = ''.join(''.join(str(self.field[y][x]) for x in range(len(self.field[y]))) for y in range(len(self.field)))
-        return encode.num_encode(int(binary, base=2))

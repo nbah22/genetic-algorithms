@@ -14,6 +14,5 @@ To launch the project, execute _Launch.py_
 - Breeding display to see which genes came from whom
   * Some kind of genealogical tree
 - Statistics
-- Seeds
 - Settings file
-- Improve recently added functions (b64)
+- Think of a better `__init__()` for Population

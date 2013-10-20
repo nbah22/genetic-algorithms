@@ -4,7 +4,6 @@ import tkinter as Tk
 from tkinter import filedialog
 
 import time
-import math
 
 
 class Population(metaclass=ABCMeta):
@@ -13,9 +12,7 @@ class Population(metaclass=ABCMeta):
     def kind():
         '''Returns species of population'''
 
-    def __init__(self, size, seed=None, **args):
-        if seed == None:
-            seed = random.randint(4,6)
+    def __init__(self, size, **args):
         self.individuals = [self.kind(**args) for i in range(size)]
         self.attributes = args
         self.size = size
@@ -59,12 +56,6 @@ class Population(metaclass=ABCMeta):
     def dump(self, file):
         with open(file, 'a') as f:
             f.write(str(self))
-
-    def get_seed(self):
-        seed = ''
-        for individ in self.individuals:
-            seed += individ.b64() + ':'
-        return seed[:-1]
 
     @abstractmethod
     def __str__():
