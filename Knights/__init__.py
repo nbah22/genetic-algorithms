@@ -1,23 +1,20 @@
 import Genetic
 import tkinter as Tk
 import random
-import Knights.encode
+from Knights.encode import *
 
 
 class Population(Genetic.Population):
 
-    def __init__(self, size, x_size, y_size, seed=None):
+    def __init__(self, size, seed=None, **args):
         if seed:
-            self.size = size
-            self.attributes = {'x_size': x_size, 'y_size': y_size}
-            binary = bin(encode.num_decode(seed))[2:]
-            binary = '0'*(x_size*y_size*self.size - len(binary)) + binary
-            seeds = [binary[i:i+x_size*y_size]
-                     for i in range(0, len(binary), x_size*y_size)]
-            self.individuals = [Field(seed=seeds[i], **self.attributes)
+            binary = bin(num_decode(seed))[2:]
+            binary = '0'*(args['x_size'] * args['y_size'] * size - len(binary)) + binary
+            seeds = [binary[i:i + args['x_size'] * args['y_size']]
+                     for i in range(0, len(binary), args['x_size']*args['y_size'])]
+            self.individuals = [Field(seed=seeds[i], **args)
                                 for i in range(size)]
-        else:
-            super(Population, self).__init__(size, x_size=x_size, y_size=y_size)
+        super(Population, self).__init__(size, **args)
 
     def kind(self, **args):
         return Field(**args)
@@ -28,7 +25,7 @@ class Population(Genetic.Population):
             for y in range(self.attributes['y_size']):
                 for x in range(self.attributes['y_size']):
                     binary += str(individ.field[y][x])
-        return encode.num_encode(int(binary, base=2))
+        return num_encode(int(binary, base=2))
 
     def __str__(self):
         ret = ''
@@ -47,10 +44,11 @@ class Population(Genetic.Population):
 
 
 class Field(Genetic.Species):
+
     def __init__(self, seed=None, **args):
         self.attributes = args
         if seed:
-            self.field = [[int(seed[x+y*args['y_size']])
+            self.field = [[int(seed[x + y * args['y_size']])
                           for x in range(args['x_size'])]
                           for y in range(args['y_size'])]
         else:
@@ -79,13 +77,12 @@ class Field(Genetic.Species):
         return k - p
 
     def mutate(self):
-        for i in range(random.randint(0, 7)):
-            y = random.randint(0, len(self.field) - 1)
-            x = random.randint(0, len(self.field[0]) - 1)
-            if self.field[y][x]:
-                self.field[y][x] = 0
-            else:
-                self.field[y][x] = 1
+        y = random.randint(0, len(self.field) - 1)
+        x = random.randint(0, len(self.field[0]) - 1)
+        if self.field[y][x]:
+            self.field[y][x] = 0
+        else:
+            self.field[y][x] = 1
 
     def breed(self, mate):
         child = Field(**self.attributes)
@@ -108,6 +105,11 @@ class Field(Genetic.Species):
                     color = 'grey'
                 Tk.Frame(master=frame, bg=color, width=20,
                          height=20).grid(row=y, column=x, padx=0, pady=0)
+
+    def __str__(self):
+        return '\n'.join(' '.join(str(self.field[y][x])
+                                  for x in range(len(self.field[0])))
+                         for y in range(len(self.field)))
 
     def __eq__(self, other):
         return self.field == other.field

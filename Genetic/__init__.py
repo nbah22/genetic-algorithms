@@ -12,14 +12,26 @@ class Population(metaclass=ABCMeta):
     def kind():
         '''Returns species of population'''
 
-    def __init__(self, size, **args):
-        self.individuals = [self.kind(**args) for i in range(size)]
+    def __init__(self, size, mutate_before_breeding=True, max_num_of_mutations=1, **args):
+        if 'num_of_children' in args:
+            self.NUM_OF_CHILDREN = args['num_of_children']
+        else:
+            self.NUM_OF_CHILDREN = size
+        self.MUTATE_BEFORE_BREEDING = mutate_before_breeding
+        self.MAX_NUM_OF_MUTATIONS = max_num_of_mutations
+
+        try:  # I agree that this is bad, but it seems to be logical
+            self.individuals
+        except:
+            self.individuals = [self.kind(**args) for i in range(size)]
+
         self.attributes = args
         self.size = size
 
     def mutate_all(self):
         for i in range(len(self.individuals)):
-            self.individuals[i].mutate()
+            for k in range(random.randint(0, self.MAX_NUM_OF_MUTATIONS)):
+                self.individuals[i].mutate()
 
     def select(self):
         '''Selection mechanism'''
@@ -28,7 +40,7 @@ class Population(metaclass=ABCMeta):
 
     def breed_all(self):
         new_generation = []
-        for i in range(random.randint(self.size, self.size**2)):
+        for i in range(self.NUM_OF_CHILDREN):
             mother = self.choose_parent()
             father = self.choose_parent()
             new_generation.append(mother + father)
@@ -48,14 +60,25 @@ class Population(metaclass=ABCMeta):
 
     def cycle(self):
         start = time.time()
-        self.breed_all()
-        self.mutate_all()
+        if self.MUTATE_BEFORE_BREEDING:
+            self.mutate_all()
+            self.breed_all()
+        else:
+            self.breed_all()
+            self.mutate_all()
         self.select()
-        print(str(self), 'Cycle time: ', time.time() - start)
+        return time.time() - start  # Temporarily here
+
+    def restart(self):
+        del self.individuals
+        self.__init__(self.size, **self.attributes)
 
     def dump(self, file):
         with open(file, 'a') as f:
             f.write(str(self))
+
+    def is_stable(self):
+        return all(x == self.individuals[0] for x in self.individuals[1:])
 
     @abstractmethod
     def __str__():
@@ -117,8 +140,8 @@ class GUI():
 
         Tk.Button(command=self.dump, text='Dump to file',
                   master=butframe).pack(side='left')
-        Tk.Button(command=self.restart, text='Restart',
-                  master=butframe).pack(side='left')
+        Tk.Button(command=lambda: self.redraw(self.population.restart),
+                  text='Restart', master=butframe).pack(side='left')
 
         butframe.pack()
         self.popframe = None
@@ -147,8 +170,3 @@ class GUI():
         filename = filedialog.asksaveasfilename()
         if filename:
             self.population.dump(filename)
-
-    def restart(self):
-        self.population = self.population.__class__(
-            self.population.size, **self.population.attributes)
-        self.redraw()
