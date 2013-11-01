@@ -16,7 +16,7 @@ class Population(metaclass=ABCMeta):
         if 'num_of_children' in args:
             self.NUM_OF_CHILDREN = args['num_of_children']
         else:
-            self.NUM_OF_CHILDREN = size
+            self.NUM_OF_CHILDREN = size * 2
         self.MUTATE_BEFORE_BREEDING = mutate_before_breeding
         self.MAX_NUM_OF_MUTATIONS = max_num_of_mutations
 

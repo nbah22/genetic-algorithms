@@ -17,3 +17,6 @@ To launch the project, execute _Launch.py_
 - Think of a better `__init__()` for Population
 - Statistics analyzer
 - Apply the algorithm to itself
+- Add loading placeholders in GUI
+- Implement saving the progress of evolution
+- Understand why the floating numbers in params do not cause exception
