@@ -30,11 +30,12 @@ for i in range(num_of_tests):
     while not p.is_stable() and n < max_num_of_cycles:
         p.cycle()
         n += 1
+
     with open('statistics/' + filename, 'a+') as f:
         f.write(output % {'initial_seed_or_blank': initial_seed,
                           'individ': str(p.individuals[0]),
                           'fit': p.individuals[0].fitness(),
                           'cycles': n,
                           'time': time.time() - start})
-    print('%.1f%%' % (i/num_of_tests*100))
+    print('%.1f%%' % (i / num_of_tests * 100))
 print('%.1f%%' % (100))
