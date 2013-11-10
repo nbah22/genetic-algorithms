@@ -12,11 +12,11 @@ class Population(metaclass=ABCMeta):
     def kind():
         '''Returns species of population'''
 
-    def __init__(self, size, mutate_before_breeding=True, max_num_of_mutations=1, **args):
+    def __init__(self, size, mutate_before_breeding=False, max_num_of_mutations=1, **args):
         if 'num_of_children' in args:
             self.NUM_OF_CHILDREN = args['num_of_children']
         else:
-            self.NUM_OF_CHILDREN = size * 2
+            self.NUM_OF_CHILDREN = size * 5
         self.MUTATE_BEFORE_BREEDING = mutate_before_breeding
         self.MAX_NUM_OF_MUTATIONS = max_num_of_mutations
 
