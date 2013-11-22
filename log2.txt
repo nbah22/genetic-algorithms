@@ -1,0 +1,6112 @@
+Fitness: 7.60
+Cycles: 200.00
+Time: 5.485
+size: 32
+max_num_of_mutations: 7
+mutate_before_breeding: True
+num_of_children: 14
+Max_time: 5.56
+
+Fitness: 11.47
+Cycles: 8.57
+Time: 2.156
+num_of_children: 162
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 11
+Max_time: 4.78
+
+Fitness: 12.37
+Cycles: 200.00
+Time: 123.494
+num_of_children: 173
+mutate_before_breeding: False
+max_num_of_mutations: 10
+size: 31
+Max_time: 132.71
+
+Fitness: 11.70
+Cycles: 17.00
+Time: 10.167
+num_of_children: 192
+mutate_before_breeding: True
+max_num_of_mutations: 5
+size: 28
+Max_time: 20.97
+
+Fitness: 12.13
+Cycles: 11.07
+Time: 9.443
+num_of_children: 190
+mutate_before_breeding: False
+max_num_of_mutations: 1
+size: 40
+Max_time: 27.16
+
+Fitness: 8.27
+Cycles: 200.00
+Time: 10.752
+num_of_children: 12
+mutate_before_breeding: True
+max_num_of_mutations: 3
+size: 40
+Max_time: 11.47
+
+Fitness: 11.70
+Cycles: 8.83
+Time: 1.477
+num_of_children: 118
+mutate_before_breeding: False
+max_num_of_mutations: 5
+size: 10
+Max_time: 2.89
+
+Fitness: 11.90
+Cycles: 92.80
+Time: 46.937
+num_of_children: 122
+mutate_before_breeding: True
+max_num_of_mutations: 5
+size: 38
+Max_time: 101.09
+
+Fitness: 11.77
+Cycles: 166.47
+Time: 23.796
+num_of_children: 67
+mutate_before_breeding: True
+max_num_of_mutations: 8
+size: 18
+Max_time: 29.64
+
+Fitness: 11.40
+Cycles: 200.00
+Time: 100.643
+num_of_children: 95
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 49
+Max_time: 102.72
+
+Fitness: 9.33
+Cycles: 200.00
+Time: 8.890
+num_of_children: 20
+mutate_before_breeding: True
+max_num_of_mutations: 5
+size: 18
+Max_time: 9.59
+
+Fitness: 8.03
+Cycles: 200.00
+Time: 36.204
+num_of_children: 36
+mutate_before_breeding: False
+max_num_of_mutations: 9
+size: 48
+Max_time: 36.94
+
+Fitness: 12.33
+Cycles: 53.97
+Time: 38.261
+num_of_children: 184
+mutate_before_breeding: True
+max_num_of_mutations: 7
+size: 36
+Max_time: 112.31
+
+Fitness: 11.90
+Cycles: 197.27
+Time: 6.722
+num_of_children: 13
+mutate_before_breeding: False
+max_num_of_mutations: 1
+size: 21
+Max_time: 7.28
+
+Fitness: 11.80
+Cycles: 14.20
+Time: 2.730
+num_of_children: 117
+mutate_before_breeding: False
+max_num_of_mutations: 7
+size: 12
+Max_time: 7.66
+
+Fitness: 12.37
+Cycles: 110.30
+Time: 77.321
+num_of_children: 175
+mutate_before_breeding: True
+max_num_of_mutations: 8
+size: 35
+Max_time: 145.12
+
+Fitness: 11.47
+Cycles: 7.40
+Time: 2.083
+num_of_children: 171
+mutate_before_breeding: True
+max_num_of_mutations: 2
+size: 13
+Max_time: 4.64
+
+Fitness: 11.80
+Cycles: 8.07
+Time: 2.469
+num_of_children: 160
+mutate_before_breeding: True
+max_num_of_mutations: 4
+size: 15
+Max_time: 5.08
+
+Fitness: 12.07
+Cycles: 20.87
+Time: 11.137
+num_of_children: 195
+mutate_before_breeding: False
+max_num_of_mutations: 8
+size: 24
+Max_time: 33.56
+
+Fitness: 11.80
+Cycles: 34.63
+Time: 5.120
+num_of_children: 45
+mutate_before_breeding: True
+max_num_of_mutations: 2
+size: 29
+Max_time: 15.38
+
+Fitness: 11.87
+Cycles: 16.53
+Time: 4.826
+num_of_children: 86
+mutate_before_breeding: True
+max_num_of_mutations: 2
+size: 30
+Max_time: 11.05
+
+Fitness: 11.23
+Cycles: 8.27
+Time: 1.411
+num_of_children: 115
+mutate_before_breeding: True
+max_num_of_mutations: 4
+size: 11
+Max_time: 2.53
+
+Fitness: 9.33
+Cycles: 200.00
+Time: 59.963
+num_of_children: 62
+mutate_before_breeding: True
+max_num_of_mutations: 9
+size: 45
+Max_time: 60.81
+
+Fitness: 11.93
+Cycles: 34.17
+Time: 7.123
+num_of_children: 108
+mutate_before_breeding: False
+max_num_of_mutations: 9
+size: 15
+Max_time: 20.25
+
+Fitness: 12.10
+Cycles: 20.13
+Time: 14.905
+num_of_children: 182
+mutate_before_breeding: True
+max_num_of_mutations: 5
+size: 36
+Max_time: 39.78
+
+Fitness: 12.23
+Cycles: 195.20
+Time: 153.759
+num_of_children: 165
+mutate_before_breeding: False
+max_num_of_mutations: 6
+size: 43
+Max_time: 162.33
+
+Breeding:
+Fitness: 12.13
+Cycles: 33.43
+Time: 23.283
+num_of_children: 178
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 35
+Max_time: 52.42
+
+Fitness: 11.63
+Cycles: 17.37
+Time: 2.523
+num_of_children: 49
+mutate_before_breeding: True
+max_num_of_mutations: 1
+size: 25
+Max_time: 6.83
+
+Fitness: 12.27
+Cycles: 109.10
+Time: 29.448
+num_of_children: 96
+mutate_before_breeding: True
+max_num_of_mutations: 7
+size: 24
+Max_time: 53.73
+
+Fitness: 12.20
+Cycles: 21.00
+Time: 14.957
+num_of_children: 181
+mutate_before_breeding: False
+max_num_of_mutations: 5
+size: 35
+Max_time: 39.89
+
+Fitness: 11.77
+Cycles: 13.23
+Time: 4.137
+num_of_children: 91
+mutate_before_breeding: True
+max_num_of_mutations: 5
+size: 14
+Max_time: 7.33
+
+Fitness: 11.50
+Cycles: 8.47
+Time: 3.589
+num_of_children: 143
+mutate_before_breeding: True
+max_num_of_mutations: 3
+size: 12
+Max_time: 7.11
+
+Fitness: 12.03
+Cycles: 11.63
+Time: 10.368
+num_of_children: 176
+mutate_before_breeding: True
+max_num_of_mutations: 3
+size: 24
+Max_time: 23.05
+
+Fitness: 11.80
+Cycles: 10.70
+Time: 3.485
+num_of_children: 118
+mutate_before_breeding: False
+max_num_of_mutations: 5
+size: 10
+Max_time: 7.81
+
+Fitness: 12.40
+Cycles: 30.27
+Time: 32.865
+num_of_children: 152
+mutate_before_breeding: True
+max_num_of_mutations: 5
+size: 37
+Max_time: 82.55
+
+Fitness: 11.70
+Cycles: 14.33
+Time: 12.546
+num_of_children: 173
+mutate_before_breeding: True
+max_num_of_mutations: 5
+size: 24
+Max_time: 25.61
+
+Fitness: 12.00
+Cycles: 13.80
+Time: 18.612
+num_of_children: 191
+mutate_before_breeding: False
+max_num_of_mutations: 3
+size: 34
+Max_time: 47.25
+
+Fitness: 11.60
+Cycles: 13.27
+Time: 5.609
+num_of_children: 119
+mutate_before_breeding: True
+max_num_of_mutations: 5
+size: 15
+Max_time: 11.28
+
+Fitness: 11.83
+Cycles: 12.83
+Time: 9.315
+num_of_children: 177
+mutate_before_breeding: True
+max_num_of_mutations: 5
+size: 19
+Max_time: 19.70
+
+Fitness: 11.57
+Cycles: 36.60
+Time: 21.513
+num_of_children: 89
+mutate_before_breeding: False
+max_num_of_mutations: 3
+size: 32
+Max_time: 59.89
+
+Fitness: 12.23
+Cycles: 200.00
+Time: 247.438
+num_of_children: 130
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 46
+Max_time: 266.78
+
+Fitness: 11.43
+Cycles: 24.47
+Time: 4.118
+num_of_children: 29
+mutate_before_breeding: True
+max_num_of_mutations: 1
+size: 25
+Max_time: 10.33
+
+Fitness: 11.93
+Cycles: 11.37
+Time: 10.886
+num_of_children: 177
+mutate_before_breeding: True
+max_num_of_mutations: 4
+size: 24
+Max_time: 19.33
+
+Fitness: 12.13
+Cycles: 43.17
+Time: 25.827
+num_of_children: 101
+mutate_before_breeding: True
+max_num_of_mutations: 5
+size: 27
+Max_time: 62.47
+
+Fitness: 12.23
+Cycles: 66.93
+Time: 84.014
+num_of_children: 177
+mutate_before_breeding: False
+max_num_of_mutations: 7
+size: 33
+Max_time: 247.39
+
+Fitness: 12.10
+Cycles: 20.07
+Time: 13.956
+num_of_children: 150
+mutate_before_breeding: True
+max_num_of_mutations: 7
+size: 21
+Max_time: 29.38
+
+Fitness: 12.20
+Cycles: 32.37
+Time: 28.266
+num_of_children: 127
+mutate_before_breeding: True
+max_num_of_mutations: 5
+size: 32
+Max_time: 96.70
+
+Fitness: 11.90
+Cycles: 25.40
+Time: 16.037
+num_of_children: 129
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 23
+Max_time: 43.70
+
+Fitness: 11.97
+Cycles: 21.53
+Time: 27.888
+num_of_children: 188
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 32
+Max_time: 73.17
+
+Fitness: 11.73
+Cycles: 13.37
+Time: 4.889
+num_of_children: 113
+mutate_before_breeding: False
+max_num_of_mutations: 7
+size: 12
+Max_time: 9.61
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 153.657
+num_of_children: 116
+mutate_before_breeding: False
+max_num_of_mutations: 7
+size: 30
+Max_time: 165.70
+
+Fitness: 11.97
+Cycles: 19.27
+Time: 20.377
+num_of_children: 195
+mutate_before_breeding: False
+max_num_of_mutations: 8
+size: 24
+Max_time: 56.72
+
+Fitness: 11.57
+Cycles: 15.53
+Time: 15.683
+num_of_children: 168
+mutate_before_breeding: True
+max_num_of_mutations: 4
+size: 28
+Max_time: 34.62
+
+Fitness: 11.90
+Cycles: 21.70
+Time: 23.645
+num_of_children: 157
+mutate_before_breeding: True
+max_num_of_mutations: 5
+size: 33
+Max_time: 47.02
+
+Fitness: 12.03
+Cycles: 17.43
+Time: 12.571
+num_of_children: 146
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 22
+Max_time: 26.45
+
+Fitness: 12.20
+Cycles: 146.93
+Time: 122.967
+num_of_children: 105
+mutate_before_breeding: False
+max_num_of_mutations: 4
+size: 36
+Max_time: 176.80
+
+Fitness: 11.90
+Cycles: 10.77
+Time: 5.266
+num_of_children: 139
+mutate_before_breeding: False
+max_num_of_mutations: 5
+size: 14
+Max_time: 11.59
+
+Fitness: 12.00
+Cycles: 29.93
+Time: 23.676
+num_of_children: 150
+mutate_before_breeding: True
+max_num_of_mutations: 7
+size: 24
+Max_time: 63.55
+
+Fitness: 9.13
+Cycles: 200.00
+Time: 112.222
+num_of_children: 62
+mutate_before_breeding: True
+max_num_of_mutations: 9
+size: 45
+Max_time: 122.48
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 178.125
+num_of_children: 115
+mutate_before_breeding: False
+max_num_of_mutations: 8
+size: 36
+Max_time: 197.55
+
+Fitness: 12.13
+Cycles: 18.23
+Time: 11.205
+num_of_children: 120
+mutate_before_breeding: True
+max_num_of_mutations: 5
+size: 24
+Max_time: 18.19
+
+Fitness: 11.27
+Cycles: 10.03
+Time: 3.999
+num_of_children: 139
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 11
+Max_time: 6.94
+
+Fitness: 11.77
+Cycles: 11.40
+Time: 8.795
+num_of_children: 177
+mutate_before_breeding: True
+max_num_of_mutations: 5
+size: 19
+Max_time: 23.91
+
+Fitness: 12.13
+Cycles: 139.80
+Time: 93.290
+num_of_children: 106
+mutate_before_breeding: False
+max_num_of_mutations: 5
+size: 29
+Max_time: 150.34
+
+Fitness: 12.13
+Cycles: 21.37
+Time: 16.302
+num_of_children: 146
+mutate_before_breeding: False
+max_num_of_mutations: 7
+size: 23
+Max_time: 26.23
+
+Fitness: 12.00
+Cycles: 35.40
+Time: 22.757
+num_of_children: 119
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 25
+Max_time: 46.58
+
+Fitness: 12.07
+Cycles: 12.33
+Time: 5.539
+num_of_children: 135
+mutate_before_breeding: False
+max_num_of_mutations: 7
+size: 13
+Max_time: 19.00
+
+Fitness: 12.00
+Cycles: 32.67
+Time: 17.958
+num_of_children: 98
+mutate_before_breeding: False
+max_num_of_mutations: 4
+size: 28
+Max_time: 62.39
+
+Fitness: 11.70
+Cycles: 15.10
+Time: 10.017
+num_of_children: 154
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 20
+Max_time: 22.69
+
+Fitness: 11.70
+Cycles: 10.07
+Time: 6.021
+num_of_children: 128
+mutate_before_breeding: True
+max_num_of_mutations: 2
+size: 21
+Max_time: 11.20
+
+Fitness: 12.20
+Cycles: 139.23
+Time: 201.719
+num_of_children: 174
+mutate_before_breeding: False
+max_num_of_mutations: 6
+size: 39
+Max_time: 327.30
+
+Fitness: 12.20
+Cycles: 28.40
+Time: 19.531
+num_of_children: 145
+mutate_before_breeding: False
+max_num_of_mutations: 8
+size: 21
+Max_time: 42.91
+
+Fitness: 12.13
+Cycles: 52.83
+Time: 18.039
+num_of_children: 65
+mutate_before_breeding: True
+max_num_of_mutations: 4
+size: 25
+Max_time: 34.48
+
+Fitness: 12.10
+Cycles: 33.07
+Time: 28.446
+num_of_children: 130
+mutate_before_breeding: True
+max_num_of_mutations: 5
+size: 32
+Max_time: 82.98
+
+Fitness: 11.77
+Cycles: 17.03
+Time: 12.383
+num_of_children: 142
+mutate_before_breeding: True
+max_num_of_mutations: 5
+size: 24
+Max_time: 26.55
+
+Fitness: 11.77
+Cycles: 14.73
+Time: 3.630
+num_of_children: 64
+mutate_before_breeding: False
+max_num_of_mutations: 2
+size: 16
+Max_time: 10.25
+
+Fitness: 12.23
+Cycles: 14.77
+Time: 16.512
+num_of_children: 193
+mutate_before_breeding: False
+max_num_of_mutations: 6
+size: 26
+Max_time: 45.28
+
+Fitness: 10.63
+Cycles: 200.00
+Time: 83.953
+num_of_children: 64
+mutate_before_breeding: True
+max_num_of_mutations: 8
+size: 31
+Max_time: 90.56
+
+Fitness: 12.00
+Cycles: 15.50
+Time: 13.409
+num_of_children: 152
+mutate_before_breeding: False
+max_num_of_mutations: 2
+size: 25
+Max_time: 38.17
+
+Fitness: 12.07
+Cycles: 18.30
+Time: 10.917
+num_of_children: 97
+mutate_before_breeding: False
+max_num_of_mutations: 3
+size: 28
+Max_time: 20.64
+
+Fitness: 11.90
+Cycles: 15.33
+Time: 10.830
+num_of_children: 118
+mutate_before_breeding: True
+max_num_of_mutations: 3
+size: 28
+Max_time: 22.27
+
+Fitness: 9.53
+Cycles: 200.00
+Time: 53.024
+num_of_children: 41
+mutate_before_breeding: True
+max_num_of_mutations: 7
+size: 31
+Max_time: 58.41
+
+Fitness: 11.63
+Cycles: 9.57
+Time: 7.771
+num_of_children: 181
+mutate_before_breeding: True
+max_num_of_mutations: 3
+size: 20
+Max_time: 18.23
+
+Fitness: 12.00
+Cycles: 19.10
+Time: 18.436
+num_of_children: 163
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 27
+Max_time: 48.11
+
+Fitness: 12.07
+Cycles: 35.47
+Time: 40.295
+num_of_children: 143
+mutate_before_breeding: True
+max_num_of_mutations: 5
+size: 38
+Max_time: 119.72
+
+Fitness: 12.03
+Cycles: 19.80
+Time: 20.994
+num_of_children: 195
+mutate_before_breeding: False
+max_num_of_mutations: 8
+size: 24
+Max_time: 37.16
+
+Fitness: 9.07
+Cycles: 200.00
+Time: 34.903
+num_of_children: 24
+mutate_before_breeding: False
+max_num_of_mutations: 5
+size: 34
+Max_time: 38.56
+
+Fitness: 12.10
+Cycles: 200.00
+Time: 95.223
+num_of_children: 75
+mutate_before_breeding: False
+max_num_of_mutations: 6
+size: 29
+Max_time: 105.53
+
+Fitness: 11.87
+Cycles: 19.30
+Time: 13.702
+num_of_children: 144
+mutate_before_breeding: False
+max_num_of_mutations: 7
+size: 21
+Max_time: 25.22
+
+Fitness: 11.73
+Cycles: 11.63
+Time: 7.969
+num_of_children: 153
+mutate_before_breeding: True
+max_num_of_mutations: 4
+size: 19
+Max_time: 28.39
+
+Fitness: 12.10
+Cycles: 8.40
+Time: 8.602
+num_of_children: 180
+mutate_before_breeding: False
+max_num_of_mutations: 1
+size: 26
+Max_time: 17.12
+
+Fitness: 12.17
+Cycles: 33.03
+Time: 19.731
+num_of_children: 101
+mutate_before_breeding: True
+max_num_of_mutations: 5
+size: 27
+Max_time: 68.64
+
+Fitness: 12.27
+Cycles: 26.93
+Time: 18.554
+num_of_children: 145
+mutate_before_breeding: False
+max_num_of_mutations: 8
+size: 21
+Max_time: 64.53
+
+Fitness: 11.63
+Cycles: 13.67
+Time: 11.260
+num_of_children: 172
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 22
+Max_time: 16.72
+
+Fitness: 12.07
+Cycles: 13.50
+Time: 10.458
+num_of_children: 150
+mutate_before_breeding: False
+max_num_of_mutations: 5
+size: 23
+Max_time: 27.08
+
+Fitness: 11.50
+Cycles: 7.87
+Time: 3.644
+num_of_children: 162
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 11
+Max_time: 5.98
+
+Fitness: 11.57
+Cycles: 16.20
+Time: 9.065
+num_of_children: 86
+mutate_before_breeding: True
+max_num_of_mutations: 2
+size: 30
+Max_time: 16.86
+
+Fitness: 12.27
+Cycles: 12.50
+Time: 16.749
+num_of_children: 192
+mutate_before_breeding: False
+max_num_of_mutations: 4
+size: 32
+Max_time: 35.22
+
+Fitness: 12.40
+Cycles: 186.20
+Time: 164.166
+num_of_children: 136
+mutate_before_breeding: False
+max_num_of_mutations: 7
+size: 29
+Max_time: 191.53
+
+Fitness: 12.17
+Cycles: 24.17
+Time: 16.342
+num_of_children: 150
+mutate_before_breeding: True
+max_num_of_mutations: 7
+size: 21
+Max_time: 55.34
+
+Fitness: 11.73
+Cycles: 28.50
+Time: 22.621
+num_of_children: 114
+mutate_before_breeding: True
+max_num_of_mutations: 4
+size: 32
+Max_time: 65.48
+
+Fitness: 11.43
+Cycles: 8.60
+Time: 4.767
+num_of_children: 165
+mutate_before_breeding: True
+max_num_of_mutations: 3
+size: 14
+Max_time: 11.20
+
+Fitness: 12.10
+Cycles: 20.87
+Time: 24.924
+num_of_children: 188
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 30
+Max_time: 58.83
+
+Fitness: 11.93
+Cycles: 14.23
+Time: 21.046
+num_of_children: 186
+mutate_before_breeding: True
+max_num_of_mutations: 3
+size: 38
+Max_time: 62.52
+
+Fitness: 11.53
+Cycles: 14.10
+Time: 5.181
+num_of_children: 81
+mutate_before_breeding: True
+max_num_of_mutations: 3
+size: 19
+Max_time: 9.45
+
+Fitness: 12.17
+Cycles: 74.73
+Time: 86.130
+num_of_children: 153
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 37
+Max_time: 226.08
+
+Fitness: 11.90
+Cycles: 13.77
+Time: 21.489
+num_of_children: 190
+mutate_before_breeding: False
+max_num_of_mutations: 1
+size: 40
+Max_time: 65.39
+
+Fitness: 11.97
+Cycles: 17.67
+Time: 15.160
+num_of_children: 168
+mutate_before_breeding: True
+max_num_of_mutations: 7
+size: 23
+Max_time: 28.53
+
+Fitness: 11.73
+Cycles: 13.40
+Time: 13.493
+num_of_children: 180
+mutate_before_breeding: False
+max_num_of_mutations: 1
+size: 26
+Max_time: 57.42
+
+Fitness: 11.67
+Cycles: 10.00
+Time: 4.458
+num_of_children: 138
+mutate_before_breeding: True
+max_num_of_mutations: 5
+size: 13
+Max_time: 12.52
+
+Fitness: 11.77
+Cycles: 14.73
+Time: 12.057
+num_of_children: 172
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 22
+Max_time: 29.62
+
+Fitness: 11.57
+Cycles: 9.13
+Time: 3.646
+num_of_children: 139
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 11
+Max_time: 6.66
+
+Fitness: 11.73
+Cycles: 15.30
+Time: 3.791
+num_of_children: 64
+mutate_before_breeding: False
+max_num_of_mutations: 2
+size: 16
+Max_time: 12.44
+
+Fitness: 12.07
+Cycles: 14.67
+Time: 19.436
+num_of_children: 192
+mutate_before_breeding: False
+max_num_of_mutations: 4
+size: 32
+Max_time: 50.83
+
+Fitness: 12.13
+Cycles: 45.83
+Time: 0.000
+mutate_before_breeding: True
+size: 27
+num_of_children: 124
+max_num_of_mutations: 6
+Max_time: 46.54
+
+Fitness: 11.47
+Cycles: 200.00
+Time: 0.000
+mutate_before_breeding: False
+size: 30
+num_of_children: 76
+max_num_of_mutations: 8
+Max_time: 59.91
+
+Fitness: 10.23
+Cycles: 200.00
+Time: 41.968
+num_of_children: 64
+mutate_before_breeding: True
+max_num_of_mutations: 8
+size: 31
+Max_time: 46.00
+
+Fitness: 11.60
+Cycles: 13.50
+Time: 6.601
+num_of_children: 177
+mutate_before_breeding: True
+max_num_of_mutations: 4
+size: 24
+Max_time: 23.48
+
+Fitness: 11.97
+Cycles: 16.87
+Time: 7.618
+num_of_children: 149
+mutate_before_breeding: False
+max_num_of_mutations: 6
+size: 24
+Max_time: 20.03
+
+Fitness: 11.53
+Cycles: 15.63
+Time: 3.030
+num_of_children: 80
+mutate_before_breeding: True
+max_num_of_mutations: 3
+size: 20
+Max_time: 6.41
+
+Fitness: 12.13
+Cycles: 48.17
+Time: 21.143
+num_of_children: 105
+mutate_before_breeding: True
+max_num_of_mutations: 4
+size: 36
+Max_time: 43.44
+
+Fitness: 12.20
+Cycles: 177.10
+Time: 41.855
+num_of_children: 71
+mutate_before_breeding: True
+max_num_of_mutations: 5
+size: 28
+Max_time: 52.43
+
+Fitness: 12.40
+Cycles: 200.00
+Time: 126.085
+num_of_children: 135
+mutate_before_breeding: True
+max_num_of_mutations: 7
+size: 42
+Max_time: 137.88
+
+Fitness: 11.53
+Cycles: 11.37
+Time: 2.081
+num_of_children: 116
+mutate_before_breeding: False
+max_num_of_mutations: 5
+size: 11
+Max_time: 5.00
+
+Fitness: 11.80
+Cycles: 20.10
+Time: 6.470
+num_of_children: 97
+mutate_before_breeding: False
+max_num_of_mutations: 3
+size: 28
+Max_time: 15.69
+
+Fitness: 11.53
+Cycles: 12.53
+Time: 3.148
+num_of_children: 134
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 15
+Max_time: 6.27
+
+Fitness: 12.00
+Cycles: 159.43
+Time: 75.947
+num_of_children: 141
+mutate_before_breeding: False
+max_num_of_mutations: 8
+size: 25
+Max_time: 110.16
+
+Fitness: 11.93
+Cycles: 17.63
+Time: 6.077
+num_of_children: 105
+mutate_before_breeding: True
+max_num_of_mutations: 3
+size: 29
+Max_time: 12.33
+
+Fitness: 11.80
+Cycles: 16.60
+Time: 2.429
+num_of_children: 49
+mutate_before_breeding: True
+max_num_of_mutations: 1
+size: 25
+Max_time: 4.31
+
+Fitness: 12.00
+Cycles: 15.83
+Time: 7.873
+num_of_children: 149
+mutate_before_breeding: False
+max_num_of_mutations: 5
+size: 27
+Max_time: 13.33
+
+Fitness: 11.90
+Cycles: 101.33
+Time: 21.871
+num_of_children: 76
+mutate_before_breeding: True
+max_num_of_mutations: 5
+size: 24
+Max_time: 44.39
+
+Fitness: 11.77
+Cycles: 14.90
+Time: 3.680
+num_of_children: 103
+mutate_before_breeding: True
+max_num_of_mutations: 4
+size: 20
+Max_time: 7.78
+
+Fitness: 12.17
+Cycles: 152.53
+Time: 46.669
+num_of_children: 94
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 28
+Max_time: 67.50
+
+Fitness: 12.07
+Cycles: 18.97
+Time: 8.549
+num_of_children: 149
+mutate_before_breeding: False
+max_num_of_mutations: 6
+size: 24
+Max_time: 22.75
+
+Fitness: 12.23
+Cycles: 70.77
+Time: 42.079
+num_of_children: 148
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 36
+Max_time: 118.72
+
+Fitness: 12.00
+Cycles: 12.43
+Time: 2.427
+num_of_children: 117
+mutate_before_breeding: False
+max_num_of_mutations: 7
+size: 12
+Max_time: 4.94
+
+Fitness: 11.83
+Cycles: 20.20
+Time: 13.086
+num_of_children: 188
+mutate_before_breeding: False
+max_num_of_mutations: 6
+size: 30
+Max_time: 43.69
+
+Fitness: 11.83
+Cycles: 13.97
+Time: 5.841
+num_of_children: 146
+mutate_before_breeding: True
+max_num_of_mutations: 3
+size: 25
+Max_time: 18.80
+
+Fitness: 12.00
+Cycles: 29.40
+Time: 17.195
+num_of_children: 182
+mutate_before_breeding: True
+max_num_of_mutations: 7
+size: 29
+Max_time: 45.42
+
+Fitness: 12.10
+Cycles: 13.43
+Time: 9.787
+num_of_children: 192
+mutate_before_breeding: False
+max_num_of_mutations: 4
+size: 32
+Max_time: 24.34
+
+Fitness: 11.90
+Cycles: 21.17
+Time: 9.274
+num_of_children: 166
+mutate_before_breeding: True
+max_num_of_mutations: 7
+size: 23
+Max_time: 27.59
+
+Fitness: 11.70
+Cycles: 18.60
+Time: 3.919
+num_of_children: 65
+mutate_before_breeding: True
+max_num_of_mutations: 2
+size: 29
+Max_time: 6.66
+
+Fitness: 12.40
+Cycles: 200.00
+Time: 149.648
+num_of_children: 174
+mutate_before_breeding: False
+max_num_of_mutations: 9
+size: 33
+Max_time: 168.53
+
+Fitness: 12.20
+Cycles: 190.90
+Time: 98.862
+num_of_children: 136
+mutate_before_breeding: False
+max_num_of_mutations: 7
+size: 29
+Max_time: 119.14
+
+Fitness: 11.87
+Cycles: 15.23
+Time: 2.444
+num_of_children: 92
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 14
+Max_time: 4.56
+
+Fitness: 11.87
+Cycles: 17.87
+Time: 3.485
+num_of_children: 81
+mutate_before_breeding: True
+max_num_of_mutations: 4
+size: 20
+Max_time: 10.28
+
+Fitness: 11.77
+Cycles: 8.63
+Time: 1.916
+num_of_children: 144
+mutate_before_breeding: False
+max_num_of_mutations: 3
+size: 11
+Max_time: 4.06
+
+Fitness: 11.80
+Cycles: 10.33
+Time: 4.471
+num_of_children: 181
+mutate_before_breeding: True
+max_num_of_mutations: 3
+size: 20
+Max_time: 11.81
+
+Fitness: 11.93
+Cycles: 13.33
+Time: 5.884
+num_of_children: 183
+mutate_before_breeding: False
+max_num_of_mutations: 5
+size: 18
+Max_time: 12.73
+
+Fitness: 12.13
+Cycles: 53.83
+Time: 35.114
+num_of_children: 185
+mutate_before_breeding: False
+max_num_of_mutations: 8
+size: 29
+Max_time: 87.56
+
+Fitness: 12.00
+Cycles: 27.07
+Time: 10.641
+num_of_children: 114
+mutate_before_breeding: True
+max_num_of_mutations: 4
+size: 32
+Max_time: 36.98
+
+Mutation:
+Fitness: 11.97
+Cycles: 69.20
+Time: 44.916
+num_of_children: 173
+size: 31
+max_num_of_mutations: 7
+mutate_before_breeding: False
+Max_time: 123.31
+
+Fitness: 11.70
+Cycles: 11.40
+Time: 1.991
+num_of_children: 118
+size: 10
+max_num_of_mutations: 7
+mutate_before_breeding: False
+Max_time: 3.70
+
+Fitness: 9.30
+Cycles: 200.00
+Time: 7.320
+num_of_children: 17
+size: 18
+max_num_of_mutations: 5
+mutate_before_breeding: True
+Max_time: 7.78
+
+Fitness: 8.33
+Cycles: 200.00
+Time: 34.179
+num_of_children: 36
+size: 46
+max_num_of_mutations: 9
+mutate_before_breeding: False
+Max_time: 36.05
+
+Fitness: 11.90
+Cycles: 120.83
+Time: 4.412
+num_of_children: 13
+size: 21
+max_num_of_mutations: 1
+mutate_before_breeding: True
+Max_time: 7.30
+
+Fitness: 12.00
+Cycles: 9.67
+Time: 3.085
+num_of_children: 160
+size: 15
+max_num_of_mutations: 4
+mutate_before_breeding: False
+Max_time: 5.92
+
+Fitness: 11.97
+Cycles: 18.90
+Time: 10.651
+num_of_children: 195
+size: 23
+max_num_of_mutations: 8
+mutate_before_breeding: False
+Max_time: 27.89
+
+Fitness: 12.00
+Cycles: 29.73
+Time: 4.719
+num_of_children: 47
+size: 29
+max_num_of_mutations: 2
+mutate_before_breeding: True
+Max_time: 9.55
+
+Fitness: 11.73
+Cycles: 16.07
+Time: 4.851
+num_of_children: 88
+size: 30
+max_num_of_mutations: 2
+mutate_before_breeding: True
+Max_time: 9.11
+
+Fitness: 11.00
+Cycles: 12.43
+Time: 2.111
+num_of_children: 115
+size: 11
+max_num_of_mutations: 7
+mutate_before_breeding: True
+Max_time: 5.23
+
+Fitness: 11.57
+Cycles: 14.30
+Time: 3.127
+num_of_children: 108
+size: 15
+max_num_of_mutations: 6
+mutate_before_breeding: False
+Max_time: 6.56
+
+Fitness: 12.20
+Cycles: 180.47
+Time: 54.528
+num_of_children: 96
+size: 27
+max_num_of_mutations: 7
+mutate_before_breeding: True
+Max_time: 66.11
+
+Fitness: 11.93
+Cycles: 21.20
+Time: 16.104
+num_of_children: 181
+size: 35
+max_num_of_mutations: 5
+mutate_before_breeding: False
+Max_time: 51.39
+
+Fitness: 11.03
+Cycles: 7.90
+Time: 1.863
+num_of_children: 143
+size: 12
+max_num_of_mutations: 1
+mutate_before_breeding: True
+Max_time: 5.44
+
+Fitness: 11.70
+Cycles: 8.97
+Time: 1.597
+num_of_children: 118
+size: 10
+max_num_of_mutations: 4
+mutate_before_breeding: False
+Max_time: 3.14
+
+Fitness: 12.10
+Cycles: 19.63
+Time: 12.443
+num_of_children: 152
+size: 37
+max_num_of_mutations: 4
+mutate_before_breeding: True
+Max_time: 38.11
+
+Fitness: 12.40
+Cycles: 12.27
+Time: 5.785
+num_of_children: 173
+size: 24
+max_num_of_mutations: 6
+mutate_before_breeding: True
+Max_time: 10.56
+
+Fitness: 12.20
+Cycles: 14.40
+Time: 11.010
+num_of_children: 191
+size: 34
+max_num_of_mutations: 3
+mutate_before_breeding: False
+Max_time: 22.75
+
+Fitness: 11.97
+Cycles: 13.50
+Time: 3.319
+num_of_children: 119
+size: 15
+max_num_of_mutations: 5
+mutate_before_breeding: False
+Max_time: 10.08
+
+Fitness: 11.90
+Cycles: 27.53
+Time: 9.167
+num_of_children: 88
+size: 32
+max_num_of_mutations: 3
+mutate_before_breeding: False
+Max_time: 28.38
+
+Fitness: 12.17
+Cycles: 107.83
+Time: 33.181
+num_of_children: 101
+size: 27
+max_num_of_mutations: 6
+mutate_before_breeding: True
+Max_time: 70.94
+
+Fitness: 12.07
+Cycles: 28.67
+Time: 20.310
+num_of_children: 177
+size: 33
+max_num_of_mutations: 6
+mutate_before_breeding: False
+Max_time: 63.48
+
+Fitness: 11.87
+Cycles: 20.13
+Time: 13.079
+num_of_children: 186
+size: 32
+max_num_of_mutations: 6
+mutate_before_breeding: True
+Max_time: 28.38
+
+Fitness: 11.90
+Cycles: 18.37
+Time: 10.920
+num_of_children: 157
+size: 33
+max_num_of_mutations: 4
+mutate_before_breeding: True
+Max_time: 24.28
+
+Fitness: 11.93
+Cycles: 19.53
+Time: 7.566
+num_of_children: 146
+size: 22
+max_num_of_mutations: 6
+mutate_before_breeding: True
+Max_time: 28.12
+
+Fitness: 8.63
+Cycles: 200.00
+Time: 55.552
+num_of_children: 62
+size: 45
+max_num_of_mutations: 12
+mutate_before_breeding: True
+Max_time: 58.20
+
+Fitness: 12.17
+Cycles: 200.00
+Time: 103.620
+num_of_children: 117
+size: 36
+max_num_of_mutations: 8
+mutate_before_breeding: False
+Max_time: 116.38
+
+Fitness: 11.27
+Cycles: 9.17
+Time: 1.834
+num_of_children: 136
+size: 11
+max_num_of_mutations: 6
+mutate_before_breeding: True
+Max_time: 4.48
+
+Fitness: 11.93
+Cycles: 50.70
+Time: 18.227
+num_of_children: 106
+size: 29
+max_num_of_mutations: 5
+mutate_before_breeding: True
+Max_time: 39.12
+
+Fitness: 12.20
+Cycles: 22.27
+Time: 9.386
+num_of_children: 146
+size: 23
+max_num_of_mutations: 7
+mutate_before_breeding: False
+Max_time: 17.27
+
+Fitness: 12.03
+Cycles: 26.13
+Time: 8.649
+num_of_children: 119
+size: 25
+max_num_of_mutations: 6
+mutate_before_breeding: True
+Max_time: 18.53
+
+Fitness: 11.83
+Cycles: 12.50
+Time: 2.954
+num_of_children: 135
+size: 13
+max_num_of_mutations: 5
+mutate_before_breeding: False
+Max_time: 7.64
+
+Fitness: 12.07
+Cycles: 23.07
+Time: 7.301
+num_of_children: 98
+size: 26
+max_num_of_mutations: 4
+mutate_before_breeding: False
+Max_time: 15.95
+
+Fitness: 11.87
+Cycles: 25.67
+Time: 9.105
+num_of_children: 145
+size: 21
+max_num_of_mutations: 8
+mutate_before_breeding: True
+Max_time: 23.47
+
+Fitness: 12.00
+Cycles: 14.43
+Time: 1.869
+num_of_children: 62
+size: 16
+max_num_of_mutations: 2
+mutate_before_breeding: False
+Max_time: 6.47
+
+Fitness: 12.07
+Cycles: 14.47
+Time: 9.491
+num_of_children: 193
+size: 28
+max_num_of_mutations: 6
+mutate_before_breeding: False
+Max_time: 14.41
+
+Fitness: 12.23
+Cycles: 14.83
+Time: 7.017
+num_of_children: 152
+size: 25
+max_num_of_mutations: 5
+mutate_before_breeding: False
+Max_time: 15.86
+
+Fitness: 11.87
+Cycles: 12.87
+Time: 5.737
+num_of_children: 181
+size: 20
+max_num_of_mutations: 3
+mutate_before_breeding: False
+Max_time: 16.67
+
+Fitness: 12.20
+Cycles: 18.30
+Time: 10.691
+num_of_children: 193
+size: 24
+max_num_of_mutations: 8
+mutate_before_breeding: False
+Max_time: 35.69
+
+Fitness: 12.20
+Cycles: 200.00
+Time: 55.441
+num_of_children: 75
+size: 29
+max_num_of_mutations: 6
+mutate_before_breeding: False
+Max_time: 62.45
+
+Fitness: 12.17
+Cycles: 9.33
+Time: 5.211
+num_of_children: 182
+size: 26
+max_num_of_mutations: 1
+mutate_before_breeding: False
+Max_time: 17.22
+
+Fitness: 11.87
+Cycles: 127.57
+Time: 44.452
+num_of_children: 101
+size: 27
+max_num_of_mutations: 5
+mutate_before_breeding: False
+Max_time: 78.73
+
+Fitness: 12.00
+Cycles: 15.93
+Time: 4.565
+num_of_children: 86
+size: 30
+max_num_of_mutations: 2
+mutate_before_breeding: True
+Max_time: 7.83
+
+Fitness: 12.03
+Cycles: 15.73
+Time: 10.905
+num_of_children: 192
+size: 32
+max_num_of_mutations: 4
+mutate_before_breeding: True
+Max_time: 31.47
+
+Fitness: 11.63
+Cycles: 9.70
+Time: 5.362
+num_of_children: 180
+size: 26
+max_num_of_mutations: 1
+mutate_before_breeding: True
+Max_time: 11.94
+
+Fitness: 11.70
+Cycles: 11.00
+Time: 1.239
+num_of_children: 64
+size: 13
+max_num_of_mutations: 2
+mutate_before_breeding: False
+Max_time: 3.08
+
+Fitness: 12.20
+Cycles: 31.30
+Time: 23.129
+num_of_children: 192
+size: 32
+max_num_of_mutations: 7
+mutate_before_breeding: False
+Max_time: 59.94
+
+Fitness: 11.73
+Cycles: 200.00
+Time: 50.259
+num_of_children: 76
+size: 27
+mutate_before_breeding: False
+max_num_of_mutations: 8
+Max_time: 56.80
+
+Fitness: 10.37
+Cycles: 200.00
+Time: 43.926
+num_of_children: 65
+mutate_before_breeding: True
+max_num_of_mutations: 8
+size: 31
+Max_time: 47.20
+
+Fitness: 11.90
+Cycles: 17.27
+Time: 7.824
+num_of_children: 149
+mutate_before_breeding: False
+max_num_of_mutations: 6
+size: 24
+Max_time: 23.23
+
+Fitness: 11.77
+Cycles: 18.87
+Time: 4.011
+num_of_children: 80
+mutate_before_breeding: True
+max_num_of_mutations: 3
+size: 22
+Max_time: 8.92
+
+Fitness: 11.93
+Cycles: 200.00
+Time: 122.314
+num_of_children: 135
+mutate_before_breeding: True
+max_num_of_mutations: 7
+size: 41
+Max_time: 135.75
+
+Fitness: 11.53
+Cycles: 8.93
+Time: 1.576
+num_of_children: 116
+mutate_before_breeding: True
+max_num_of_mutations: 5
+size: 11
+Max_time: 3.25
+
+Fitness: 11.87
+Cycles: 18.33
+Time: 5.847
+num_of_children: 97
+mutate_before_breeding: True
+max_num_of_mutations: 3
+size: 28
+Max_time: 10.27
+
+Fitness: 11.77
+Cycles: 16.40
+Time: 4.807
+num_of_children: 134
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 18
+Max_time: 8.47
+
+Fitness: 11.63
+Cycles: 20.50
+Time: 7.439
+num_of_children: 105
+mutate_before_breeding: True
+max_num_of_mutations: 3
+size: 31
+Max_time: 16.27
+
+Fitness: 11.70
+Cycles: 17.23
+Time: 3.723
+num_of_children: 76
+mutate_before_breeding: True
+max_num_of_mutations: 2
+size: 24
+Max_time: 9.84
+
+Fitness: 11.50
+Cycles: 13.37
+Time: 3.152
+num_of_children: 103
+mutate_before_breeding: True
+max_num_of_mutations: 4
+size: 19
+Max_time: 11.23
+
+Fitness: 12.30
+Cycles: 151.17
+Time: 46.398
+num_of_children: 94
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 28
+Max_time: 67.11
+
+Fitness: 11.80
+Cycles: 19.67
+Time: 3.964
+num_of_children: 117
+mutate_before_breeding: False
+max_num_of_mutations: 10
+size: 12
+Max_time: 8.80
+
+Fitness: 11.90
+Cycles: 12.20
+Time: 5.148
+num_of_children: 146
+mutate_before_breeding: False
+max_num_of_mutations: 3
+size: 25
+Max_time: 11.92
+
+Fitness: 11.77
+Cycles: 16.23
+Time: 11.033
+num_of_children: 192
+mutate_before_breeding: True
+max_num_of_mutations: 4
+size: 32
+Max_time: 22.81
+
+Fitness: 12.13
+Cycles: 20.60
+Time: 8.882
+num_of_children: 164
+mutate_before_breeding: True
+max_num_of_mutations: 7
+size: 23
+Max_time: 26.70
+
+Fitness: 12.43
+Cycles: 200.00
+Time: 147.292
+num_of_children: 174
+mutate_before_breeding: False
+max_num_of_mutations: 11
+size: 33
+Max_time: 166.97
+
+Fitness: 11.60
+Cycles: 17.00
+Time: 2.764
+num_of_children: 90
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 14
+Max_time: 6.97
+
+Fitness: 11.70
+Cycles: 10.93
+Time: 3.038
+num_of_children: 144
+mutate_before_breeding: False
+max_num_of_mutations: 3
+size: 14
+Max_time: 11.81
+
+Fitness: 11.60
+Cycles: 11.83
+Time: 4.695
+num_of_children: 183
+mutate_before_breeding: True
+max_num_of_mutations: 5
+size: 18
+Max_time: 9.83
+
+
+---------------New cycle---------------
+Fitness: 12.43
+Cycles: 200.00
+Time: 147.292
+num_of_children: 174
+mutate_before_breeding: False
+max_num_of_mutations: 11
+size: 33
+
+Fitness: 12.40
+Cycles: 30.27
+Time: 32.865
+num_of_children: 152
+mutate_before_breeding: True
+max_num_of_mutations: 5
+size: 37
+
+Fitness: 12.40
+Cycles: 186.20
+Time: 164.166
+num_of_children: 136
+mutate_before_breeding: False
+max_num_of_mutations: 7
+size: 29
+
+Fitness: 12.40
+Cycles: 200.00
+Time: 126.085
+num_of_children: 135
+mutate_before_breeding: True
+max_num_of_mutations: 7
+size: 42
+
+Fitness: 12.40
+Cycles: 200.00
+Time: 149.648
+num_of_children: 174
+mutate_before_breeding: False
+max_num_of_mutations: 9
+size: 33
+
+Fitness: 12.40
+Cycles: 12.27
+Time: 5.785
+num_of_children: 173
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 24
+
+Fitness: 12.37
+Cycles: 200.00
+Time: 123.494
+num_of_children: 173
+mutate_before_breeding: False
+max_num_of_mutations: 10
+size: 31
+
+Fitness: 12.37
+Cycles: 110.30
+Time: 77.321
+num_of_children: 175
+mutate_before_breeding: True
+max_num_of_mutations: 8
+size: 35
+
+Fitness: 12.33
+Cycles: 53.97
+Time: 38.261
+num_of_children: 184
+mutate_before_breeding: True
+max_num_of_mutations: 7
+size: 36
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 153.657
+num_of_children: 116
+mutate_before_breeding: False
+max_num_of_mutations: 7
+size: 30
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 178.125
+num_of_children: 115
+mutate_before_breeding: False
+max_num_of_mutations: 8
+size: 36
+
+Fitness: 12.30
+Cycles: 151.17
+Time: 46.398
+num_of_children: 94
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 28
+
+Fitness: 12.27
+Cycles: 109.10
+Time: 29.448
+num_of_children: 96
+mutate_before_breeding: True
+max_num_of_mutations: 7
+size: 24
+
+Fitness: 12.27
+Cycles: 26.93
+Time: 18.554
+num_of_children: 145
+mutate_before_breeding: False
+max_num_of_mutations: 8
+size: 21
+
+Fitness: 12.27
+Cycles: 12.50
+Time: 16.749
+num_of_children: 192
+mutate_before_breeding: False
+max_num_of_mutations: 4
+size: 32
+
+Fitness: 12.23
+Cycles: 195.20
+Time: 153.759
+num_of_children: 165
+mutate_before_breeding: False
+max_num_of_mutations: 6
+size: 43
+
+Fitness: 12.23
+Cycles: 200.00
+Time: 247.438
+num_of_children: 130
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 46
+
+Fitness: 12.23
+Cycles: 66.93
+Time: 84.014
+num_of_children: 177
+mutate_before_breeding: False
+max_num_of_mutations: 7
+size: 33
+
+Fitness: 12.23
+Cycles: 14.77
+Time: 16.512
+num_of_children: 193
+mutate_before_breeding: False
+max_num_of_mutations: 6
+size: 26
+
+Fitness: 12.23
+Cycles: 70.77
+Time: 42.079
+num_of_children: 148
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 36
+
+Fitness: 12.23
+Cycles: 14.83
+Time: 7.017
+num_of_children: 152
+mutate_before_breeding: False
+max_num_of_mutations: 5
+size: 25
+
+Fitness: 12.20
+Cycles: 21.00
+Time: 14.957
+num_of_children: 181
+mutate_before_breeding: False
+max_num_of_mutations: 5
+size: 35
+
+Fitness: 12.20
+Cycles: 32.37
+Time: 28.266
+num_of_children: 127
+mutate_before_breeding: True
+max_num_of_mutations: 5
+size: 32
+
+Fitness: 12.20
+Cycles: 146.93
+Time: 122.967
+num_of_children: 105
+mutate_before_breeding: False
+max_num_of_mutations: 4
+size: 36
+
+Fitness: 12.20
+Cycles: 139.23
+Time: 201.719
+num_of_children: 174
+mutate_before_breeding: False
+max_num_of_mutations: 6
+size: 39
+
+Breeding:
+Fitness: 12.23
+Cycles: 88.27
+Time: 59.667
+num_of_children: 174
+mutate_before_breeding: True
+max_num_of_mutations: 7
+size: 37
+Max_time: 123.07
+
+Fitness: 12.17
+Cycles: 124.00
+Time: 60.040
+num_of_children: 120
+mutate_before_breeding: False
+max_num_of_mutations: 5
+size: 32
+Max_time: 107.39
+
+Fitness: 12.43
+Cycles: 191.27
+Time: 124.297
+num_of_children: 132
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 44
+Max_time: 143.89
+
+Fitness: 12.17
+Cycles: 106.30
+Time: 71.438
+num_of_children: 155
+mutate_before_breeding: False
+max_num_of_mutations: 6
+size: 34
+Max_time: 135.25
+
+Fitness: 11.97
+Cycles: 14.60
+Time: 6.888
+num_of_children: 162
+mutate_before_breeding: False
+max_num_of_mutations: 5
+size: 24
+Max_time: 18.33
+
+Fitness: 11.93
+Cycles: 131.83
+Time: 87.327
+num_of_children: 155
+mutate_before_breeding: False
+max_num_of_mutations: 6
+size: 34
+Max_time: 157.66
+
+Fitness: 12.43
+Cycles: 200.00
+Time: 90.976
+num_of_children: 116
+mutate_before_breeding: False
+max_num_of_mutations: 7
+size: 30
+Max_time: 102.12
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 144.886
+num_of_children: 151
+mutate_before_breeding: False
+max_num_of_mutations: 8
+size: 38
+Max_time: 164.02
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 116.963
+num_of_children: 137
+mutate_before_breeding: False
+max_num_of_mutations: 7
+size: 33
+Max_time: 133.20
+
+Fitness: 12.07
+Cycles: 122.27
+Time: 81.144
+num_of_children: 153
+mutate_before_breeding: False
+max_num_of_mutations: 6
+size: 34
+Max_time: 156.56
+
+Fitness: 11.93
+Cycles: 24.40
+Time: 18.937
+num_of_children: 177
+mutate_before_breeding: False
+max_num_of_mutations: 5
+size: 37
+Max_time: 54.55
+
+Fitness: 12.23
+Cycles: 25.03
+Time: 16.301
+num_of_children: 158
+mutate_before_breeding: False
+max_num_of_mutations: 5
+size: 34
+Max_time: 40.14
+
+Fitness: 12.40
+Cycles: 76.50
+Time: 41.644
+num_of_children: 140
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 35
+Max_time: 114.39
+
+Fitness: 12.20
+Cycles: 148.50
+Time: 106.796
+num_of_children: 157
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 41
+Max_time: 149.00
+
+Fitness: 12.03
+Cycles: 43.40
+Time: 22.878
+num_of_children: 152
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 32
+Max_time: 67.69
+
+Fitness: 12.17
+Cycles: 153.80
+Time: 93.459
+num_of_children: 154
+mutate_before_breeding: False
+max_num_of_mutations: 7
+size: 31
+Max_time: 141.92
+
+Fitness: 12.13
+Cycles: 200.00
+Time: 121.430
+num_of_children: 150
+mutate_before_breeding: False
+max_num_of_mutations: 8
+size: 32
+Max_time: 140.56
+
+Fitness: 12.03
+Cycles: 16.97
+Time: 9.923
+num_of_children: 177
+mutate_before_breeding: True
+max_num_of_mutations: 5
+size: 29
+Max_time: 28.53
+
+Fitness: 12.20
+Cycles: 143.90
+Time: 91.220
+num_of_children: 156
+mutate_before_breeding: False
+max_num_of_mutations: 7
+size: 31
+Max_time: 146.39
+
+Fitness: 11.97
+Cycles: 165.30
+Time: 89.442
+num_of_children: 159
+mutate_before_breeding: False
+max_num_of_mutations: 9
+size: 26
+Max_time: 128.14
+
+Fitness: 12.43
+Cycles: 200.00
+Time: 166.051
+num_of_children: 169
+mutate_before_breeding: False
+max_num_of_mutations: 7
+size: 38
+Max_time: 188.06
+
+Fitness: 12.47
+Cycles: 200.00
+Time: 126.226
+num_of_children: 144
+mutate_before_breeding: False
+max_num_of_mutations: 8
+size: 34
+Max_time: 141.38
+
+Fitness: 12.00
+Cycles: 37.50
+Time: 24.498
+num_of_children: 168
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 36
+Max_time: 91.14
+
+Fitness: 12.07
+Cycles: 33.80
+Time: 26.510
+num_of_children: 173
+mutate_before_breeding: False
+max_num_of_mutations: 5
+size: 39
+Max_time: 64.98
+
+Fitness: 12.00
+Cycles: 200.00
+Time: 138.628
+num_of_children: 173
+mutate_before_breeding: False
+max_num_of_mutations: 9
+size: 32
+Max_time: 163.88
+
+Fitness: 12.33
+Cycles: 200.00
+Time: 149.231
+num_of_children: 175
+mutate_before_breeding: False
+max_num_of_mutations: 9
+size: 33
+Max_time: 171.36
+
+Fitness: 11.90
+Cycles: 15.80
+Time: 10.816
+num_of_children: 172
+mutate_before_breeding: False
+max_num_of_mutations: 4
+size: 34
+Max_time: 26.62
+
+Fitness: 12.40
+Cycles: 200.00
+Time: 118.691
+num_of_children: 137
+mutate_before_breeding: False
+max_num_of_mutations: 7
+size: 33
+Max_time: 133.88
+
+Fitness: 12.00
+Cycles: 200.00
+Time: 126.335
+num_of_children: 151
+mutate_before_breeding: True
+max_num_of_mutations: 8
+size: 38
+Max_time: 138.23
+
+Fitness: 11.83
+Cycles: 14.57
+Time: 6.414
+num_of_children: 162
+mutate_before_breeding: True
+max_num_of_mutations: 5
+size: 24
+Max_time: 14.42
+
+Fitness: 12.33
+Cycles: 200.00
+Time: 142.904
+num_of_children: 154
+mutate_before_breeding: False
+max_num_of_mutations: 8
+size: 37
+Max_time: 160.88
+
+Fitness: 12.27
+Cycles: 86.90
+Time: 59.831
+num_of_children: 174
+mutate_before_breeding: True
+max_num_of_mutations: 7
+size: 37
+Max_time: 147.70
+
+Fitness: 12.17
+Cycles: 200.00
+Time: 95.185
+num_of_children: 126
+mutate_before_breeding: False
+max_num_of_mutations: 7
+size: 29
+Max_time: 110.47
+
+Fitness: 12.00
+Cycles: 48.57
+Time: 31.826
+num_of_children: 155
+mutate_before_breeding: True
+max_num_of_mutations: 5
+size: 40
+Max_time: 98.16
+
+Fitness: 12.40
+Cycles: 13.00
+Time: 8.868
+num_of_children: 192
+mutate_before_breeding: False
+max_num_of_mutations: 5
+size: 29
+Max_time: 16.89
+
+Fitness: 12.00
+Cycles: 18.43
+Time: 8.804
+num_of_children: 139
+mutate_before_breeding: False
+max_num_of_mutations: 5
+size: 28
+Max_time: 22.49
+
+Fitness: 11.93
+Cycles: 14.63
+Time: 9.858
+num_of_children: 192
+mutate_before_breeding: False
+max_num_of_mutations: 5
+size: 29
+Max_time: 28.47
+
+Fitness: 12.33
+Cycles: 17.57
+Time: 8.142
+num_of_children: 128
+mutate_before_breeding: False
+max_num_of_mutations: 4
+size: 30
+Max_time: 18.12
+
+Fitness: 12.07
+Cycles: 48.10
+Time: 31.856
+num_of_children: 166
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 36
+Max_time: 114.19
+
+Fitness: 12.10
+Cycles: 28.67
+Time: 20.973
+num_of_children: 179
+mutate_before_breeding: False
+max_num_of_mutations: 6
+size: 34
+Max_time: 48.47
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 122.723
+num_of_children: 139
+mutate_before_breeding: False
+max_num_of_mutations: 7
+size: 34
+Max_time: 139.67
+
+Fitness: 11.83
+Cycles: 32.27
+Time: 15.458
+num_of_children: 148
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 29
+Max_time: 52.81
+
+Fitness: 12.10
+Cycles: 200.00
+Time: 118.798
+num_of_children: 135
+mutate_before_breeding: False
+max_num_of_mutations: 7
+size: 35
+Max_time: 138.22
+
+Fitness: 12.27
+Cycles: 200.00
+Time: 125.133
+num_of_children: 144
+mutate_before_breeding: False
+max_num_of_mutations: 8
+size: 34
+Max_time: 142.56
+
+Fitness: 12.20
+Cycles: 82.93
+Time: 34.535
+num_of_children: 121
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 31
+Max_time: 86.91
+
+Fitness: 12.20
+Cycles: 61.67
+Time: 35.719
+num_of_children: 151
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 35
+Max_time: 99.84
+
+Fitness: 11.93
+Cycles: 31.40
+Time: 10.497
+num_of_children: 124
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 24
+Max_time: 31.83
+
+Fitness: 12.33
+Cycles: 200.00
+Time: 119.635
+num_of_children: 139
+mutate_before_breeding: False
+max_num_of_mutations: 7
+size: 33
+Max_time: 136.75
+
+Fitness: 11.90
+Cycles: 23.70
+Time: 10.610
+num_of_children: 144
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 27
+Max_time: 26.12
+
+Fitness: 12.17
+Cycles: 186.30
+Time: 120.201
+num_of_children: 155
+mutate_before_breeding: False
+max_num_of_mutations: 7
+size: 32
+Max_time: 149.73
+
+Fitness: 12.27
+Cycles: 14.90
+Time: 10.162
+num_of_children: 172
+mutate_before_breeding: False
+max_num_of_mutations: 4
+size: 34
+Max_time: 21.31
+
+Fitness: 12.30
+Cycles: 131.77
+Time: 98.352
+num_of_children: 170
+mutate_before_breeding: True
+max_num_of_mutations: 7
+size: 39
+Max_time: 162.91
+
+Fitness: 11.77
+Cycles: 25.00
+Time: 14.543
+num_of_children: 173
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 31
+Max_time: 43.36
+
+Fitness: 11.97
+Cycles: 19.80
+Time: 14.959
+num_of_children: 183
+mutate_before_breeding: False
+max_num_of_mutations: 5
+size: 35
+Max_time: 33.94
+
+Fitness: 12.37
+Cycles: 126.37
+Time: 68.620
+num_of_children: 133
+mutate_before_breeding: True
+max_num_of_mutations: 6
+size: 36
+Max_time: 121.26
+
+Fitness: 12.30
+Cycles: 134.13
+Time: 86.839
+num_of_children: 156
+mutate_before_breeding: True
+max_num_of_mutations: 7
+size: 37
+Max_time: 133.88
+
+Fitness: 12.27
+Cycles: 200.00
+Time: 160.220
+num_of_children: 152
+mutate_before_breeding: False
+max_num_of_mutations: 6
+size: 42
+Max_time: 185.70
+
+Fitness: 12.23
+Cycles: 200.00
+Time: 128.704
+num_of_children: 146
+mutate_before_breeding: False
+max_num_of_mutations: 7
+size: 34
+Max_time: 148.96
+
+Fitness: 12.17
+Cycles: 25.03
+Time: 13.623
+num_of_children: 173
+mutate_before_breeding: True
+max_num_of_mutations: 7
+size: 28
+Max_time: 28.44
+
+Fitness: 12.13
+Cycles: 33.77
+Time: 24.793
+num_of_children: 163
+mutate_before_breeding: False
+max_num_of_mutations: 5
+size: 37
+Max_time: 55.06
+
+Fitness: 11.70
+Cycles: 18.77
+Time: 9.559
+mutate_before_breeding: False
+size: 26
+num_of_children: 168
+max_num_of_mutations: 6
+Max_time: 20.21
+
+Fitness: 12.33
+Cycles: 117.10
+Time: 48.566
+mutate_before_breeding: True
+size: 28
+num_of_children: 135
+max_num_of_mutations: 8
+Max_time: 86.53
+
+Fitness: 11.93
+Cycles: 37.73
+Time: 15.952
+mutate_before_breeding: True
+size: 32
+num_of_children: 123
+max_num_of_mutations: 5
+Max_time: 40.60
+
+Fitness: 12.23
+Cycles: 200.00
+Time: 143.667
+mutate_before_breeding: False
+size: 38
+num_of_children: 151
+max_num_of_mutations: 8
+Max_time: 164.41
+
+Fitness: 11.90
+Cycles: 30.03
+Time: 11.936
+mutate_before_breeding: True
+size: 26
+num_of_children: 133
+max_num_of_mutations: 6
+Max_time: 32.94
+
+Fitness: 12.10
+Cycles: 72.47
+Time: 30.595
+mutate_before_breeding: True
+size: 30
+num_of_children: 122
+max_num_of_mutations: 6
+Max_time: 62.38
+
+Fitness: 12.47
+Cycles: 57.67
+Time: 41.543
+mutate_before_breeding: True
+size: 36
+num_of_children: 184
+max_num_of_mutations: 7
+Max_time: 138.14
+
+Fitness: 12.00
+Cycles: 107.17
+Time: 46.739
+mutate_before_breeding: False
+size: 28
+num_of_children: 125
+max_num_of_mutations: 6
+Max_time: 91.45
+
+Fitness: 12.10
+Cycles: 19.67
+Time: 13.728
+mutate_before_breeding: False
+size: 31
+num_of_children: 188
+max_num_of_mutations: 6
+Max_time: 36.08
+
+Fitness: 12.30
+Cycles: 124.07
+Time: 58.440
+mutate_before_breeding: True
+size: 34
+num_of_children: 121
+max_num_of_mutations: 6
+Max_time: 98.33
+
+Fitness: 12.13
+Cycles: 148.83
+Time: 129.384
+mutate_before_breeding: False
+size: 39
+num_of_children: 174
+max_num_of_mutations: 6
+Max_time: 203.25
+
+Fitness: 12.13
+Cycles: 65.80
+Time: 41.890
+mutate_before_breeding: True
+size: 34
+num_of_children: 176
+max_num_of_mutations: 7
+Max_time: 135.69
+
+Fitness: 12.07
+Cycles: 39.00
+Time: 17.605
+mutate_before_breeding: True
+size: 30
+num_of_children: 135
+max_num_of_mutations: 6
+Max_time: 62.48
+
+Fitness: 12.17
+Cycles: 145.67
+Time: 98.817
+mutate_before_breeding: True
+size: 34
+num_of_children: 179
+max_num_of_mutations: 9
+Max_time: 147.80
+
+Fitness: 12.03
+Cycles: 18.13
+Time: 13.841
+mutate_before_breeding: False
+size: 34
+num_of_children: 188
+max_num_of_mutations: 5
+Max_time: 23.98
+
+Fitness: 12.07
+Cycles: 64.73
+Time: 50.726
+mutate_before_breeding: False
+size: 36
+num_of_children: 175
+max_num_of_mutations: 6
+Max_time: 160.39
+
+Fitness: 12.20
+Cycles: 200.00
+Time: 112.311
+mutate_before_breeding: False
+size: 30
+num_of_children: 144
+max_num_of_mutations: 8
+Max_time: 130.61
+
+Fitness: 12.13
+Cycles: 18.90
+Time: 12.654
+mutate_before_breeding: False
+size: 29
+num_of_children: 185
+max_num_of_mutations: 6
+Max_time: 28.70
+
+Fitness: 12.23
+Cycles: 196.00
+Time: 128.696
+mutate_before_breeding: True
+size: 44
+num_of_children: 132
+max_num_of_mutations: 6
+Max_time: 146.25
+
+Fitness: 12.00
+Cycles: 54.27
+Time: 33.212
+mutate_before_breeding: False
+size: 32
+num_of_children: 158
+max_num_of_mutations: 6
+Max_time: 112.85
+
+Fitness: 12.27
+Cycles: 200.00
+Time: 138.372
+mutate_before_breeding: False
+size: 36
+num_of_children: 149
+max_num_of_mutations: 7
+Max_time: 157.88
+
+Fitness: 12.10
+Cycles: 76.27
+Time: 26.622
+mutate_before_breeding: True
+size: 30
+num_of_children: 100
+max_num_of_mutations: 5
+Max_time: 57.77
+
+Fitness: 11.83
+Cycles: 12.57
+Time: 5.002
+mutate_before_breeding: False
+size: 19
+num_of_children: 164
+max_num_of_mutations: 6
+Max_time: 8.14
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 125.897
+mutate_before_breeding: False
+size: 31
+num_of_children: 155
+max_num_of_mutations: 9
+Max_time: 142.19
+
+Fitness: 12.07
+Cycles: 200.00
+Time: 122.232
+mutate_before_breeding: False
+size: 34
+num_of_children: 144
+max_num_of_mutations: 9
+Max_time: 140.64
+
+Fitness: 12.20
+Cycles: 20.37
+Time: 15.015
+mutate_before_breeding: False
+size: 32
+num_of_children: 183
+max_num_of_mutations: 6
+Max_time: 49.64
+
+Fitness: 12.23
+Cycles: 181.50
+Time: 119.829
+mutate_before_breeding: False
+size: 32
+num_of_children: 155
+max_num_of_mutations: 7
+Max_time: 151.17
+
+Fitness: 12.27
+Cycles: 188.20
+Time: 116.335
+mutate_before_breeding: True
+size: 36
+num_of_children: 154
+max_num_of_mutations: 8
+Max_time: 137.58
+
+Fitness: 12.27
+Cycles: 32.93
+Time: 25.067
+mutate_before_breeding: False
+size: 35
+num_of_children: 182
+max_num_of_mutations: 6
+Max_time: 107.16
+
+Fitness: 12.00
+Cycles: 55.80
+Time: 38.441
+mutate_before_breeding: True
+size: 39
+num_of_children: 174
+max_num_of_mutations: 6
+Max_time: 95.05
+
+Fitness: 12.23
+Cycles: 121.67
+Time: 76.933
+mutate_before_breeding: False
+size: 37
+num_of_children: 139
+max_num_of_mutations: 5
+Max_time: 154.23
+
+Fitness: 12.07
+Cycles: 20.20
+Time: 13.839
+mutate_before_breeding: False
+size: 31
+num_of_children: 188
+max_num_of_mutations: 6
+Max_time: 45.08
+
+Fitness: 12.17
+Cycles: 171.33
+Time: 115.348
+mutate_before_breeding: False
+size: 35
+num_of_children: 148
+max_num_of_mutations: 6
+Max_time: 156.41
+
+Fitness: 11.97
+Cycles: 18.67
+Time: 12.049
+mutate_before_breeding: False
+size: 34
+num_of_children: 172
+max_num_of_mutations: 4
+Max_time: 36.33
+
+Fitness: 12.23
+Cycles: 52.77
+Time: 23.273
+mutate_before_breeding: False
+size: 25
+num_of_children: 140
+max_num_of_mutations: 7
+Max_time: 78.19
+
+Fitness: 12.33
+Cycles: 24.67
+Time: 13.154
+mutate_before_breeding: False
+size: 28
+num_of_children: 154
+max_num_of_mutations: 6
+Max_time: 34.27
+
+Fitness: 12.57
+Cycles: 132.47
+Time: 67.804
+mutate_before_breeding: True
+size: 33
+num_of_children: 137
+max_num_of_mutations: 7
+Max_time: 113.44
+
+Fitness: 12.27
+Cycles: 199.00
+Time: 156.166
+mutate_before_breeding: False
+size: 40
+num_of_children: 154
+max_num_of_mutations: 6
+Max_time: 181.86
+
+Fitness: 11.93
+Cycles: 23.97
+Time: 15.032
+mutate_before_breeding: True
+size: 35
+num_of_children: 164
+max_num_of_mutations: 5
+Max_time: 41.98
+
+Fitness: 12.03
+Cycles: 33.37
+Time: 16.315
+mutate_before_breeding: False
+size: 34
+num_of_children: 116
+max_num_of_mutations: 4
+Max_time: 38.82
+
+Fitness: 12.13
+Cycles: 91.07
+Time: 37.824
+mutate_before_breeding: True
+size: 30
+num_of_children: 122
+max_num_of_mutations: 6
+Max_time: 86.97
+
+Fitness: 12.30
+Cycles: 143.50
+Time: 101.696
+mutate_before_breeding: True
+size: 39
+num_of_children: 159
+max_num_of_mutations: 7
+Max_time: 152.41
+
+Fitness: 12.10
+Cycles: 41.70
+Time: 27.830
+mutate_before_breeding: True
+size: 36
+num_of_children: 168
+max_num_of_mutations: 6
+Max_time: 66.53
+
+Fitness: 12.17
+Cycles: 23.00
+Time: 12.376
+mutate_before_breeding: False
+size: 28
+num_of_children: 163
+max_num_of_mutations: 6
+Max_time: 39.94
+
+Fitness: 12.10
+Cycles: 195.73
+Time: 99.610
+mutate_before_breeding: True
+size: 36
+num_of_children: 125
+max_num_of_mutations: 7
+Max_time: 111.83
+
+Fitness: 12.23
+Cycles: 154.93
+Time: 76.211
+mutate_before_breeding: False
+size: 36
+num_of_children: 105
+max_num_of_mutations: 4
+Max_time: 114.11
+
+Fitness: 12.17
+Cycles: 40.67
+Time: 25.583
+mutate_before_breeding: True
+size: 36
+num_of_children: 166
+max_num_of_mutations: 6
+Max_time: 102.41
+
+Fitness: 12.30
+Cycles: 143.53
+Time: 89.855
+mutate_before_breeding: True
+size: 35
+num_of_children: 163
+max_num_of_mutations: 8
+Max_time: 139.44
+
+Fitness: 11.80
+Cycles: 20.07
+Time: 10.615
+mutate_before_breeding: True
+size: 25
+num_of_children: 183
+max_num_of_mutations: 6
+Max_time: 30.03
+
+Fitness: 12.40
+Cycles: 200.00
+Time: 124.218
+mutate_before_breeding: False
+size: 41
+num_of_children: 122
+max_num_of_mutations: 7
+Max_time: 139.81
+
+Fitness: 11.93
+Cycles: 28.57
+Time: 15.530
+mutate_before_breeding: True
+size: 28
+num_of_children: 173
+max_num_of_mutations: 7
+Max_time: 46.88
+
+Fitness: 12.03
+Cycles: 38.87
+Time: 20.257
+mutate_before_breeding: True
+size: 34
+num_of_children: 139
+max_num_of_mutations: 5
+Max_time: 63.50
+
+Fitness: 12.33
+Cycles: 122.77
+Time: 62.660
+mutate_before_breeding: False
+size: 30
+num_of_children: 133
+max_num_of_mutations: 6
+Max_time: 120.42
+
+Fitness: 12.10
+Cycles: 112.20
+Time: 87.500
+mutate_before_breeding: False
+size: 34
+num_of_children: 180
+max_num_of_mutations: 7
+Max_time: 186.47
+
+Fitness: 12.17
+Cycles: 141.70
+Time: 67.485
+mutate_before_breeding: False
+size: 36
+num_of_children: 105
+max_num_of_mutations: 4
+Max_time: 112.39
+
+Fitness: 12.27
+Cycles: 19.30
+Time: 11.360
+mutate_before_breeding: True
+size: 30
+num_of_children: 178
+max_num_of_mutations: 6
+Max_time: 21.09
+
+Fitness: 12.07
+Cycles: 25.93
+Time: 17.126
+mutate_before_breeding: True
+size: 37
+num_of_children: 163
+max_num_of_mutations: 5
+Max_time: 46.81
+
+Fitness: 12.03
+Cycles: 22.50
+Time: 17.194
+mutate_before_breeding: False
+size: 37
+num_of_children: 177
+max_num_of_mutations: 5
+Max_time: 44.17
+
+Fitness: 12.30
+Cycles: 41.57
+Time: 19.179
+mutate_before_breeding: True
+size: 28
+num_of_children: 146
+max_num_of_mutations: 7
+Max_time: 77.47
+
+Fitness: 12.40
+Cycles: 200.00
+Time: 119.079
+mutate_before_breeding: False
+size: 31
+num_of_children: 145
+max_num_of_mutations: 8
+Max_time: 134.52
+
+Fitness: 12.13
+Cycles: 38.80
+Time: 22.715
+mutate_before_breeding: True
+size: 34
+num_of_children: 162
+max_num_of_mutations: 6
+Max_time: 68.86
+
+Fitness: 12.20
+Cycles: 200.00
+Time: 144.995
+mutate_before_breeding: False
+size: 35
+num_of_children: 163
+max_num_of_mutations: 8
+Max_time: 167.88
+
+Fitness: 12.13
+Cycles: 18.40
+Time: 13.700
+mutate_before_breeding: False
+size: 35
+num_of_children: 183
+max_num_of_mutations: 5
+Max_time: 34.77
+
+Fitness: 12.17
+Cycles: 35.20
+Time: 19.396
+mutate_before_breeding: False
+size: 28
+num_of_children: 164
+max_num_of_mutations: 7
+Max_time: 47.22
+
+Fitness: 12.13
+Cycles: 30.63
+Time: 18.566
+mutate_before_breeding: False
+size: 28
+num_of_children: 173
+max_num_of_mutations: 7
+Max_time: 42.75
+
+Mutation:
+Fitness: 12.17
+Cycles: 200.00
+Time: 146.093
+size: 33
+mutate_before_breeding: False
+num_of_children: 174
+max_num_of_mutations: 11
+Max_time: 165.62
+
+Fitness: 12.13
+Cycles: 189.67
+Time: 118.211
+size: 37
+mutate_before_breeding: True
+num_of_children: 152
+max_num_of_mutations: 8
+Max_time: 138.42
+
+Fitness: 12.27
+Cycles: 200.00
+Time: 147.741
+size: 33
+mutate_before_breeding: False
+num_of_children: 174
+max_num_of_mutations: 9
+Max_time: 170.42
+
+Fitness: 12.23
+Cycles: 200.00
+Time: 144.348
+size: 33
+mutate_before_breeding: False
+num_of_children: 173
+max_num_of_mutations: 10
+Max_time: 166.08
+
+Fitness: 12.23
+Cycles: 63.97
+Time: 48.426
+size: 37
+mutate_before_breeding: True
+num_of_children: 184
+max_num_of_mutations: 7
+Max_time: 121.02
+
+Fitness: 12.07
+Cycles: 146.07
+Time: 45.120
+size: 28
+mutate_before_breeding: True
+num_of_children: 97
+max_num_of_mutations: 6
+Max_time: 66.00
+
+Fitness: 12.20
+Cycles: 72.27
+Time: 33.378
+size: 24
+mutate_before_breeding: False
+num_of_children: 145
+max_num_of_mutations: 8
+Max_time: 95.41
+
+Fitness: 11.97
+Cycles: 18.70
+Time: 12.865
+size: 29
+mutate_before_breeding: False
+num_of_children: 193
+max_num_of_mutations: 6
+Max_time: 27.77
+
+Fitness: 12.20
+Cycles: 66.57
+Time: 39.499
+size: 36
+mutate_before_breeding: True
+num_of_children: 148
+max_num_of_mutations: 6
+Max_time: 121.36
+
+Fitness: 11.93
+Cycles: 14.03
+Time: 5.727
+size: 22
+mutate_before_breeding: False
+num_of_children: 152
+max_num_of_mutations: 5
+Max_time: 12.86
+
+Fitness: 11.90
+Cycles: 20.10
+Time: 14.412
+size: 35
+mutate_before_breeding: True
+num_of_children: 181
+max_num_of_mutations: 5
+Max_time: 32.99
+
+Fitness: 12.03
+Cycles: 138.87
+Time: 118.600
+size: 39
+mutate_before_breeding: False
+num_of_children: 177
+max_num_of_mutations: 6
+Max_time: 207.02
+
+Fitness: 12.17
+Cycles: 197.00
+Time: 119.393
+size: 41
+mutate_before_breeding: True
+num_of_children: 132
+max_num_of_mutations: 6
+Max_time: 136.03
+
+Fitness: 11.93
+Cycles: 17.93
+Time: 9.632
+size: 26
+mutate_before_breeding: False
+num_of_children: 162
+max_num_of_mutations: 5
+Max_time: 21.96
+
+Fitness: 12.37
+Cycles: 196.80
+Time: 126.603
+size: 38
+mutate_before_breeding: True
+num_of_children: 151
+max_num_of_mutations: 8
+Max_time: 139.70
+
+Fitness: 12.17
+Cycles: 41.37
+Time: 24.315
+size: 34
+mutate_before_breeding: True
+num_of_children: 153
+max_num_of_mutations: 6
+Max_time: 60.38
+
+Fitness: 12.13
+Cycles: 34.70
+Time: 29.254
+size: 39
+mutate_before_breeding: False
+num_of_children: 177
+max_num_of_mutations: 5
+Max_time: 93.86
+
+Fitness: 12.20
+Cycles: 200.00
+Time: 110.013
+size: 26
+mutate_before_breeding: False
+num_of_children: 159
+max_num_of_mutations: 12
+Max_time: 123.94
+
+Fitness: 11.97
+Cycles: 187.00
+Time: 102.157
+size: 34
+mutate_before_breeding: True
+num_of_children: 144
+max_num_of_mutations: 8
+Max_time: 120.53
+
+Fitness: 12.10
+Cycles: 49.57
+Time: 32.820
+size: 36
+mutate_before_breeding: True
+num_of_children: 168
+max_num_of_mutations: 6
+Max_time: 106.30
+
+Fitness: 12.33
+Cycles: 200.00
+Time: 169.709
+size: 39
+mutate_before_breeding: False
+num_of_children: 173
+max_num_of_mutations: 8
+Max_time: 195.98
+
+Fitness: 12.13
+Cycles: 200.00
+Time: 139.657
+size: 32
+mutate_before_breeding: False
+num_of_children: 173
+max_num_of_mutations: 12
+Max_time: 158.67
+
+Fitness: 12.23
+Cycles: 200.00
+Time: 115.951
+size: 33
+mutate_before_breeding: False
+num_of_children: 137
+max_num_of_mutations: 7
+Max_time: 135.17
+
+Fitness: 12.07
+Cycles: 196.10
+Time: 123.870
+size: 38
+mutate_before_breeding: True
+num_of_children: 152
+max_num_of_mutations: 8
+Max_time: 140.75
+
+Fitness: 11.83
+Cycles: 18.07
+Time: 9.040
+size: 27
+mutate_before_breeding: True
+num_of_children: 162
+max_num_of_mutations: 5
+Max_time: 20.23
+
+Fitness: 12.37
+Cycles: 194.30
+Time: 123.633
+size: 37
+mutate_before_breeding: True
+num_of_children: 154
+max_num_of_mutations: 8
+Max_time: 139.66
+
+Fitness: 12.20
+Cycles: 78.50
+Time: 56.176
+size: 37
+mutate_before_breeding: True
+num_of_children: 175
+max_num_of_mutations: 7
+Max_time: 149.97
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 102.599
+size: 31
+mutate_before_breeding: False
+num_of_children: 126
+max_num_of_mutations: 7
+Max_time: 116.19
+
+Fitness: 11.97
+Cycles: 21.70
+Time: 10.804
+size: 28
+mutate_before_breeding: False
+num_of_children: 141
+max_num_of_mutations: 5
+Max_time: 25.00
+
+Fitness: 12.20
+Cycles: 110.77
+Time: 88.029
+size: 34
+mutate_before_breeding: False
+num_of_children: 179
+max_num_of_mutations: 7
+Max_time: 185.44
+
+Fitness: 11.90
+Cycles: 37.17
+Time: 19.830
+size: 29
+mutate_before_breeding: False
+num_of_children: 148
+max_num_of_mutations: 6
+Max_time: 38.02
+
+Fitness: 12.27
+Cycles: 179.37
+Time: 96.777
+size: 35
+mutate_before_breeding: True
+num_of_children: 135
+max_num_of_mutations: 7
+Max_time: 118.68
+
+Fitness: 12.23
+Cycles: 197.37
+Time: 97.053
+size: 31
+mutate_before_breeding: False
+num_of_children: 121
+max_num_of_mutations: 6
+Max_time: 113.03
+
+Fitness: 12.20
+Cycles: 62.33
+Time: 37.085
+size: 35
+mutate_before_breeding: True
+num_of_children: 151
+max_num_of_mutations: 6
+Max_time: 104.53
+
+Fitness: 12.07
+Cycles: 63.43
+Time: 21.310
+size: 24
+mutate_before_breeding: True
+num_of_children: 124
+max_num_of_mutations: 7
+Max_time: 62.53
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 139.952
+size: 35
+mutate_before_breeding: False
+num_of_children: 155
+max_num_of_mutations: 7
+Max_time: 161.12
+
+Fitness: 11.70
+Cycles: 17.10
+Time: 11.345
+size: 34
+mutate_before_breeding: True
+num_of_children: 172
+max_num_of_mutations: 4
+Max_time: 32.64
+
+Fitness: 12.13
+Cycles: 151.10
+Time: 114.156
+size: 40
+mutate_before_breeding: True
+num_of_children: 170
+max_num_of_mutations: 7
+Max_time: 170.19
+
+Fitness: 11.80
+Cycles: 25.87
+Time: 15.358
+size: 31
+mutate_before_breeding: True
+num_of_children: 173
+max_num_of_mutations: 6
+Max_time: 40.06
+
+Fitness: 12.33
+Cycles: 176.30
+Time: 124.211
+size: 40
+mutate_before_breeding: True
+num_of_children: 156
+max_num_of_mutations: 7
+Max_time: 155.60
+
+Fitness: 12.13
+Cycles: 18.07
+Time: 9.692
+mutate_before_breeding: False
+size: 27
+num_of_children: 168
+max_num_of_mutations: 6
+Max_time: 21.89
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 142.819
+mutate_before_breeding: False
+size: 38
+num_of_children: 151
+max_num_of_mutations: 9
+Max_time: 161.94
+
+Fitness: 11.90
+Cycles: 66.20
+Time: 26.599
+mutate_before_breeding: True
+size: 29
+num_of_children: 122
+max_num_of_mutations: 6
+Max_time: 61.86
+
+Fitness: 12.10
+Cycles: 166.80
+Time: 140.476
+mutate_before_breeding: False
+size: 36
+num_of_children: 184
+max_num_of_mutations: 7
+Max_time: 195.61
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 106.878
+mutate_before_breeding: False
+size: 34
+num_of_children: 121
+max_num_of_mutations: 6
+Max_time: 122.72
+
+Fitness: 11.97
+Cycles: 59.97
+Time: 44.754
+mutate_before_breeding: True
+size: 39
+num_of_children: 174
+max_num_of_mutations: 6
+Max_time: 98.23
+
+Fitness: 11.90
+Cycles: 40.13
+Time: 16.629
+mutate_before_breeding: True
+size: 28
+num_of_children: 135
+max_num_of_mutations: 6
+Max_time: 49.83
+
+Fitness: 12.13
+Cycles: 89.50
+Time: 69.754
+mutate_before_breeding: False
+size: 34
+num_of_children: 188
+max_num_of_mutations: 7
+Max_time: 162.86
+
+Fitness: 12.00
+Cycles: 40.63
+Time: 27.866
+mutate_before_breeding: True
+size: 36
+num_of_children: 175
+max_num_of_mutations: 6
+Max_time: 123.31
+
+Fitness: 12.30
+Cycles: 176.07
+Time: 93.412
+mutate_before_breeding: False
+size: 27
+num_of_children: 144
+max_num_of_mutations: 8
+Max_time: 120.36
+
+Fitness: 12.00
+Cycles: 200.00
+Time: 138.723
+mutate_before_breeding: False
+size: 44
+num_of_children: 132
+max_num_of_mutations: 6
+Max_time: 162.24
+
+Fitness: 11.97
+Cycles: 15.70
+Time: 6.309
+mutate_before_breeding: False
+size: 19
+num_of_children: 164
+max_num_of_mutations: 7
+Max_time: 16.83
+
+Fitness: 12.17
+Cycles: 176.10
+Time: 113.422
+mutate_before_breeding: False
+size: 32
+num_of_children: 154
+max_num_of_mutations: 7
+Max_time: 152.17
+
+Fitness: 12.07
+Cycles: 21.20
+Time: 14.626
+mutate_before_breeding: False
+size: 32
+num_of_children: 182
+max_num_of_mutations: 6
+Max_time: 33.05
+
+Fitness: 12.10
+Cycles: 191.13
+Time: 134.361
+mutate_before_breeding: False
+size: 40
+num_of_children: 139
+max_num_of_mutations: 5
+Max_time: 164.77
+
+Fitness: 12.17
+Cycles: 18.03
+Time: 12.701
+mutate_before_breeding: False
+size: 31
+num_of_children: 188
+max_num_of_mutations: 6
+Max_time: 36.55
+
+Fitness: 11.90
+Cycles: 32.80
+Time: 16.691
+mutate_before_breeding: False
+size: 28
+num_of_children: 153
+max_num_of_mutations: 6
+Max_time: 38.56
+
+Fitness: 12.17
+Cycles: 118.60
+Time: 62.105
+mutate_before_breeding: True
+size: 33
+num_of_children: 140
+max_num_of_mutations: 7
+Max_time: 113.88
+
+Fitness: 12.10
+Cycles: 73.83
+Time: 30.353
+mutate_before_breeding: True
+size: 30
+num_of_children: 122
+max_num_of_mutations: 6
+Max_time: 84.38
+
+Fitness: 12.20
+Cycles: 200.00
+Time: 153.907
+mutate_before_breeding: False
+size: 39
+num_of_children: 159
+max_num_of_mutations: 7
+Max_time: 176.89
+
+Fitness: 12.07
+Cycles: 26.73
+Time: 17.875
+mutate_before_breeding: True
+size: 36
+num_of_children: 166
+max_num_of_mutations: 5
+Max_time: 39.73
+
+Fitness: 12.30
+Cycles: 125.87
+Time: 78.711
+mutate_before_breeding: True
+size: 34
+num_of_children: 163
+max_num_of_mutations: 8
+Max_time: 137.19
+
+Fitness: 12.07
+Cycles: 12.60
+Time: 6.452
+mutate_before_breeding: True
+size: 25
+num_of_children: 185
+max_num_of_mutations: 6
+Max_time: 9.95
+
+Fitness: 11.77
+Cycles: 25.90
+Time: 13.147
+mutate_before_breeding: True
+size: 26
+num_of_children: 173
+max_num_of_mutations: 7
+Max_time: 25.45
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 104.296
+mutate_before_breeding: False
+size: 30
+num_of_children: 133
+max_num_of_mutations: 8
+Max_time: 118.34
+
+Fitness: 12.13
+Cycles: 90.93
+Time: 53.272
+mutate_before_breeding: True
+size: 30
+num_of_children: 178
+max_num_of_mutations: 9
+Max_time: 125.66
+
+Fitness: 12.20
+Cycles: 23.83
+Time: 15.548
+mutate_before_breeding: True
+size: 37
+num_of_children: 164
+max_num_of_mutations: 5
+Max_time: 31.78
+
+Fitness: 12.40
+Cycles: 200.00
+Time: 119.659
+mutate_before_breeding: False
+size: 31
+num_of_children: 146
+max_num_of_mutations: 8
+Max_time: 136.27
+
+Fitness: 12.23
+Cycles: 200.00
+Time: 152.896
+mutate_before_breeding: False
+size: 37
+num_of_children: 163
+max_num_of_mutations: 8
+Max_time: 173.75
+
+
+---------------New cycle---------------
+Fitness: 12.43
+Cycles: 200.00
+Time: 90.976
+size: 30
+mutate_before_breeding: False
+num_of_children: 116
+max_num_of_mutations: 7
+
+Fitness: 12.43
+Cycles: 200.00
+Time: 166.051
+size: 38
+mutate_before_breeding: False
+num_of_children: 169
+max_num_of_mutations: 7
+
+Fitness: 12.40
+Cycles: 186.20
+Time: 164.166
+size: 29
+mutate_before_breeding: False
+num_of_children: 136
+max_num_of_mutations: 7
+
+Fitness: 12.40
+Cycles: 200.00
+Time: 126.085
+size: 42
+mutate_before_breeding: True
+num_of_children: 135
+max_num_of_mutations: 7
+
+Fitness: 12.40
+Cycles: 12.27
+Time: 5.785
+size: 24
+mutate_before_breeding: True
+num_of_children: 173
+max_num_of_mutations: 6
+
+Fitness: 12.40
+Cycles: 76.50
+Time: 41.644
+size: 35
+mutate_before_breeding: True
+num_of_children: 140
+max_num_of_mutations: 6
+
+Fitness: 12.40
+Cycles: 13.00
+Time: 8.868
+size: 29
+mutate_before_breeding: False
+num_of_children: 192
+max_num_of_mutations: 5
+
+Fitness: 12.40
+Cycles: 200.00
+Time: 124.218
+mutate_before_breeding: False
+size: 41
+num_of_children: 122
+max_num_of_mutations: 7
+
+Fitness: 12.40
+Cycles: 200.00
+Time: 119.659
+mutate_before_breeding: False
+size: 31
+num_of_children: 146
+max_num_of_mutations: 8
+
+Fitness: 12.37
+Cycles: 110.30
+Time: 77.321
+size: 35
+mutate_before_breeding: True
+num_of_children: 175
+max_num_of_mutations: 8
+
+Fitness: 12.37
+Cycles: 126.37
+Time: 68.620
+size: 36
+mutate_before_breeding: True
+num_of_children: 133
+max_num_of_mutations: 6
+
+Fitness: 12.37
+Cycles: 196.80
+Time: 126.603
+size: 38
+mutate_before_breeding: True
+num_of_children: 151
+max_num_of_mutations: 8
+
+Fitness: 12.37
+Cycles: 194.30
+Time: 123.633
+size: 37
+mutate_before_breeding: True
+num_of_children: 154
+max_num_of_mutations: 8
+
+Fitness: 12.33
+Cycles: 200.00
+Time: 169.709
+size: 39
+mutate_before_breeding: False
+num_of_children: 173
+max_num_of_mutations: 8
+
+Fitness: 12.33
+Cycles: 176.30
+Time: 124.211
+size: 40
+mutate_before_breeding: True
+num_of_children: 156
+max_num_of_mutations: 7
+
+Fitness: 12.33
+Cycles: 117.10
+Time: 48.566
+mutate_before_breeding: True
+size: 28
+num_of_children: 135
+max_num_of_mutations: 8
+
+Fitness: 12.33
+Cycles: 200.00
+Time: 149.231
+size: 33
+mutate_before_breeding: False
+num_of_children: 175
+max_num_of_mutations: 9
+
+Fitness: 12.33
+Cycles: 17.57
+Time: 8.142
+size: 30
+mutate_before_breeding: False
+num_of_children: 128
+max_num_of_mutations: 4
+
+Fitness: 12.33
+Cycles: 200.00
+Time: 119.635
+size: 33
+mutate_before_breeding: False
+num_of_children: 139
+max_num_of_mutations: 7
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 153.657
+size: 30
+mutate_before_breeding: False
+num_of_children: 116
+max_num_of_mutations: 7
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 178.125
+size: 36
+mutate_before_breeding: False
+num_of_children: 115
+max_num_of_mutations: 8
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 116.963
+size: 33
+mutate_before_breeding: False
+num_of_children: 137
+max_num_of_mutations: 7
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 102.599
+size: 31
+mutate_before_breeding: False
+num_of_children: 126
+max_num_of_mutations: 7
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 122.723
+size: 34
+mutate_before_breeding: False
+num_of_children: 139
+max_num_of_mutations: 7
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 139.952
+size: 35
+mutate_before_breeding: False
+num_of_children: 155
+max_num_of_mutations: 7
+
+Breeding:
+Fitness: 12.13
+Cycles: 200.00
+Time: 132.558
+mutate_before_breeding: False
+size: 35
+num_of_children: 149
+max_num_of_mutations: 7
+Max_time: 153.77
+
+Fitness: 12.07
+Cycles: 196.00
+Time: 145.135
+mutate_before_breeding: False
+size: 36
+num_of_children: 162
+max_num_of_mutations: 7
+Max_time: 173.86
+
+Fitness: 12.23
+Cycles: 200.00
+Time: 167.488
+mutate_before_breeding: False
+size: 38
+num_of_children: 171
+max_num_of_mutations: 7
+Max_time: 193.61
+
+Fitness: 12.03
+Cycles: 14.60
+Time: 7.987
+mutate_before_breeding: False
+size: 29
+num_of_children: 160
+max_num_of_mutations: 4
+Max_time: 23.34
+
+Fitness: 12.40
+Cycles: 200.00
+Time: 91.499
+mutate_before_breeding: False
+size: 30
+num_of_children: 116
+max_num_of_mutations: 7
+Max_time: 103.70
+
+Fitness: 12.40
+Cycles: 200.00
+Time: 59.096
+mutate_before_breeding: False
+size: 32
+num_of_children: 127
+max_num_of_mutations: 7
+Max_time: 64.59
+
+Fitness: 12.27
+Cycles: 163.40
+Time: 46.966
+mutate_before_breeding: True
+size: 34
+num_of_children: 133
+max_num_of_mutations: 7
+Max_time: 61.08
+
+Fitness: 12.10
+Cycles: 21.20
+Time: 7.025
+mutate_before_breeding: False
+size: 29
+num_of_children: 164
+max_num_of_mutations: 6
+Max_time: 25.57
+
+Fitness: 12.37
+Cycles: 200.00
+Time: 59.278
+mutate_before_breeding: False
+size: 35
+num_of_children: 119
+max_num_of_mutations: 7
+Max_time: 64.52
+
+Fitness: 12.03
+Cycles: 27.47
+Time: 8.892
+mutate_before_breeding: True
+size: 29
+num_of_children: 174
+max_num_of_mutations: 7
+Max_time: 23.33
+
+Fitness: 12.43
+Cycles: 200.00
+Time: 86.854
+mutate_before_breeding: False
+size: 40
+num_of_children: 152
+max_num_of_mutations: 7
+Max_time: 94.45
+
+Fitness: 11.97
+Cycles: 22.00
+Time: 8.065
+mutate_before_breeding: True
+size: 32
+num_of_children: 183
+max_num_of_mutations: 6
+Max_time: 17.59
+
+Fitness: 12.13
+Cycles: 200.00
+Time: 67.012
+size: 41
+mutate_before_breeding: False
+num_of_children: 122
+max_num_of_mutations: 7
+Max_time: 74.26
+
+Fitness: 12.23
+Cycles: 180.43
+Time: 65.737
+mutate_before_breeding: False
+size: 32
+num_of_children: 155
+max_num_of_mutations: 7
+Max_time: 82.90
+
+Fitness: 12.10
+Cycles: 197.13
+Time: 67.865
+mutate_before_breeding: False
+size: 32
+num_of_children: 145
+max_num_of_mutations: 7
+Max_time: 79.09
+
+Fitness: 11.93
+Cycles: 33.67
+Time: 11.010
+mutate_before_breeding: True
+size: 29
+num_of_children: 174
+max_num_of_mutations: 7
+Max_time: 28.73
+
+Fitness: 12.27
+Cycles: 83.80
+Time: 23.263
+size: 31
+mutate_before_breeding: True
+num_of_children: 137
+max_num_of_mutations: 7
+Max_time: 55.07
+
+Fitness: 12.30
+Cycles: 141.53
+Time: 39.747
+size: 32
+mutate_before_breeding: True
+num_of_children: 134
+max_num_of_mutations: 7
+Max_time: 60.17
+
+Fitness: 12.33
+Cycles: 200.00
+Time: 62.498
+mutate_before_breeding: False
+size: 34
+num_of_children: 126
+max_num_of_mutations: 7
+Max_time: 67.91
+
+Fitness: 12.37
+Cycles: 200.00
+Time: 76.339
+mutate_before_breeding: False
+size: 37
+num_of_children: 142
+max_num_of_mutations: 7
+Max_time: 84.39
+
+Fitness: 12.23
+Cycles: 200.00
+Time: 66.201
+mutate_before_breeding: False
+size: 33
+num_of_children: 138
+max_num_of_mutations: 7
+Max_time: 74.21
+
+Fitness: 12.20
+Cycles: 200.00
+Time: 74.931
+mutate_before_breeding: False
+size: 36
+num_of_children: 147
+max_num_of_mutations: 7
+Max_time: 83.58
+
+Fitness: 12.27
+Cycles: 200.00
+Time: 83.111
+mutate_before_breeding: False
+size: 33
+num_of_children: 175
+max_num_of_mutations: 9
+Max_time: 91.16
+
+Fitness: 12.03
+Cycles: 189.17
+Time: 59.592
+mutate_before_breeding: False
+size: 30
+num_of_children: 144
+max_num_of_mutations: 7
+Max_time: 71.02
+
+Fitness: 12.33
+Cycles: 200.00
+Time: 66.610
+mutate_before_breeding: False
+size: 37
+num_of_children: 129
+max_num_of_mutations: 7
+Max_time: 72.67
+
+Fitness: 12.40
+Cycles: 200.00
+Time: 71.514
+mutate_before_breeding: False
+size: 31
+num_of_children: 155
+max_num_of_mutations: 8
+Max_time: 77.80
+
+Fitness: 11.83
+Cycles: 33.03
+Time: 8.435
+size: 26
+mutate_before_breeding: True
+num_of_children: 154
+max_num_of_mutations: 7
+Max_time: 21.92
+
+Fitness: 12.07
+Cycles: 200.00
+Time: 63.637
+mutate_before_breeding: False
+size: 33
+num_of_children: 137
+max_num_of_mutations: 7
+Max_time: 71.63
+
+Fitness: 12.23
+Cycles: 85.73
+Time: 25.474
+mutate_before_breeding: False
+size: 30
+num_of_children: 137
+max_num_of_mutations: 6
+Max_time: 57.94
+
+Fitness: 12.17
+Cycles: 167.67
+Time: 56.814
+mutate_before_breeding: False
+size: 33
+num_of_children: 141
+max_num_of_mutations: 6
+Max_time: 75.41
+
+Fitness: 12.00
+Cycles: 183.83
+Time: 69.684
+mutate_before_breeding: True
+size: 38
+num_of_children: 162
+max_num_of_mutations: 8
+Max_time: 80.22
+
+Fitness: 12.47
+Cycles: 125.03
+Time: 41.740
+mutate_before_breeding: True
+size: 38
+num_of_children: 137
+max_num_of_mutations: 6
+Max_time: 70.97
+
+Fitness: 12.27
+Cycles: 200.00
+Time: 70.735
+mutate_before_breeding: False
+size: 37
+num_of_children: 136
+max_num_of_mutations: 7
+Max_time: 77.83
+
+Fitness: 12.13
+Cycles: 17.20
+Time: 4.839
+mutate_before_breeding: False
+size: 27
+num_of_children: 150
+max_num_of_mutations: 5
+Max_time: 11.39
+
+Fitness: 12.10
+Cycles: 23.97
+Time: 7.257
+mutate_before_breeding: False
+size: 28
+num_of_children: 155
+max_num_of_mutations: 6
+Max_time: 19.80
+
+Fitness: 12.27
+Cycles: 48.73
+Time: 15.373
+mutate_before_breeding: True
+size: 31
+num_of_children: 162
+max_num_of_mutations: 7
+Max_time: 43.27
+
+Fitness: 12.20
+Cycles: 107.13
+Time: 27.962
+mutate_before_breeding: True
+size: 33
+num_of_children: 124
+max_num_of_mutations: 6
+Max_time: 56.56
+
+Fitness: 12.47
+Cycles: 165.17
+Time: 62.464
+mutate_before_breeding: True
+size: 39
+num_of_children: 153
+max_num_of_mutations: 7
+Max_time: 79.50
+
+Fitness: 12.17
+Cycles: 27.13
+Time: 14.188
+mutate_before_breeding: False
+size: 28
+num_of_children: 156
+max_num_of_mutations: 6
+Max_time: 39.58
+
+Fitness: 12.40
+Cycles: 153.70
+Time: 80.323
+mutate_before_breeding: True
+size: 32
+num_of_children: 144
+max_num_of_mutations: 8
+Max_time: 114.66
+
+Fitness: 12.03
+Cycles: 34.57
+Time: 21.565
+mutate_before_breeding: False
+size: 31
+num_of_children: 165
+max_num_of_mutations: 6
+Max_time: 65.05
+
+Fitness: 12.30
+Cycles: 85.17
+Time: 41.247
+mutate_before_breeding: True
+size: 33
+num_of_children: 129
+max_num_of_mutations: 6
+Max_time: 106.39
+
+Fitness: 12.20
+Cycles: 188.03
+Time: 105.452
+size: 30
+mutate_before_breeding: False
+num_of_children: 141
+max_num_of_mutations: 7
+Max_time: 129.96
+
+Fitness: 12.00
+Cycles: 30.53
+Time: 15.069
+mutate_before_breeding: False
+size: 31
+num_of_children: 133
+max_num_of_mutations: 5
+Max_time: 34.94
+
+Fitness: 12.23
+Cycles: 77.47
+Time: 43.647
+mutate_before_breeding: True
+size: 35
+num_of_children: 140
+max_num_of_mutations: 6
+Max_time: 113.98
+
+Fitness: 12.23
+Cycles: 200.00
+Time: 103.669
+mutate_before_breeding: False
+size: 31
+num_of_children: 126
+max_num_of_mutations: 7
+Max_time: 117.83
+
+Fitness: 12.17
+Cycles: 21.10
+Time: 12.505
+mutate_before_breeding: False
+size: 29
+num_of_children: 164
+max_num_of_mutations: 6
+Max_time: 24.98
+
+Fitness: 12.40
+Cycles: 200.00
+Time: 131.552
+size: 41
+mutate_before_breeding: False
+num_of_children: 128
+max_num_of_mutations: 7
+Max_time: 147.91
+
+Fitness: 12.13
+Cycles: 199.13
+Time: 119.701
+mutate_before_breeding: True
+size: 39
+num_of_children: 136
+max_num_of_mutations: 7
+Max_time: 133.59
+
+Fitness: 12.37
+Cycles: 200.00
+Time: 107.896
+size: 35
+mutate_before_breeding: False
+num_of_children: 119
+max_num_of_mutations: 7
+Max_time: 120.80
+
+Fitness: 12.17
+Cycles: 40.70
+Time: 22.217
+mutate_before_breeding: True
+size: 32
+num_of_children: 147
+max_num_of_mutations: 6
+Max_time: 66.91
+
+Fitness: 12.33
+Cycles: 85.40
+Time: 51.243
+mutate_before_breeding: True
+size: 34
+num_of_children: 156
+max_num_of_mutations: 7
+Max_time: 121.44
+
+Fitness: 11.90
+Cycles: 200.00
+Time: 89.819
+size: 32
+mutate_before_breeding: True
+num_of_children: 125
+max_num_of_mutations: 8
+Max_time: 98.38
+
+Fitness: 12.23
+Cycles: 174.13
+Time: 104.690
+mutate_before_breeding: True
+size: 36
+num_of_children: 145
+max_num_of_mutations: 7
+Max_time: 131.75
+
+Fitness: 12.07
+Cycles: 194.97
+Time: 106.665
+mutate_before_breeding: True
+size: 37
+num_of_children: 133
+max_num_of_mutations: 8
+Max_time: 119.55
+
+Fitness: 12.10
+Cycles: 140.03
+Time: 73.702
+mutate_before_breeding: True
+size: 33
+num_of_children: 139
+max_num_of_mutations: 7
+Max_time: 109.71
+
+Fitness: 12.03
+Cycles: 93.53
+Time: 66.943
+mutate_before_breeding: False
+size: 35
+num_of_children: 163
+max_num_of_mutations: 6
+Max_time: 168.39
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 127.973
+mutate_before_breeding: False
+size: 34
+num_of_children: 144
+max_num_of_mutations: 7
+Max_time: 146.36
+
+Fitness: 12.33
+Cycles: 200.00
+Time: 102.164
+mutate_before_breeding: False
+size: 33
+num_of_children: 120
+max_num_of_mutations: 7
+Max_time: 116.20
+
+Fitness: 12.27
+Cycles: 156.43
+Time: 80.237
+size: 28
+mutate_before_breeding: False
+num_of_children: 135
+max_num_of_mutations: 7
+Max_time: 117.27
+
+Fitness: 12.23
+Cycles: 135.67
+Time: 89.414
+mutate_before_breeding: True
+size: 38
+num_of_children: 155
+max_num_of_mutations: 7
+Max_time: 149.53
+
+Fitness: 12.27
+Cycles: 200.00
+Time: 109.423
+mutate_before_breeding: False
+size: 32
+num_of_children: 132
+max_num_of_mutations: 7
+Max_time: 126.25
+
+Fitness: 12.20
+Cycles: 200.00
+Time: 146.144
+mutate_before_breeding: False
+size: 34
+num_of_children: 165
+max_num_of_mutations: 8
+Max_time: 168.31
+
+Fitness: 12.17
+Cycles: 185.00
+Time: 112.956
+mutate_before_breeding: False
+size: 34
+num_of_children: 139
+max_num_of_mutations: 6
+Max_time: 143.86
+
+Fitness: 12.13
+Cycles: 200.00
+Time: 133.328
+mutate_before_breeding: False
+size: 37
+num_of_children: 142
+max_num_of_mutations: 7
+Max_time: 153.56
+
+Fitness: 12.10
+Cycles: 34.93
+Time: 18.276
+mutate_before_breeding: True
+size: 30
+num_of_children: 153
+max_num_of_mutations: 6
+Max_time: 45.97
+
+Fitness: 12.23
+Cycles: 196.77
+Time: 138.227
+mutate_before_breeding: False
+size: 34
+num_of_children: 157
+max_num_of_mutations: 7
+Max_time: 162.08
+
+Fitness: 12.43
+Cycles: 200.00
+Time: 130.533
+mutate_before_breeding: False
+size: 34
+num_of_children: 144
+max_num_of_mutations: 7
+Max_time: 147.47
+
+Fitness: 11.87
+Cycles: 40.07
+Time: 22.564
+mutate_before_breeding: True
+size: 33
+num_of_children: 154
+max_num_of_mutations: 6
+Max_time: 82.62
+
+Fitness: 12.37
+Cycles: 200.00
+Time: 122.479
+mutate_before_breeding: False
+size: 36
+num_of_children: 134
+max_num_of_mutations: 8
+Max_time: 137.64
+
+Fitness: 12.13
+Cycles: 45.13
+Time: 20.240
+mutate_before_breeding: False
+size: 30
+num_of_children: 122
+max_num_of_mutations: 5
+Max_time: 64.69
+
+Fitness: 12.10
+Cycles: 28.37
+Time: 14.929
+mutate_before_breeding: False
+size: 29
+num_of_children: 154
+max_num_of_mutations: 6
+Max_time: 45.06
+
+Fitness: 12.17
+Cycles: 200.00
+Time: 108.138
+mutate_before_breeding: False
+size: 32
+num_of_children: 132
+max_num_of_mutations: 7
+Max_time: 125.59
+
+Fitness: 12.07
+Cycles: 200.00
+Time: 100.865
+mutate_before_breeding: False
+size: 31
+num_of_children: 126
+max_num_of_mutations: 7
+Max_time: 116.88
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 120.508
+size: 31
+mutate_before_breeding: False
+num_of_children: 146
+max_num_of_mutations: 8
+Max_time: 136.68
+
+Fitness: 11.97
+Cycles: 96.10
+Time: 68.542
+mutate_before_breeding: False
+size: 35
+num_of_children: 163
+max_num_of_mutations: 6
+Max_time: 145.64
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 111.404
+mutate_before_breeding: False
+size: 31
+num_of_children: 137
+max_num_of_mutations: 7
+Max_time: 129.02
+
+Fitness: 12.03
+Cycles: 28.27
+Time: 16.713
+mutate_before_breeding: True
+size: 32
+num_of_children: 164
+max_num_of_mutations: 6
+Max_time: 40.77
+
+Fitness: 12.30
+Cycles: 190.07
+Time: 120.260
+mutate_before_breeding: True
+size: 39
+num_of_children: 144
+max_num_of_mutations: 7
+Max_time: 141.20
+
+Fitness: 12.27
+Cycles: 200.00
+Time: 146.593
+mutate_before_breeding: False
+size: 34
+num_of_children: 165
+max_num_of_mutations: 8
+Max_time: 166.94
+
+Fitness: 12.10
+Cycles: 199.07
+Time: 105.094
+mutate_before_breeding: False
+size: 32
+num_of_children: 128
+max_num_of_mutations: 6
+Max_time: 123.19
+
+Fitness: 12.23
+Cycles: 196.20
+Time: 118.459
+mutate_before_breeding: False
+size: 32
+num_of_children: 142
+max_num_of_mutations: 7
+Max_time: 139.30
+
+Fitness: 12.30
+Cycles: 199.30
+Time: 96.099
+mutate_before_breeding: False
+size: 29
+num_of_children: 126
+max_num_of_mutations: 7
+Max_time: 111.25
+
+Fitness: 12.20
+Cycles: 200.00
+Time: 123.039
+mutate_before_breeding: False
+size: 34
+num_of_children: 142
+max_num_of_mutations: 7
+Max_time: 143.69
+
+Fitness: 12.23
+Cycles: 63.00
+Time: 33.101
+mutate_before_breeding: True
+size: 34
+num_of_children: 139
+max_num_of_mutations: 6
+Max_time: 78.45
+
+Fitness: 12.13
+Cycles: 200.00
+Time: 113.426
+mutate_before_breeding: False
+size: 35
+num_of_children: 129
+max_num_of_mutations: 7
+Max_time: 131.50
+
+Fitness: 12.13
+Cycles: 200.00
+Time: 124.900
+mutate_before_breeding: False
+size: 32
+num_of_children: 150
+max_num_of_mutations: 8
+Max_time: 143.94
+
+Fitness: 12.10
+Cycles: 200.00
+Time: 135.568
+mutate_before_breeding: False
+size: 34
+num_of_children: 154
+max_num_of_mutations: 7
+Max_time: 157.30
+
+Fitness: 12.27
+Cycles: 91.13
+Time: 54.715
+mutate_before_breeding: True
+size: 34
+num_of_children: 156
+max_num_of_mutations: 7
+Max_time: 124.67
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 109.276
+size: 33
+mutate_before_breeding: False
+num_of_children: 130
+max_num_of_mutations: 8
+Max_time: 124.81
+
+Fitness: 12.50
+Cycles: 200.00
+Time: 104.626
+size: 32
+mutate_before_breeding: False
+num_of_children: 125
+max_num_of_mutations: 8
+Max_time: 115.80
+
+Fitness: 12.33
+Cycles: 179.47
+Time: 111.379
+mutate_before_breeding: True
+size: 37
+num_of_children: 147
+max_num_of_mutations: 7
+Max_time: 136.78
+
+Fitness: 12.27
+Cycles: 180.73
+Time: 105.034
+mutate_before_breeding: True
+size: 36
+num_of_children: 143
+max_num_of_mutations: 7
+Max_time: 130.39
+
+Fitness: 12.30
+Cycles: 119.03
+Time: 73.665
+mutate_before_breeding: True
+size: 35
+num_of_children: 154
+max_num_of_mutations: 7
+Max_time: 128.30
+
+Fitness: 12.30
+Cycles: 190.73
+Time: 108.347
+mutate_before_breeding: True
+size: 37
+num_of_children: 136
+max_num_of_mutations: 7
+Max_time: 124.73
+
+Fitness: 12.43
+Cycles: 152.87
+Time: 103.505
+mutate_before_breeding: True
+size: 37
+num_of_children: 161
+max_num_of_mutations: 7
+Max_time: 148.20
+
+Fitness: 12.27
+Cycles: 193.23
+Time: 123.352
+mutate_before_breeding: True
+size: 40
+num_of_children: 143
+max_num_of_mutations: 7
+Max_time: 142.36
+
+Fitness: 12.13
+Cycles: 200.00
+Time: 117.468
+mutate_before_breeding: False
+size: 33
+num_of_children: 139
+max_num_of_mutations: 7
+Max_time: 136.02
+
+Fitness: 12.17
+Cycles: 97.90
+Time: 46.227
+size: 30
+mutate_before_breeding: True
+num_of_children: 137
+max_num_of_mutations: 7
+Max_time: 97.94
+
+Fitness: 12.33
+Cycles: 198.73
+Time: 118.704
+mutate_before_breeding: False
+size: 32
+num_of_children: 142
+max_num_of_mutations: 7
+Max_time: 137.72
+
+Fitness: 11.77
+Cycles: 28.23
+Time: 14.564
+mutate_before_breeding: True
+size: 29
+num_of_children: 156
+max_num_of_mutations: 6
+Max_time: 40.12
+
+Fitness: 12.00
+Cycles: 31.17
+Time: 14.867
+size: 27
+mutate_before_breeding: True
+num_of_children: 159
+max_num_of_mutations: 7
+Max_time: 40.09
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 143.251
+mutate_before_breeding: False
+size: 36
+num_of_children: 154
+max_num_of_mutations: 7
+Max_time: 165.05
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 125.525
+mutate_before_breeding: False
+size: 34
+num_of_children: 142
+max_num_of_mutations: 7
+Max_time: 143.97
+
+Fitness: 12.17
+Cycles: 49.40
+Time: 24.470
+mutate_before_breeding: True
+size: 32
+num_of_children: 138
+max_num_of_mutations: 6
+Max_time: 72.79
+
+Fitness: 12.40
+Cycles: 152.70
+Time: 91.930
+mutate_before_breeding: True
+size: 39
+num_of_children: 134
+max_num_of_mutations: 6
+Max_time: 132.44
+
+Fitness: 12.37
+Cycles: 198.63
+Time: 109.346
+mutate_before_breeding: False
+size: 30
+num_of_children: 136
+max_num_of_mutations: 7
+Max_time: 125.25
+
+Fitness: 12.20
+Cycles: 200.00
+Time: 109.821
+mutate_before_breeding: False
+size: 31
+num_of_children: 136
+max_num_of_mutations: 7
+Max_time: 127.20
+
+Fitness: 12.33
+Cycles: 200.00
+Time: 154.873
+mutate_before_breeding: False
+size: 40
+num_of_children: 152
+max_num_of_mutations: 7
+Max_time: 176.41
+
+Fitness: 12.40
+Cycles: 200.00
+Time: 122.730
+mutate_before_breeding: False
+size: 35
+num_of_children: 135
+max_num_of_mutations: 7
+Max_time: 138.53
+
+Fitness: 12.00
+Cycles: 87.60
+Time: 55.392
+mutate_before_breeding: True
+size: 35
+num_of_children: 165
+max_num_of_mutations: 7
+Max_time: 134.05
+
+Fitness: 12.37
+Cycles: 200.00
+Time: 129.480
+mutate_before_breeding: False
+size: 34
+num_of_children: 144
+max_num_of_mutations: 7
+Max_time: 146.36
+
+Fitness: 12.17
+Cycles: 200.00
+Time: 156.126
+mutate_before_breeding: False
+size: 35
+num_of_children: 172
+max_num_of_mutations: 8
+Max_time: 179.33
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 125.549
+mutate_before_breeding: False
+size: 34
+num_of_children: 142
+max_num_of_mutations: 7
+Max_time: 144.95
+
+Fitness: 12.27
+Cycles: 200.00
+Time: 136.298
+mutate_before_breeding: False
+size: 35
+num_of_children: 149
+max_num_of_mutations: 7
+Max_time: 154.56
+
+Fitness: 11.97
+Cycles: 25.03
+Time: 14.420
+mutate_before_breeding: False
+size: 29
+num_of_children: 164
+max_num_of_mutations: 6
+Max_time: 39.16
+
+Fitness: 12.00
+Cycles: 26.47
+Time: 15.509
+mutate_before_breeding: True
+size: 31
+num_of_children: 171
+max_num_of_mutations: 6
+Max_time: 35.77
+
+Fitness: 12.37
+Cycles: 199.93
+Time: 114.089
+mutate_before_breeding: False
+size: 31
+num_of_children: 137
+max_num_of_mutations: 7
+Max_time: 128.81
+
+Fitness: 12.23
+Cycles: 200.00
+Time: 157.006
+mutate_before_breeding: False
+size: 37
+num_of_children: 164
+max_num_of_mutations: 7
+Max_time: 179.30
+
+Fitness: 12.37
+Cycles: 182.30
+Time: 92.153
+mutate_before_breeding: True
+size: 35
+num_of_children: 127
+max_num_of_mutations: 7
+Max_time: 111.78
+
+Fitness: 12.30
+Cycles: 27.27
+Time: 17.380
+mutate_before_breeding: False
+size: 31
+num_of_children: 164
+max_num_of_mutations: 6
+Max_time: 54.25
+
+Fitness: 12.37
+Cycles: 200.00
+Time: 164.932
+mutate_before_breeding: False
+size: 39
+num_of_children: 164
+max_num_of_mutations: 7
+Max_time: 188.39
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 129.716
+mutate_before_breeding: False
+size: 35
+num_of_children: 144
+max_num_of_mutations: 7
+Max_time: 149.33
+
+Fitness: 12.07
+Cycles: 200.00
+Time: 106.673
+mutate_before_breeding: False
+size: 32
+num_of_children: 128
+max_num_of_mutations: 6
+Max_time: 124.44
+
+Fitness: 12.17
+Cycles: 19.40
+Time: 9.810
+mutate_before_breeding: False
+size: 26
+num_of_children: 154
+max_num_of_mutations: 6
+Max_time: 20.91
+
+Mutation:
+Fitness: 12.23
+Cycles: 200.00
+Time: 90.229
+size: 30
+mutate_before_breeding: False
+num_of_children: 116
+max_num_of_mutations: 7
+Max_time: 103.94
+
+Fitness: 12.33
+Cycles: 200.00
+Time: 165.679
+size: 38
+mutate_before_breeding: False
+num_of_children: 169
+max_num_of_mutations: 8
+Max_time: 186.86
+
+Fitness: 12.23
+Cycles: 200.00
+Time: 103.284
+size: 29
+mutate_before_breeding: False
+num_of_children: 136
+max_num_of_mutations: 9
+Max_time: 117.73
+
+Fitness: 12.10
+Cycles: 200.00
+Time: 124.894
+size: 42
+mutate_before_breeding: True
+num_of_children: 133
+max_num_of_mutations: 7
+Max_time: 136.84
+
+Fitness: 12.23
+Cycles: 200.00
+Time: 118.267
+mutate_before_breeding: False
+size: 31
+num_of_children: 146
+max_num_of_mutations: 9
+Max_time: 135.19
+
+Fitness: 12.13
+Cycles: 76.50
+Time: 48.110
+size: 32
+mutate_before_breeding: True
+num_of_children: 175
+max_num_of_mutations: 8
+Max_time: 130.72
+
+Fitness: 12.17
+Cycles: 51.17
+Time: 19.382
+mutate_before_breeding: True
+size: 25
+num_of_children: 135
+max_num_of_mutations: 8
+Max_time: 51.67
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 146.622
+size: 33
+mutate_before_breeding: False
+num_of_children: 172
+max_num_of_mutations: 9
+Max_time: 168.61
+
+Fitness: 12.00
+Cycles: 17.90
+Time: 7.617
+size: 28
+mutate_before_breeding: False
+num_of_children: 128
+max_num_of_mutations: 4
+Max_time: 18.45
+
+Fitness: 12.23
+Cycles: 200.00
+Time: 116.945
+size: 33
+mutate_before_breeding: False
+num_of_children: 139
+max_num_of_mutations: 9
+Max_time: 132.20
+
+Fitness: 12.23
+Cycles: 200.00
+Time: 89.510
+size: 30
+mutate_before_breeding: False
+num_of_children: 116
+max_num_of_mutations: 10
+Max_time: 97.84
+
+Fitness: 12.23
+Cycles: 200.00
+Time: 101.120
+size: 36
+mutate_before_breeding: False
+num_of_children: 115
+max_num_of_mutations: 8
+Max_time: 114.83
+
+Fitness: 12.47
+Cycles: 200.00
+Time: 103.199
+size: 31
+mutate_before_breeding: False
+num_of_children: 125
+max_num_of_mutations: 7
+Max_time: 115.80
+
+Fitness: 12.00
+Cycles: 13.23
+Time: 7.542
+mutate_before_breeding: False
+size: 29
+num_of_children: 159
+max_num_of_mutations: 4
+Max_time: 13.80
+
+Fitness: 12.00
+Cycles: 23.00
+Time: 13.661
+mutate_before_breeding: False
+size: 29
+num_of_children: 167
+max_num_of_mutations: 6
+Max_time: 32.77
+
+Fitness: 11.97
+Cycles: 200.00
+Time: 119.267
+size: 41
+mutate_before_breeding: False
+num_of_children: 122
+max_num_of_mutations: 9
+Max_time: 131.45
+
+Fitness: 12.43
+Cycles: 191.43
+Time: 118.747
+mutate_before_breeding: False
+size: 32
+num_of_children: 145
+max_num_of_mutations: 7
+Max_time: 140.72
+
+Fitness: 12.30
+Cycles: 120.40
+Time: 68.285
+mutate_before_breeding: True
+size: 29
+num_of_children: 174
+max_num_of_mutations: 10
+Max_time: 125.52
+
+Fitness: 12.40
+Cycles: 101.40
+Time: 48.284
+size: 31
+mutate_before_breeding: True
+num_of_children: 134
+max_num_of_mutations: 7
+Max_time: 104.79
+
+Fitness: 12.27
+Cycles: 200.00
+Time: 131.520
+mutate_before_breeding: False
+size: 37
+num_of_children: 142
+max_num_of_mutations: 8
+Max_time: 150.25
+
+Fitness: 12.17
+Cycles: 200.00
+Time: 149.529
+mutate_before_breeding: False
+size: 33
+num_of_children: 175
+max_num_of_mutations: 9
+Max_time: 171.98
+
+Fitness: 12.10
+Cycles: 77.23
+Time: 37.547
+mutate_before_breeding: True
+size: 30
+num_of_children: 144
+max_num_of_mutations: 7
+Max_time: 100.40
+
+Fitness: 11.87
+Cycles: 39.93
+Time: 20.017
+size: 26
+mutate_before_breeding: False
+num_of_children: 154
+max_num_of_mutations: 7
+Max_time: 40.39
+
+Fitness: 12.17
+Cycles: 200.00
+Time: 127.276
+mutate_before_breeding: False
+size: 37
+num_of_children: 137
+max_num_of_mutations: 7
+Max_time: 146.03
+
+Fitness: 12.20
+Cycles: 18.83
+Time: 9.379
+mutate_before_breeding: True
+size: 28
+num_of_children: 155
+max_num_of_mutations: 6
+Max_time: 23.30
+
+Fitness: 12.00
+Cycles: 191.87
+Time: 107.724
+mutate_before_breeding: True
+size: 31
+num_of_children: 162
+max_num_of_mutations: 10
+Max_time: 123.86
+
+Fitness: 12.17
+Cycles: 200.00
+Time: 133.890
+mutate_before_breeding: True
+size: 39
+num_of_children: 153
+max_num_of_mutations: 8
+Max_time: 147.34
+
+Fitness: 11.87
+Cycles: 27.80
+Time: 15.621
+mutate_before_breeding: True
+size: 31
+num_of_children: 165
+max_num_of_mutations: 6
+Max_time: 35.67
+
+Fitness: 12.00
+Cycles: 64.63
+Time: 33.382
+mutate_before_breeding: False
+size: 33
+num_of_children: 133
+max_num_of_mutations: 5
+Max_time: 107.11
+
+Fitness: 12.13
+Cycles: 170.73
+Time: 96.308
+mutate_before_breeding: True
+size: 35
+num_of_children: 140
+max_num_of_mutations: 7
+Max_time: 124.46
+
+Fitness: 11.87
+Cycles: 23.67
+Time: 13.573
+mutate_before_breeding: False
+size: 29
+num_of_children: 166
+max_num_of_mutations: 6
+Max_time: 35.81
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 132.740
+mutate_before_breeding: False
+size: 39
+num_of_children: 136
+max_num_of_mutations: 7
+Max_time: 151.95
+
+Fitness: 12.20
+Cycles: 148.57
+Time: 97.580
+mutate_before_breeding: True
+size: 37
+num_of_children: 156
+max_num_of_mutations: 7
+Max_time: 135.11
+
+Fitness: 12.23
+Cycles: 200.00
+Time: 101.705
+size: 32
+mutate_before_breeding: False
+num_of_children: 125
+max_num_of_mutations: 8
+Max_time: 116.14
+
+Fitness: 12.17
+Cycles: 200.00
+Time: 132.212
+mutate_before_breeding: False
+size: 36
+num_of_children: 145
+max_num_of_mutations: 7
+Max_time: 153.76
+
+Fitness: 12.00
+Cycles: 23.10
+Time: 13.532
+mutate_before_breeding: False
+size: 34
+num_of_children: 144
+max_num_of_mutations: 4
+Max_time: 34.00
+
+Fitness: 12.17
+Cycles: 193.50
+Time: 87.145
+mutate_before_breeding: True
+size: 33
+num_of_children: 120
+max_num_of_mutations: 7
+Max_time: 100.08
+
+Fitness: 12.23
+Cycles: 69.60
+Time: 29.862
+size: 25
+mutate_before_breeding: False
+num_of_children: 135
+max_num_of_mutations: 7
+Max_time: 89.55
+
+Fitness: 12.20
+Cycles: 180.70
+Time: 127.651
+mutate_before_breeding: True
+size: 41
+num_of_children: 155
+max_num_of_mutations: 7
+Max_time: 157.83
+
+Fitness: 12.30
+Cycles: 189.53
+Time: 130.863
+mutate_before_breeding: False
+size: 31
+num_of_children: 165
+max_num_of_mutations: 8
+Max_time: 157.14
+
+Fitness: 12.33
+Cycles: 200.00
+Time: 122.968
+mutate_before_breeding: False
+size: 34
+num_of_children: 139
+max_num_of_mutations: 7
+Max_time: 142.33
+
+Fitness: 12.10
+Cycles: 193.67
+Time: 97.880
+mutate_before_breeding: False
+size: 29
+num_of_children: 132
+max_num_of_mutations: 7
+Max_time: 117.41
+
+Fitness: 12.17
+Cycles: 156.63
+Time: 70.108
+mutate_before_breeding: True
+size: 31
+num_of_children: 126
+max_num_of_mutations: 7
+Max_time: 94.07
+
+Fitness: 12.07
+Cycles: 200.00
+Time: 142.746
+mutate_before_breeding: False
+size: 35
+num_of_children: 163
+max_num_of_mutations: 8
+Max_time: 167.97
+
+Fitness: 12.13
+Cycles: 200.00
+Time: 125.635
+mutate_before_breeding: True
+size: 39
+num_of_children: 144
+max_num_of_mutations: 8
+Max_time: 137.72
+
+Fitness: 12.27
+Cycles: 169.77
+Time: 125.884
+mutate_before_breeding: False
+size: 34
+num_of_children: 165
+max_num_of_mutations: 7
+Max_time: 169.92
+
+Fitness: 12.20
+Cycles: 198.50
+Time: 117.900
+mutate_before_breeding: False
+size: 32
+num_of_children: 142
+max_num_of_mutations: 7
+Max_time: 138.27
+
+Fitness: 12.20
+Cycles: 200.00
+Time: 113.286
+mutate_before_breeding: False
+size: 35
+num_of_children: 129
+max_num_of_mutations: 7
+Max_time: 130.69
+
+Fitness: 12.33
+Cycles: 200.00
+Time: 123.472
+mutate_before_breeding: False
+size: 32
+num_of_children: 150
+max_num_of_mutations: 10
+Max_time: 138.53
+
+Fitness: 12.23
+Cycles: 197.17
+Time: 135.361
+mutate_before_breeding: False
+size: 34
+num_of_children: 154
+max_num_of_mutations: 7
+Max_time: 159.47
+
+Fitness: 12.40
+Cycles: 200.00
+Time: 100.707
+size: 31
+mutate_before_breeding: False
+num_of_children: 125
+max_num_of_mutations: 8
+Max_time: 113.70
+
+Fitness: 12.40
+Cycles: 153.77
+Time: 95.001
+mutate_before_breeding: True
+size: 37
+num_of_children: 147
+max_num_of_mutations: 7
+Max_time: 136.59
+
+Fitness: 12.13
+Cycles: 132.37
+Time: 71.723
+mutate_before_breeding: True
+size: 34
+num_of_children: 143
+max_num_of_mutations: 7
+Max_time: 114.41
+
+Fitness: 12.27
+Cycles: 196.67
+Time: 135.522
+mutate_before_breeding: False
+size: 35
+num_of_children: 154
+max_num_of_mutations: 7
+Max_time: 160.77
+
+Fitness: 12.37
+Cycles: 200.00
+Time: 118.276
+mutate_before_breeding: False
+size: 32
+num_of_children: 139
+max_num_of_mutations: 7
+Max_time: 135.03
+
+Fitness: 12.10
+Cycles: 95.67
+Time: 45.080
+size: 30
+mutate_before_breeding: True
+num_of_children: 137
+max_num_of_mutations: 7
+Max_time: 98.05
+
+Fitness: 12.03
+Cycles: 27.23
+Time: 13.786
+mutate_before_breeding: True
+size: 29
+num_of_children: 157
+max_num_of_mutations: 6
+Max_time: 41.59
+
+Fitness: 12.17
+Cycles: 116.00
+Time: 71.539
+mutate_before_breeding: True
+size: 36
+num_of_children: 154
+max_num_of_mutations: 7
+Max_time: 130.61
+
+Fitness: 12.23
+Cycles: 197.53
+Time: 116.073
+mutate_before_breeding: True
+size: 39
+num_of_children: 134
+max_num_of_mutations: 7
+Max_time: 129.97
+
+Fitness: 12.30
+Cycles: 200.00
+Time: 120.032
+mutate_before_breeding: False
+size: 33
+num_of_children: 136
+max_num_of_mutations: 7
+Max_time: 136.39
+
+Fitness: 12.37
+Cycles: 186.03
+Time: 72.824
+mutate_before_breeding: True
+size: 40
+num_of_children: 152
+max_num_of_mutations: 7
+Max_time: 83.20
+
+Fitness: 12.30
+Cycles: 73.97
+Time: 27.080
+mutate_before_breeding: True
+size: 35
+num_of_children: 165
+max_num_of_mutations: 7
+Max_time: 73.33
+
+Fitness: 12.27
+Cycles: 200.00
+Time: 109.121
+mutate_before_breeding: False
+size: 34
+num_of_children: 141
+max_num_of_mutations: 7
+Max_time: 122.27
+
+Fitness: 12.33
+Cycles: 200.00
+Time: 138.601
+mutate_before_breeding: False
+size: 35
+num_of_children: 149
+max_num_of_mutations: 9
+Max_time: 160.79
+
+Fitness: 12.00
+Cycles: 24.83
+Time: 12.825
+mutate_before_breeding: True
+size: 29
+num_of_children: 164
+max_num_of_mutations: 6
+Max_time: 41.84
+
+Fitness: 12.03
+Cycles: 31.63
+Time: 15.827
+mutate_before_breeding: False
+size: 31
+num_of_children: 137
+max_num_of_mutations: 5
+Max_time: 57.88
+
+Fitness: 12.47
+Cycles: 118.23
+Time: 81.881
+mutate_before_breeding: True
+size: 37
+num_of_children: 164
+max_num_of_mutations: 7
+Max_time: 142.24
+
+Fitness: 12.43
+Cycles: 186.03
+Time: 95.234
+mutate_before_breeding: True
+size: 35
+num_of_children: 127
+max_num_of_mutations: 7
+Max_time: 112.28
+
+Fitness: 12.20
+Cycles: 200.00
+Time: 158.406
+mutate_before_breeding: False
+size: 39
+num_of_children: 161
+max_num_of_mutations: 7
+Max_time: 184.78
+
+Fitness: 12.33
+Cycles: 200.00
+Time: 129.360
+mutate_before_breeding: False
+size: 35
+num_of_children: 144
+max_num_of_mutations: 8
+Max_time: 147.60
+
+Fitness: 12.33
+Cycles: 89.60
+Time: 49.626
+mutate_before_breeding: False
+size: 26
+num_of_children: 154
+max_num_of_mutations: 8
+Max_time: 120.50
+
+
+---------------New cycle---------------
+Fitness: 12.50
+Cycles: 200.00
+Time: 104.626
+size: 32
+max_num_of_mutations: 8
+num_of_children: 125
+mutate_before_breeding: False
+
+Fitness: 12.47
+Cycles: 125.03
+Time: 41.740
+mutate_before_breeding: True
+max_num_of_mutations: 6
+num_of_children: 137
+size: 38
+
+Fitness: 12.47
+Cycles: 165.17
+Time: 62.464
+mutate_before_breeding: True
+max_num_of_mutations: 7
+num_of_children: 153
+size: 39
+
+Fitness: 12.47
+Cycles: 200.00
+Time: 103.199
+size: 31
+max_num_of_mutations: 7
+num_of_children: 125
+mutate_before_breeding: False
+
+Fitness: 12.47
+Cycles: 118.23
+Time: 81.881
+mutate_before_breeding: True
+max_num_of_mutations: 7
+num_of_children: 164
+size: 37
+
+Fitness: 12.43
+Cycles: 200.00
+Time: 90.976
+size: 30
+max_num_of_mutations: 7
+num_of_children: 116
+mutate_before_breeding: False
+
+Fitness: 12.43
+Cycles: 200.00
+Time: 166.051
+size: 38
+max_num_of_mutations: 7
+num_of_children: 169
+mutate_before_breeding: False
+
+Fitness: 12.43
+Cycles: 200.00
+Time: 86.854
+mutate_before_breeding: False
+max_num_of_mutations: 7
+num_of_children: 152
+size: 40
+
+Fitness: 12.43
+Cycles: 200.00
+Time: 130.533
+mutate_before_breeding: False
+max_num_of_mutations: 7
+num_of_children: 144
+size: 34
+
+Fitness: 12.43
+Cycles: 152.87
+Time: 103.505
+mutate_before_breeding: True
+max_num_of_mutations: 7
+num_of_children: 161
+size: 37
+
+Fitness: 12.43
+Cycles: 191.43
+Time: 118.747
+mutate_before_breeding: False
+max_num_of_mutations: 7
+num_of_children: 145
+size: 32
+
+Fitness: 12.43
+Cycles: 186.03
+Time: 95.234
+mutate_before_breeding: True
+max_num_of_mutations: 7
+num_of_children: 127
+size: 35
+
+Fitness: 12.40
+Cycles: 186.20
+Time: 164.166
+size: 29
+max_num_of_mutations: 7
+num_of_children: 136
+mutate_before_breeding: False
+
+Fitness: 12.40
+Cycles: 200.00
+Time: 126.085
+size: 42
+max_num_of_mutations: 7
+num_of_children: 135
+mutate_before_breeding: True
+
+Fitness: 12.40
+Cycles: 12.27
+Time: 5.785
+size: 24
+max_num_of_mutations: 6
+num_of_children: 173
+mutate_before_breeding: True
+
+Fitness: 12.40
+Cycles: 76.50
+Time: 41.644
+size: 35
+max_num_of_mutations: 6
+num_of_children: 140
+mutate_before_breeding: True
+
+Fitness: 12.40
+Cycles: 13.00
+Time: 8.868
+size: 29
+max_num_of_mutations: 5
+num_of_children: 192
+mutate_before_breeding: False
+
+Fitness: 12.40
+Cycles: 200.00
+Time: 124.218
+mutate_before_breeding: False
+max_num_of_mutations: 7
+num_of_children: 122
+size: 41
+
+Fitness: 12.40
+Cycles: 200.00
+Time: 119.659
+mutate_before_breeding: False
+max_num_of_mutations: 8
+num_of_children: 146
+size: 31
+
+Fitness: 12.40
+Cycles: 200.00
+Time: 91.499
+mutate_before_breeding: False
+max_num_of_mutations: 7
+num_of_children: 116
+size: 30
+
+Fitness: 12.40
+Cycles: 200.00
+Time: 59.096
+mutate_before_breeding: False
+max_num_of_mutations: 7
+num_of_children: 127
+size: 32
+
+Fitness: 12.40
+Cycles: 200.00
+Time: 71.514
+mutate_before_breeding: False
+max_num_of_mutations: 8
+num_of_children: 155
+size: 31
+
+Fitness: 12.40
+Cycles: 153.70
+Time: 80.323
+mutate_before_breeding: True
+max_num_of_mutations: 8
+num_of_children: 144
+size: 32
+
+Fitness: 12.40
+Cycles: 200.00
+Time: 131.552
+size: 41
+max_num_of_mutations: 7
+num_of_children: 128
+mutate_before_breeding: False
+
+Fitness: 12.40
+Cycles: 152.70
+Time: 91.930
+mutate_before_breeding: True
+max_num_of_mutations: 6
+num_of_children: 134
+size: 39
+
+Breeding:
+Fitness: 12.2400
+Cycles: 500.0000
+Time: 196.4420
+size: 35
+max_num_of_mutations: 7
+num_of_children: 156
+mutate_before_breeding: False
+Max_time: 221.66
+
+Fitness: 12.3400
+Cycles: 500.0000
+Time: 174.2211
+size: 37
+max_num_of_mutations: 7
+mutate_before_breeding: False
+num_of_children: 131
+Max_time: 190.13
+
+Fitness: 12.3000
+Cycles: 199.4800
+Time: 61.0940
+size: 37
+max_num_of_mutations: 6
+mutate_before_breeding: True
+num_of_children: 130
+Max_time: 152.55
+

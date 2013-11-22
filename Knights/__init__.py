@@ -1,5 +1,5 @@
 import Genetic
-import tkinter as Tk
+# import tkinter as Tk
 import random
 from Knights.encode import *
 

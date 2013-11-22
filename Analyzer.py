@@ -11,7 +11,7 @@ for filename in filenames:
     overall = [0]*13
     for i in re.findall(r'Fitness: (\d+)', txt):
         overall[- int(i)] += 1
-    for i in range(13):
+    for i in range(len(overall)):
         if overall[i] > 0:
             print('%d: %.1f%% (%d)' % (13 - i, overall[i] / num_of_tests * 100, overall[i]))
     print('Total:', num_of_tests, '\n')

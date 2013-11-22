@@ -2,16 +2,16 @@ import Knights
 import time
 
 
-num_of_tests = 100
-max_num_of_cycles = 200
+num_of_tests = 500
+max_num_of_cycles = 1500
 params = {'size': 25,
-          'num_of_children': 30,
-          'mutate_before_breed': True,
+          'num_of_children': 49,
+          'mutate_before_breeding': False,
           'max_num_of_mutations': 1,
           'seed': None}
 
 
-filename = '%(size)d_%(num_of_children)d_%(mutate_before_breed)d_%(max_num_of_mutations)d_%(seed)s.txt' % params
+filename = '%(size)d_%(num_of_children)d_%(mutate_before_breeding)d_%(max_num_of_mutations)d_%(seed)s.txt' % params
 f = open('statistics/' + filename, 'a+')
 if f.tell() == 0:
     for k, v in params.items():

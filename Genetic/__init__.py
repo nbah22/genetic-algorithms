@@ -1,7 +1,7 @@
 from abc import ABCMeta, abstractmethod, abstractproperty
 import random
-import tkinter as Tk
-from tkinter import filedialog
+# import tkinter as Tk
+# from tkinter import filedialog
 
 import time
 
@@ -67,7 +67,6 @@ class Population(metaclass=ABCMeta):
             self.breed_all()
             self.mutate_all()
         self.select()
-        return time.time() - start  # Temporarily here
 
     def restart(self):
         del self.individuals
