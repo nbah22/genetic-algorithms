@@ -12,13 +12,15 @@ class Population(metaclass=ABCMeta):
     def kind():
         '''Returns species of population'''
 
-    def __init__(self, size, mutate_before_breeding=False, max_num_of_mutations=1, **args):
-        if 'num_of_children' in args:
-            self.NUM_OF_CHILDREN = args['num_of_children']
-        else:
+    def __init__(self, size, mutate_before_breeding=False, max_num_of_mutations=1, max_num_of_old_mutations=0, equal_individuals_are_allowed=True, num_of_children=None, **args):
+        if num_of_children is None:
             self.NUM_OF_CHILDREN = size * 5
+        else:
+            self.NUM_OF_CHILDREN = num_of_children
         self.MUTATE_BEFORE_BREEDING = mutate_before_breeding
         self.MAX_NUM_OF_MUTATIONS = max_num_of_mutations
+        self.MAX_NUM_OF_OLD_MUTATIONS = max_num_of_old_mutations
+        self.EQUAL_INDIVIDUALS_ARE_ALLOWED = equal_individuals_are_allowed
 
         try:  # I agree that this is bad, but it seems to be logical
             self.individuals
@@ -29,12 +31,30 @@ class Population(metaclass=ABCMeta):
         self.size = size
 
     def mutate_all(self):
-        for i in range(len(self.individuals)):
-            for k in range(random.randint(0, self.MAX_NUM_OF_MUTATIONS)):
-                self.individuals[i].mutate()
+        if self.MUTATE_BEFORE_BREEDING:
+            for i in range(len(self.individuals)):
+                for k in range(random.randint(0, self.MAX_NUM_OF_MUTATIONS)):
+                    self.individuals[i].mutate()
+        else:
+            for i in range(len(self.individuals)):
+                for k in range(random.randint(0, self.MAX_NUM_OF_OLD_MUTATIONS)):
+                    self.individuals[i].mutate()
+
+            for i in range(len(self.new_generation)):
+                for k in range(random.randint(0, self.MAX_NUM_OF_MUTATIONS)):
+                    self.new_generation[i].mutate()
+
+            self.individuals += self.new_generation
 
     def select(self):
         '''Selection mechanism'''
+        if not self.EQUAL_INDIVIDUALS_ARE_ALLOWED:
+            new_individuals = []
+            for individ in self.individuals:
+                if individ not in new_individuals:
+                    new_individuals.append(individ)
+            self.individuals = new_individuals
+
         self.individuals.sort(key=lambda x: -x.fitness())
         self.individuals = self.individuals[:self.size]
 
@@ -44,7 +64,10 @@ class Population(metaclass=ABCMeta):
             mother = self.choose_parent()
             father = self.choose_parent()
             new_generation.append(mother + father)
-        self.individuals += new_generation
+        if self.MUTATE_BEFORE_BREEDING:
+            self.individuals += new_generation
+        else:
+            self.new_generation = new_generation
 
     def choose_parent(self):
         fitnesses = [i.fitness() for i in self.individuals]

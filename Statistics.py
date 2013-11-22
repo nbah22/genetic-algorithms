@@ -3,15 +3,17 @@ import time
 
 
 num_of_tests = 500
-max_num_of_cycles = 1500
-params = {'size': 25,
-          'num_of_children': 49,
+max_num_of_cycles = 20
+params = {'size': 100,
+          'num_of_children': 500,
           'mutate_before_breeding': False,
-          'max_num_of_mutations': 1,
+          'max_num_of_mutations': 7,
+          'equal_individuals_are_allowed': False,
+          'max_num_of_old_mutations': 1,
           'seed': None}
 
 
-filename = '%(size)d_%(num_of_children)d_%(mutate_before_breeding)d_%(max_num_of_mutations)d_%(seed)s.txt' % params
+filename = '%(size)d_%(num_of_children)d_%(mutate_before_breeding)d_%(max_num_of_mutations)d_%(seed)s_%(equal_individuals_are_allowed)d_%(max_num_of_old_mutations)d.txt' % params
 f = open('statistics/' + filename, 'a+')
 if f.tell() == 0:
     for k, v in params.items():
