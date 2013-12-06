@@ -1,20 +1,20 @@
 import Genetic
-# import tkinter as Tk
+import tkinter as Tk
 import random
 from Knights.encode import *
 
 
 class Population(Genetic.Population):
 
-    def __init__(self, size, seed=None, **args):
+    def __init__(self, seed=None, **args):
         if seed:
             binary = bin(num_decode(seed))[2:]
-            binary = '0'*(args['x_size'] * args['y_size'] * size - len(binary)) + binary
+            binary = '0'*(args['x_size'] * args['y_size'] * args['size'] - len(binary)) + binary
             seeds = [binary[i:i + args['x_size'] * args['y_size']]
                      for i in range(0, len(binary), args['x_size']*args['y_size'])]
             self.individuals = [Field(seed=seeds[i], **args)
-                                for i in range(size)]
-        super(Population, self).__init__(size, **args)
+                                for i in range(args['size'])]
+        super(Population, self).__init__(**args)
 
     def kind(self, **args):
         return Field(**args)

@@ -1,7 +1,7 @@
 from abc import ABCMeta, abstractmethod, abstractproperty
 import random
-# import tkinter as Tk
-# from tkinter import filedialog
+import tkinter as Tk
+from tkinter import filedialog
 
 import time
 
@@ -12,43 +12,54 @@ class Population(metaclass=ABCMeta):
     def kind():
         '''Returns species of population'''
 
-    def __init__(self, size, mutate_before_breeding=False, max_num_of_mutations=1, max_num_of_old_mutations=0, equal_individuals_are_allowed=True, num_of_children=None, **args):
-        if num_of_children is None:
-            self.NUM_OF_CHILDREN = size * 5
-        else:
-            self.NUM_OF_CHILDREN = num_of_children
-        self.MUTATE_BEFORE_BREEDING = mutate_before_breeding
-        self.MAX_NUM_OF_MUTATIONS = max_num_of_mutations
-        self.MAX_NUM_OF_OLD_MUTATIONS = max_num_of_old_mutations
-        self.EQUAL_INDIVIDUALS_ARE_ALLOWED = equal_individuals_are_allowed
+    def __init__(self, **attributes):
+        if 'size' not in attributes:
+            attributes['size'] = 25
+
+        if 'num_of_children' not in attributes:
+            attributes['num_of_children'] = attributes['size'] * 5            
+
+        if 'mutate_before_breeding' not in attributes:
+            attributes['mutate_before_breeding'] = False            
+
+        if 'max_num_of_mutations' not in attributes:
+            attributes['max_num_of_mutations'] = 1
+
+        if 'max_num_of_old_mutations' not in attributes:
+            attributes['max_num_of_old_mutations'] = 0
+
+        if 'equal_individuals_are_allowed' not in attributes:
+            attributes['equal_individuals_are_allowed'] = True
+
+        self.attributes = attributes
+
+        print('Population started with parametres:')
+        print(self.attributes)
 
         try:  # I agree that this is bad, but it seems to be logical
             self.individuals
         except:
-            self.individuals = [self.kind(**args) for i in range(size)]
-
-        self.attributes = args
-        self.size = size
+            self.individuals = [self.kind(**attributes) for i in range(self.attributes['size'])]
 
     def mutate_all(self):
-        if self.MUTATE_BEFORE_BREEDING:
+        if self.attributes['mutate_before_breeding']:
             for i in range(len(self.individuals)):
-                for k in range(random.randint(0, self.MAX_NUM_OF_MUTATIONS)):
+                for k in range(random.randint(0, self.attributes['max_num_of_mutations'])):
                     self.individuals[i].mutate()
         else:
             for i in range(len(self.individuals)):
-                for k in range(random.randint(0, self.MAX_NUM_OF_OLD_MUTATIONS)):
+                for k in range(random.randint(0, self.attributes['max_num_of_old_mutations'])):
                     self.individuals[i].mutate()
 
             for i in range(len(self.new_generation)):
-                for k in range(random.randint(0, self.MAX_NUM_OF_MUTATIONS)):
+                for k in range(random.randint(0, self.attributes['max_num_of_mutations'])):
                     self.new_generation[i].mutate()
 
             self.individuals += self.new_generation
 
     def select(self):
         '''Selection mechanism'''
-        if not self.EQUAL_INDIVIDUALS_ARE_ALLOWED:
+        if not self.attributes['equal_individuals_are_allowed']:
             new_individuals = []
             for individ in self.individuals:
                 if individ not in new_individuals:
@@ -56,18 +67,18 @@ class Population(metaclass=ABCMeta):
             self.individuals = new_individuals
 
         self.individuals.sort(key=lambda x: -x.fitness())
-        self.individuals = self.individuals[:self.size]
+        self.individuals = self.individuals[:self.attributes['size']]
 
     def breed_all(self):
         new_generation = []
-        for i in range(self.NUM_OF_CHILDREN):
+        for i in range(self.attributes['num_of_children']):
             mother = self.choose_parent()
             father = self.choose_parent()
             new_generation.append(mother + father)
-        if self.MUTATE_BEFORE_BREEDING:
+        if self.attributes['mutate_before_breeding']:
             self.individuals += new_generation
         else:
-            self.new_generation = new_generation
+            self.new_generation = new_generation + self.individuals
 
     def choose_parent(self):
         fitnesses = [i.fitness() for i in self.individuals]
@@ -83,7 +94,7 @@ class Population(metaclass=ABCMeta):
 
     def cycle(self):
         start = time.time()
-        if self.MUTATE_BEFORE_BREEDING:
+        if self.attributes['mutate_before_breeding']:
             self.mutate_all()
             self.breed_all()
         else:
@@ -93,7 +104,7 @@ class Population(metaclass=ABCMeta):
 
     def restart(self):
         del self.individuals
-        self.__init__(self.size, **self.attributes)
+        self.__init__(**self.attributes)
 
     def dump(self, file):
         with open(file, 'a') as f:

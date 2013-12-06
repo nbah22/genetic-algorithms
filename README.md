@@ -17,3 +17,5 @@ To launch the project, execute _Launch.py_
 - Think of a better `__init__()` for Population
 - Add loading placeholders in GUI
 - Implement saving the progress of evolution (partially done)
+- Think about passing all the parametres to the individuals (extra memory)
+- Fitness_multiplier?

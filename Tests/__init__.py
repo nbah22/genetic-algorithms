@@ -4,7 +4,7 @@ import random
 import time
 import re
 from multiprocessing import *
-# import tkinter as Tk
+import tkinter as Tk
 
 
 class Population(Genetic.Population):
