@@ -19,3 +19,8 @@ To launch the project, execute _Launch.py_
 - Implement saving the progress of evolution (partially done)
 - Think about passing all the parametres to the individuals (extra memory)
 - Fitness_multiplier?
+- CHECK ALL THE CODE FOR REFERENCE TYPE MISTAKES
+- Optimize the number of fitness function calls
+- Correct `choose_parent()`. Something is definetely wrong with it
+- Some analytics:
+  * Count the percent of mutated nextgens on the list

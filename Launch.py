@@ -1,16 +1,32 @@
 import Knights
 import Genetic
+import profile
+import pstats
+import tkinter
 
 
-params = {'size': 30,
-          # 'num_of_children': None,
-          # 'mutate_before_breeding': None,
-          'max_num_of_mutations': 2,
-          'max_num_of_old_mutations': 1,
+params = {'size': 25,
+          'num_of_children': 100,
+          'mutate_before_breeding': False,
+          'max_num_of_mutations': 3,
+          'max_num_of_old_mutations': 0,
           'equal_individuals_are_allowed': False}
 
-p = Knights.Population(x_size=5, y_size=5, **params)#, seed='BVVVVqqqq1VVVaqqqtVVVWqqqrVVVVqqqq1VVVaqqqtVVVWqqqrVVVVqqqq1VVVaqqqtVVVWqqqrVVVVqqqq1VVVaqqqtVVVWqqqrVVVV')
+#, seed='BVVVVqqqq1VVVaqqqtVVVWqqqrVVVVqqqq1VVVaqqqtVVVWqqqrVVVVqqqq1VVVaqqqtVVVWqqqrVVVVqqqq1VVVaqqqtVVVWqqqrVVVV')
+p = Knights.Population(x_size=5, y_size=5, **params)
 Genetic.GUI(p, columns=5, title='Knights')
-seed = p.get_seed()
-print(seed)
-print(len(seed))
+
+# def profile_cycle():
+# 	profile.run('p.cycle()', 'Cycle')
+# 	stats = pstats.Stats('Cycle')
+# 	stats.sort_stats('time')
+# 	stats.print_stats()
+
+# profile.run('p = Knights.Population(x_size=5, y_size=5, **params)', 'Population_init')
+# win = tkinter.Tk()
+# tkinter.Button(command=profile_cycle, text='Profile one cycle').pack()
+# stats = pstats.Stats('Population_init')
+# stats.strip_dirs()
+# stats.sort_stats('time')
+# stats.print_stats()
+# win.mainloop()

@@ -2,7 +2,7 @@ from abc import ABCMeta, abstractmethod, abstractproperty
 import random
 import tkinter as Tk
 from tkinter import filedialog
-
+import copy
 import time
 
 
@@ -72,23 +72,26 @@ class Population(metaclass=ABCMeta):
     def breed_all(self):
         new_generation = []
         for i in range(self.attributes['num_of_children']):
-            mother = self.choose_parent()
-            father = self.choose_parent()
+            mother = self.choose_parent(True)
+            father = self.choose_parent(False)
+            while father == mother:
+                print('Equal parents')
+                father = self.choose_parent(False)
             new_generation.append(mother + father)
         if self.attributes['mutate_before_breeding']:
             self.individuals += new_generation
         else:
-            self.new_generation = new_generation + self.individuals
+            self.new_generation = new_generation + copy.deepcopy(self.individuals)
 
-    def choose_parent(self):
-        fitnesses = [i.fitness() for i in self.individuals]
-        min_fitness = min(fitnesses)
-        fitnesses = list(map(lambda x: x - min_fitness + 1, fitnesses))
-        overall_fitness = sum(fitnesses)
-        rnd = random.random()
+    def choose_parent(self, good = True):
+        if good:
+            fitnesses = [i.fitness() for i in self.individuals]
+        else:
+            fitnesses = [13 - i.fitness() for i in self.individuals]
+        rnd = random.random() * sum(fitnesses)
         t = 0
-        for i in range(len(self.individuals)):
-            t += fitnesses[i] / overall_fitness
+        for i in range(len(fitnesses)):
+            t += fitnesses[i]
             if t >= rnd:
                 return self.individuals[i]
 
