@@ -1,0 +1,112 @@
+mother_is_good: True
+size: 25
+max_num_of_mutations: 3
+max_num_of_old_mutations: 0
+num_of_children: 100
+mutate_before_breeding: False
+father_is_good: True
+max_num_of_cycles: 200
+seed: None
+equal_individuals_are_allowed: False
+random_parents: False
+
+
+BOZEdeWlm87zGIlpnLIIzRJ3FRvqKgi7z3MaEUfXaf9guot4KwQkv3bg5HqcZRftYEGER88aY2uemR1YcODPNv_zhMhclYUN-tqwBii3i
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 105.479
+
+BlbATGbqEoKOoyLwOSCvl06zwgUIv4x-cb1Rqv1NAd-9nvhl4ZTC5j5lyyGiTz5AfgrTijlTEmtthfwCyNl5KHql7cnTL1TvoX31d5Hsg
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 100.323
+
+9PRG_UaGp5pSW-1p9oBfGbnRTxg4w8wL10c_S2HUHvfexGa6m7rGN2ZCKlbcsL2sOeMb-F8jirJp4yZ5QeqgFc_KN32JHdk-SItOKOI2
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 104.790
+
+BoYlb_UGDKGu06extVuQWJZm_Sv0V56gyNBSy_ONPMZkVcL3EbEDK1egRiIBBuu3bxjHsreggRb1rQq76e4xAPVm_KAnaGZAD8hDbvYjl
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 106.728
+
+BTCowyfdMIw_DEEniG6ObFagmYlbW44dPu389JHJSHzVyQ11iPk6HmLR1Bhw3TkziThQw7_PV-7bNl-mahdV4rjAsVMherQfUyM-_9C4f
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 107.602
+
+BZnGFL2wHUpdNcMstGjEaTJ-rTGPCh5csfFJQqYk809M6HVVSHNdaJ27kFDhjHn2v-QRWp68VL7SWQ2mkWUeJnnEppeVhhKnoa_Y0xYsp
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 102.384
+
+Bvx4M_3btb6V05qZp6Dmry93oiL2HIhd1cUkSd9KbOfOCXv4cOsooL-dpOVl4Px-OervHG1iH5tdL4FblTu4E9t26w1Gcfi120cGYQ4bP
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 106.461
+
+BiGk2WVBVAB82W2z5Pi94s7rGDmtjb8j75e3qb38JTWDo6HYg9c9bZeQ7DztXQkZipSGcBzV1_aqPfczzWFMXlK0HfUjTAp7DY1A4S_8S
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 110.398
+
+JR8HQq9wqjqfalFz5977KhTGLOJ00CNiFAq-GCXi_Hj5yxB9Z7wguBuD2KfkLL0x-e3OoxPvomsVuU-k_-fBBgi0q0eIOZOlFk_sHQe
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 86.635
+
+J4_SJIgXMLhlga_BRwUVvzSeDciw21gqsj9JGH5Tn7l5h-ayv95c3V1ecOY4VJR0PfSfL1vbE_8Trc1Uc0UB8mbZWGtJT0A84IADmPHH
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 89.994

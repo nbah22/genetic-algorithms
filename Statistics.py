@@ -3,17 +3,21 @@ import time
 
 
 num_of_tests = 500
-max_num_of_cycles = 20
-params = {'size': 100,
-          'num_of_children': 500,
+
+params = {'max_num_of_cycles': 300,
+          'random_parents': False,
+          'mother_is_good': True,
+          'father_is_good': False,
+          'size': 25,
+          'num_of_children': 10,
           'mutate_before_breeding': False,
-          'max_num_of_mutations': 7,
+          'max_num_of_mutations': 3,
+          'max_num_of_old_mutations': 0,
           'equal_individuals_are_allowed': False,
-          'max_num_of_old_mutations': 1,
           'seed': None}
 
 
-filename = '%(size)d_%(num_of_children)d_%(mutate_before_breeding)d_%(max_num_of_mutations)d_%(seed)s_%(equal_individuals_are_allowed)d_%(max_num_of_old_mutations)d.txt' % params
+filename = '%(max_num_of_cycles)d_%(random_parents)d_%(mother_is_good)d_%(father_is_good)d_%(size)d_%(num_of_children)d_%(mutate_before_breeding)d_%(max_num_of_mutations)d_%(seed)s_%(equal_individuals_are_allowed)d_%(max_num_of_old_mutations)d.txt' % params
 f = open('statistics/' + filename, 'a+')
 if f.tell() == 0:
     for k, v in params.items():
@@ -29,7 +33,7 @@ for i in range(num_of_tests):
     initial_seed = (p.get_seed() + '\n' if params['seed'] is None else '')
 
     n = 0
-    while not p.is_stable() and n < max_num_of_cycles:
+    while not p.is_stable() and n < params['max_num_of_cycles']:
         p.cycle()
         n += 1
 

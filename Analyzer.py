@@ -1,8 +1,9 @@
-from os import listdir
+import os
 import re
 
 
-filenames = [f for f in listdir('statistics')]
+filenames = [f for f in os.listdir('statistics')]
+filenames.sort(key=lambda x: os.stat('statistics/%s' % (x)).st_mtime)
 for filename in filenames:
     with open('statistics/' + filename) as f:
         txt = f.read()

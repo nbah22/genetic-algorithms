@@ -16,6 +16,8 @@ class Population(metaclass=ABCMeta):
         if 'size' not in attributes:
             attributes['size'] = 25
 
+        # wow such code
+        # many parametres
         if 'num_of_children' not in attributes:
             attributes['num_of_children'] = attributes['size'] * 5            
 
@@ -30,6 +32,15 @@ class Population(metaclass=ABCMeta):
 
         if 'equal_individuals_are_allowed' not in attributes:
             attributes['equal_individuals_are_allowed'] = True
+
+        if 'random_parents' not in attributes:
+            attributes['random_parents'] = False
+
+        if 'mother_is_good' not in attributes:
+            attributes['mother_is_good'] = True
+
+        if 'father_is_good' not in attributes:
+            attributes['father_is_good'] = False
 
         self.attributes = attributes
 
@@ -72,11 +83,10 @@ class Population(metaclass=ABCMeta):
     def breed_all(self):
         new_generation = []
         for i in range(self.attributes['num_of_children']):
-            mother = self.choose_parent(True)
-            father = self.choose_parent(False)
+            mother = self.choose_parent(self.attributes['mother_is_good'])
+            father = self.choose_parent(self.attributes['father_is_good'])
             while father == mother:
-                print('Equal parents')
-                father = self.choose_parent(False)
+                father = self.choose_parent(self.attributes['father_is_good'])
             new_generation.append(mother + father)
         if self.attributes['mutate_before_breeding']:
             self.individuals += new_generation
@@ -84,16 +94,19 @@ class Population(metaclass=ABCMeta):
             self.new_generation = new_generation + copy.deepcopy(self.individuals)
 
     def choose_parent(self, good = True):
-        if good:
-            fitnesses = [i.fitness() for i in self.individuals]
+        if self.attributes['random_parents']:
+            return random.choice(self.individuals)
         else:
-            fitnesses = [13 - i.fitness() for i in self.individuals]
-        rnd = random.random() * sum(fitnesses)
-        t = 0
-        for i in range(len(fitnesses)):
-            t += fitnesses[i]
-            if t >= rnd:
-                return self.individuals[i]
+            if good:
+                fitnesses = [i.fitness() for i in self.individuals]
+            else: # such constant. many bad
+                fitnesses = [13 - i.fitness() for i in self.individuals]
+            rnd = random.random() * sum(fitnesses)
+            t = 0
+            for i in range(len(fitnesses)):
+                t += fitnesses[i]
+                if t >= rnd:
+                    return self.individuals[i]
 
     def cycle(self):
         start = time.time()

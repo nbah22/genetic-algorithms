@@ -1,0 +1,22 @@
+random_parents: False
+father_is_good: True
+max_num_of_old_mutations: 0
+equal_individuals_are_allowed: False
+num_of_children: 10
+mother_is_good: True
+max_num_of_mutations: 3
+size: 25
+seed: None
+mutate_before_breeding: False
+max_num_of_cycles: 500
+
+
+BNCZf80uCMHkgrnZ6uK5SsLmKKsPIS4DsVZQummXn6LLZf1eESMGL-muxOOGv0usejEHrLF1nkCIEss_AsROs6exVPvlh9brqcTvJTnrI
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 500
+ Time: 14.312

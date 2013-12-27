@@ -1,0 +1,1752 @@
+equal_individuals_are_allowed: False
+father_is_good: True
+seed: None
+mother_is_good: True
+max_num_of_cycles: 200
+num_of_children: 50
+max_num_of_mutations: 3
+random_parents: True
+max_num_of_old_mutations: 0
+size: 25
+mutate_before_breeding: False
+
+
+B1Qw1h9m0FLEkdcTDnblS8IVdoyqS86k7lDE-JG96v9APMAWF-4MFD6s6tYpQnkNs_BDmCUNC_rxtAzriCDTNz-CKNkSAvkwQpu1rNdGE
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.781
+
+BPzSskhHPOFSw6wgr1f-bUTjzbylQM2i6H9WvPQWPVW7Q40-ugfKLzylBK20ACr7ea-xHWWH_EDstbZQll4-5DCwLScUbQGNPKcvYO1Pc
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.750
+
+BuZqPGhz2lb78DHt1Vc5fyEPyzwyEXezdZMewKIvyv0kyzO6Nz4Dqwp3AcPDpvgchtoJ-ThpmH61-7OyApkf6KsEOd3cMOC2uKS7GNW7v
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.734
+
+hMmgWSnqAHJp43Ruie9M1FIWoa-LOK7cKoqlA7_lNLWiB9UnZHGRvFzT4Eq_2DRGZ2JkRSU_WiI5ctRsYNQvrXMhP9fX10YBLg0Nb77t
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.718
+
+BMtFpmg1v6aB1fOruyUokkSMyyPjfDG-PDRB9nXHHEWhKyvLH2U-4XpAK-cOoG7TFkOTHB5K26H0rx9PoGqfXN3EQWg42y_NesW85nsfh
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.750
+
+gxDYTuW6uuWXYOlhUMKmwu0h4ZUTc6z__Gy_BG6HD5loYbhKlbrYxkSSiZBgTsFO6uDmcnE2r7N-aI2otxwY-2MRH4N_tZH-PvPIBuSV
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.797
+
+BG7G9oQgm_zDEHjvxXAol2QPt5oM3dg1tfZYQNHLPHl4_s6BypZA8A28yofcTcqpQW71RvfXd11KPHxZRTUyyncYy7ErvsUnwF-mg5ZDF
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+Bezz1eRut-FRfvZNui5KjMIDGzxRL5ZUgCqcOto8IWSdpVyhPwB-HmEVVxto3qy0Orxc9aN4dYhoR7evh8FPZvqxj7bS9nQ1OgcxMLS6V
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+cXBJFWcIXWEQOUmnSaNTp5DeL9al7vzA-M02iph6Kdzo93P0DF21ImMQyGqs2HcZEVN0KH4HrvGF3FG_FWxqyYz5JI8YvE8oZiNIKRVo
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+tBj2By2iAXndGVQfjPF5ScfcIPjjTYUQXGs7fVzQtOqw0kT3BO2p2EWofvOku6oZ-OcAI5Hh8uDc6fNvmbC7F_KO8Dhw_ucdo9Fdee7W
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.734
+
+N2M-qdhc-_FkvydAlKhkTX4ECTT_ODls5oW-EnoFj8OW1nQANlTkz-EajN25-Pk_iRVhdDXkrin2BeaJwZZD-X5Soy-4XCH6CDNNODhy
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.750
+
+7FC3FVz9lD0QUS8JlCj7MRJzptX45FsztqtZ-PdkhE0Xi3KlLgBdGTZx5exvrn4QeJM_SSX9J3cmIn_BJiNwCfIMDNfBXGh2dpVWddoY
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.750
+
+Lle5Uor3aZsVWAJtofDay6RFphfLhUlFG79mTY9xaaNHko6kbrP4ccx3C4GsnlKx6vsUzCINm2nNIzRSzISwA-DdNuTqKEF3dhzskcXI
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.797
+
+BgfGpNvVu79-pldLdZ1oY37nSth-MPr4cjDGWJxbD5eZQuhdAzTW-ADNJIpTTD9OlPdId7VZ_jDu8t7b4cfV8EAtw8jPF-_Lj0vUR5JhZ
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.734
+
+FYgpk2GJaQMml2Bnj4y36g35l_iLF4vzsLdbcPQsZABNPjkEzi7fKft7cgOg9eT9bhOJHjdNgLa07oMn_zfpwUYr_7Df_kejauQO26GA
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.750
+
+SAXwx4hogkSkxDY_wwtgItl3SlMcdVUo6CqmCYTGHgN1Eh5YyQzR1TcJ-ziKA3uAblbgKknev6WkkZ0Yw2QMRwxa77sj2tZdsUseUShG
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.750
+
+Bv3PdgXmvTGsRfsghuiuFs6tFCdQib7hTDw31BHyMNV2Wk1c7KKUFM35l2MHTNHAXETcCuG0p3kJb1qU1tAu3VExEZT6UhAg6fRTvLoGq
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+BdEqHSTDfCWdfJOrVF2PD9Jg0pQ1RYEEQ9mLxRQW41g8Bpt3uu5pCDnDq3acayBD3OLL9KlCurkLaCI25HeRlElpy1up-oc7tvNpkkg6k
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.734
+
+kyDHH7Gkkr4h_9vCOL6QtIt9UnIqTgfPp9R9MtvF3CeaMb-bF4ThhmkFTPElVZcDuj0D2XkVA3dSaAnzDcebCbUFx4YwqayaKT2hedtT
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+KzktNis7PKmhg4yx2Aw9ELB2VzCNm6fBvWApOrTYZ2FjEQyEjfgDPfi17A3cpl79ZG55_rosYdinTOYR0tf8anwErlSVgQb2YuBskQQI
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.750
+
+JHIozRo2bhcf3TMLnLVL3s9je8glt1Jqm8ZbQ6mutoKO0_cR7bQG6Y1Yq1er8rQHAkMalh7J8w8PCBVKS7rN_LYSs0RXxxlv5Gi1jiwD
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.734
+
+BPfcyi50LkVP7EhWSizjDYiidEZTDUWqfQFbxZvuNLioFLrIgWmTpX1ZuDHGTTOF5PcikCsxNUl5VzSoYPWSkmqTY4RolCWcjrtZE9I47
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+2pi7UUUA7vQUbDbG9WYpYfNJEPNii-jqj-y5WYvN4I1fuRg_OTSCZsv0hVJ8MUiZzYitaRTlQXY5r4337difm3hjVWIw7UzW-VSUxiyl
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+ Fitness: 12
+ Cycles: 200
+ Time: 4.797
+
+UkG3ZdRoi9q-H9PII-6xpdA6mtHXzWVrMD2H5gxIEYON5ImBR8BHf_JRsefwRbc21QTY0PA_YeQBq3jl3mcIeFayJkW3AWLAB9PdUY70
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+ Fitness: 12
+ Cycles: 200
+ Time: 4.797
+
+BupPgJAJSy50WqCxVcDQafoeQddXG52XV8kISe73q4mJw5yAqd_O93gaaMQFHD_BCj_NuzBNbiE_UYs9lKOePBsQ_Z1H_sMJAH_bcqotm
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+Bzr9zp81Jtjix2PdbaHRd--9JLQywFEaiKFWrBuNp3fllNVK9WhwMhdkJLwjAV3qkihDh4_PYUwiPCMrVzWkBlbzaAQjNSNqGA0W1h-CW
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+4JnP17wbxFAVA_Tt3m73azEX14tJuu1wYzp-LXv3rWlkvZKxDToLbjurQhI7bCaS18FUtKXB35Igb11Cc1h5k-zS2Tnnus4NaKC9p_RT
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.812
+
+UUDaeu9CON8E2X1WKHlF1Zfd21RYhrJ7guVxoonoKQ7_0M1pfvQTPeYPyeL3Oviuj8d3bR9ZWleX9m_hUInpscfHHta4ZvaElSQIQkY4
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.750
+
+zUPfR7jMpmDbfOF42LQIcxb-V478_Zz3F6rpzgZv0IYuhyHElp9Ny42EtxPewWzZRVj2bDkj0NTwKGrhYfSQoV8hOjF2ePzt6IEw34DK
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.781
+
+BRXIJ3EbtBSK5RIM2RuCXIJNuMxn6EgFmmyJGTuUfLnTChNz_xA3pRcRimmzi6YuFAucISAiR44BrLFFnV26qcblODbtpPymRgP2hp-w5
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.734
+
+KhCrB4CRrzDxxhmfoVcT3jewXngfHgbGyE2LpLJxxWkCJVAUUNyfEt32o1A4nbgsx4xc5h9XhQktvH5Ox8eQ9_vpzICLIiRBduEbMcfg
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.750
+
+yFGplXHwliocC4wdJm7ms5QlZ0VlW31lfybp0C8TzEMZKIJgxWDWf9H6CxNAMXVCwKeGt8rkcNT0kmVF_hkZQcMtuVqKq_YaQp079Z5m
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+CtzHZlL_23KKUaysm94y_nW3x02WhHy-3D-9ZDtciB_OZOLWHRJ8VQC8IUqIdrLJX5W87EyM-P8Db_YF7wE44HPhvgXhO6YTdLuAjyAi
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.750
+
+k4zUbtb9HkpJB4_s0a2h337_9TvHSjb8QVI7IWS7EcLi25t8pi2viV1Pex4E5WvUMrwfT67AulMM9glRbzLcphu_LhBwrPKx0crpshq3
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.797
+
+YDLckSh46xuOhOY6EFAd1JiUljuv5-odEFgRs105LO0SVY__Uo18ssvi3kJSHlgLgQB1jlapBYJYOt00vtwixduSFXQHqEqJ881Gfjw8
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.797
+
+W705iQHS1FPCU_9otrQ8OTYqEqL2RidjNaSFO9S69k7gJf3erFkyJxn_-bzKaPY2MRv9RyjP5zfolr0cBx2xINPMhmUb9MKcozspJgwT
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.797
+
+lABUT0jK07Wttdbig20ZFO87CxImun2b3jwoZQTufK1NksqrKiwduwttm6F9SiplTvhpP6do7G4YqC3ApRCGkm5--KjTW59RC5zEhDCX
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.797
+
+gTYbG3EzzgDTr1yTfp7ZFXDPYFHEsPjRuyBvoe41P9xhEEqKbY1Gn-LV6jTpP2tM_lF16Buv5R19lD-aK4oQHLU2zuqnnU2XAjlefrm1
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.781
+
+BA85yFJF54MnZ7JNU_kt4b6beTUQLDYTKDX8Q7g7R82qBVDWgTeUZZrhnUvY_gDLAY0hfdZ7gVzzcR0OD4h22KkZT9MoPJN4Xla0OMBF7
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+BPipVEmGgowp9kG-gU_q2889Kl64NuEx-frJch0y2egHf_Julxqwn75Jo9IErqu1xvqxT_KyDwcj7D1ELAWb9j3RGiYjq4URmkKMKQAGm
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.750
+
+BftRtbbV5hH1LD65JEoDuQEjChv7GSpoKnqFLyrw6qGZjusnnFzHbCiT0HD-gx-F6Aa5iIgGiAYwK1gx7GHE5JK96sSlEZzHRqT6pqU1d
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.765
+
+BnciUUu8lDilouDwUd6rJdY1IHt5hlSxk4pfDgIXcsaIyGSxIyr11moMpLbzOgN1zBRi5oMn7A5oKb57bq7Alt3VK-Us0IpBblHUPcFhu
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.765
+
+Kt_mSTJ336wx3wqafvoSQMA3YXhEiAot5nlKWrFsMVzSdjHCshLr_gIBdmSHRWM9YhncaZOLMnrlS_t3N_yYj4ief6tTEYd2eIb86wVW
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.718
+
+0A8cUyyirFemLmQWCwJeBSwOxb-v9HpupPqDoUDnc4us88HWKSVfZcpbvjvAvskSy6udy7AnzNS4LbnyDbADIVWdWqRJLMk9428ZyJA
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+BvRlMTAMMX2U7plBM9My9hxN2RicKuIiwrcdd7KmoQ9AGr57k3XykDA2XB0p4OhI6XjwuH9dRkLyoulM5ZODWuGNTSMVMuzlFeF36EiI1
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+BHnD28da1KHltdsogPKLW_q3BLu_L5bGFx-rI2xmfzJMPbo6ROlziD9sxY9VgECi0_ZX13eRqHkjQCGApUNeYU2g9WMqpHAyzTOL8WJvF
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.765
+
+BsB3mtruEchRKVqBDKD9qCiHRywvBu434G4JJ4wFpwAcFRbvS3a-k9xd0QcMlMCV8Dvt1LUbmUXMGY1rAhDOXCfuxcrpIX4SfY7P2Ry43
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.812
+
+BlQiMORH6OmtElZoAcWyjloV5drdFg38fwOW2ZLuOSZqTeyPG4lsC-yBJJGkwkRLS7wKzZCxTz_D2DjytpiwHFiRxZf8uG15M-9gt-8Xx
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.812
+
+BidJzsuCNaZ0VUAyt9WOYzBa6MG6usWi8YK4yDE5GNqNxCED3Y7GLqcfUOCWdoquAmfWcczVAuf6-Q2tX9RX_rm9v3OHPPhMilLIqA83x
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+xG72go2znx6nwT6SyNwmlzaP2DB2PRSymDz8NCq2iLDjGk4v9J7uKZISZfH7xH1_erPUfXrI7JMsbpYQQOFQFu4UKm4Ug-SDG8SeEANd
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.750
+
+oxe9E6zM-Od0V3frm_UOZOh76inYhUQi_Vd4v-kzTAe4a7vmrZ59sioBwpdJuFCP8Sehb419cqmNYQ_s3tV9BiVsN0JbNR1uFcHMhf-T
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.797
+
+BqqqrW0H7v0vzIUbL5m_gbc2v60Wj7j9WEJ9LM6585VBBIoKMhajfV52ALBP5omWICF07SmjP5TRnNmxpWS0FC9Ws_hp2RLn59qaowd5x
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.703
+
+K2Fny2tDdrRs9ZK15UINtl9mIWiGccTFNyZq2vhEy7_QD7YO6d77m26sUFumcm8kjXhe9L4n2cHM9_B67ONhj5OzjArAOTBAZmHDBVVF
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.734
+
+5dZ_8yIetTOEn-wh3HmJY45bKhwaF5UcTrkSU_hJfqAamtU-pnkk9IToLBhLc5tF5wP2XW0aKs2DLn_EHqwu3PGsOE7o84JAfbLLw2iT
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.750
+
+kQ_rOGLIsyA7l_BepAn_GHMpZ6INc0Wd53wM8tOPJ33hHRqK1GYhwGMfmqXpcQ3Ahqg_DfSyyMn_klwuqgtUiVR90GfK52heVBn6UqcH
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.750
+
+9ERxpzS33dO-Qr8voadTkh1VRckJMD6YlBWKRA7QkeVsOxL5zbM_EtnDJ18Y1TrR6g0qQm6ulmjRl19KSWk6h6R7THddYxEvDtCkTQTc
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.734
+
+BusEgPeyZi_o819k0VWuwpyCbNfTXegd5FE-fgibJlH5lX1SyjGgDUdt9YWRzeCjzjBiXpxlqDlrdA7bZBDeKuWa88ZxlSQjyA2wHka6d
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+vDKF6dFMouM67DwNU7XS9P39OOx5MhG_gURFRcQx6xTjG_zAckjHP2zPL2rQQNc7junt5dOMUP2lKlRicIl0mlTFV4Fzd-SdhptfwKNa
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.734
+
+BDBT2FALHoJsY4toVgqM684ZQreEj_2TOyiXQsjYYcsEYekMNdryvbgF025EZ1XSHXmgWq0Q7RfB5ywD2NoyXMY2b_dg5pBexXwEHNcAF
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.781
+
+B4uBMj0P1fUTUsTyevoUV8RzNq2atS6uV1j50Ip3JBkQ4aT9jaB5SQ5-88DC97rnDxzD6RPFbmKp9znmIqlM5_e4FIyx01s1MdeiWA_2-
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.718
+
+B4hSAaUL3wx6EfIt631oO9k0Dnwr6i60-kTXzdwJDnk2SYQA5knpBMfhUtA88iIjhyBXLd__IzNTnFVlC_BCG3lNROiYyjJSbt1_WXyCR
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.734
+
+BrMsc9CAmf1vRiN4hAiRl-NdqEhZXdS1VtftR2McG8ltr-KDDBEsAFsDDKYGlV3UEW4JfqjBPnq4CtnJx3YzgYn3o3gm-uEEMo9GtZbeR
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.797
+
+BkejTT6SWrf6yXWpF6L3ecHHidfl0pTaE4uhEhBj0zv7a-PG-fdp_DyGDmnNfZFYy1obXo4OMWCdAQVMihUFYw-86m19vDg4CjCDOo2up
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.750
+
+RA5ldc962FDfxKj1U7-TOkR1Dyxfc7D35F4KPO_SUY53wZpJp6fTEZdLU6ECqsfY8qPNzOwfEMJCmIEjcY2mIImZ3eYiCHKnvdTdopgu
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.828
+
+B774B9_FPBWcxFI3qcvkCJB5kA4-xCVhqxN1TEwP5fMVJWxGc-_2bg1T9OvlVY-iEpY0TF5urw4bYc_fXy93iEO60TfaVItzxp3eQksxw
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+BTgIeT2MMCiJp21NngoFdgJQ3dED905Qtb8ZrrNVaahs0rjP1MNt-AJyicEN4LPSAIAxSFBeJC5lVbDPk5X5PTIpz3DIHmStwl0UIQPib
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.812
+
+qHMwTDFgF8j9FIUSh_fHxoMGQnbR0WKzq3oWBk2aRjUbxgpPdQJ2odLRAhtUoa-BHUQg4mAXvzSPwOoLl0DvmqtYFn_BDewhZqTKdBF_
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.797
+
+R4FNtm8rzn4KaLA6-vfES1rw2dmmvbeiluurbRD5QjRg5atxJRs4_0Hl7CsEOroXor0dnvHyBljzhVNv6kGPonuiZ9RuG5YpOOKVd9uH
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.718
+
+BgyggwFKEN2t3tHmLVcIDA_zGJoBkogGswZ0BRaMI7fK-Fzgei6W3UG7mMCJX_8whvfDOgqVHEPeg9uHriGLzaHvawZSYEVmlOw4sq9YN
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.781
+
+XvWa2tX7IPehDD7UjWdKJ3rS7_57IF3tpd7PMK9LcbmciN2YsH-N9qDxh8Q9P-ovT0NIac64U-UFgY_lXvv3duePGOo3WAMZytMjpsN4
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.750
+
+oxp4pRgL7ESHhaoZwyI_ZTEZiN1vjkEJ1JO_S7l8iQiLtHrFR6brgflsbjW4SHAi_RXVn5KIaUnw1Kt9vsFUciP1LnsWufkcUhy49GPD
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.734
+
+70rieTYr_B1AukTUd_6ull-5F2E_yMGF0LiNkhJHQ9kBPR9jRehbHBGKv5t_mQiMyFVBQmR4WvVbmMCD9Z0yr3k3GtmsbJn3Eqmq8vCq
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.781
+
+BChKlIAJHzUHFtvgauT3aalmY__VGn-k-NgFoeRkDiL6O3yeeCqA-7XmvfxGOZXymrTjcvaKmssP5lHGlg3L2VmrtjvxBZUQvP55uM09y
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.812
+
+B5ZSQFTuqeUBtbYsTRsNUHEHaiKRXZWSefKUVpI3R3LPtHTYXPdxeYMoX2lasZmSAo194TqKBSd5UcXQiRa-R0grp-1qdcfg9MWhuXThN
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.718
+
+ByMWvVWxek0svRgjVVniGo0BpGB0hvfVG89XBvpityHY8oAVsuev-jtB-j9ks_5ofOmQ8ySaMPn-S-mSUN7GFLuTDfJ_mqh9Gl29KLi9d
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+BjDzX2a2FKgbxw6iw-Fo7xeM4utuL0NVsvyMEdJLUVCYvOo_-j2pwQwsLTKp1jDLvlcGFN-asLckgplvKZe6xHY9mrmoAzcerx6ZqgHdN
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+i4bWrgua_4Xjlv7qfWEsGXwxPUkalD_IhJ6ckCpk96P6gv8NYEIhk5T83JQXw5q200NAPfoFxRBm9Z8YpRH_l2-LR_ePe3jqXjM2j_Cy
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+ Fitness: 12
+ Cycles: 200
+ Time: 4.781
+
+_qAnboaI5vbcOItD3P3W0iYuEZVoEX_R7Bv7Lvt__SUg7xvAwTIAzaOplRceLYYpB0Pimo0OTwRti-jLg3AQRhQ0LHz-ruzFzsz3R2NS
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.797
+
+39C_xsAyMu5UHwJIc5wkuqRAA1eZ9SyowrX0jE3gjUpUsFLVPOpnP8IvjmfdcFHRbXkIjeJESymN4E5eShKZOqmcTyd4_b4xJIqfT5cR
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.750
+
+B96bN2Nq8AYKz4ChAHn2Gu9i19escUxLzt4tnOZ1YeG_Wgi1R-ybpGHBhpDorISS1eVY_bQ4FISq-0Q1p41gCc90ljCiXcYF3wIsyrqwK
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+ Fitness: 12
+ Cycles: 200
+ Time: 4.797
+
+YZQXZHi6ZKDD8uVS1YabXROEbm9_EDOFFG7Bnz48TUza8lIzeD4-ZM0Md8QWDc6Odog9zCp18pG-8AbFACthI_beEO2pm7Y1XPx-D1B9
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+BS5-yaePaL6xVDH0skM7eMJLpAqf3iHhnaMLDm4mTB5OoK_6ifH8bfUw3KzqmpNuIl96-RJlXR1zcDEyuqI4v04y5v38VqjPMNTHxYaSg
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.781
+
+LMlyPnVzn9ZQZeG0s6wnoJ260Ui3kLfVX7WmwncDcpW-5wXrg08xekPZ7CC54UO_fYdqVNQbt5S5UxmQGE8Rcxl4onbWlCSJz2pwBc9Z
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+B6rNSSFgKYyJDsURHS2xVfPGFLIoKTUMsT1h2e8stYF1HIVDPUDnex7zWnqKJ17XNgZbZiV-PiDu_BWYOa600EFlESwh2sAU57virsgK8
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.797
+
+UR7XHNpqfp-LxR9uthJu0M1b8cMBYsSVqH36t_Yd6NJw_FZ00Bbj5tN4NMy4zFzwFl4PVT0bwqGevSaWK8X5PwPipdplZUL4e4gM9EpR
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.781
+
+-HnKJ-HWrhpwjkKycTlTzXznZAE91k7Z3VsP1a94cjIgj1oEKARH_jEaDUClC46sa8w6lLlRsjhRoBklpkLl0y6GWduNyhZoOJI3M_m_
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.797
+
+PkVdQcVuHvmSRPNFCrnPbxZOXrt1GYdjQFck6lGb7SshZSw-b09mzBzGjjcH4ws28L2-HDYyp1be-NeVReeiixPVTWu98pdks88hlM-I
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.797
+
+oX2fSIqoHWR2GGV7YcDsQdYN6OkkwmJfmyS0ZLdRJHZuqf6ZcpPYnqQp1PQJzbl48_3ViUxuk6EKLDI5mq7p-QwMBgfFYyDd_Bbu6dSX
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.750
+
+BFtDW3OosgPr1ksIBfofU8vTJsGa51EePONwSZKVksOtWTnIvAV8PeRD8AtP7SOwZ_G0i2z8Cuw4_cVj5ekdJQFPdaD2jNLfzIu77h9kw
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.797
+
+_-xvfi8lyP-jiMnlHHW416ZC7b3A6coGzWjMzAEycKCoGnwzkjCqLLAuwkeRXhsbdILfZnXbwIn7KpDyTdXiYXZDHsfrEeQchOqqIZCy
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.734
+
+qu8QbPZe7P3gn9IPPwL-Hi2YhPC9BgQPxTQoSMURedZsw5Uy5l4rxPpNNRw72CqKns1_rl62EvmmtWgG-xBKOKEoZg6XtF_qyNAOFh1z
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.781
+
+BRIykXm5AX8W5f_qlqm1ayL6rQFSN2OLSlU8hpohRObf2f5-6F9pXiAai5_BqB-iCjzG5u495pTfjZYe_kwhZfihSTeWFfdmfBrNBrLkQ
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.750
+
+2kx2ZfxW55JRnbuCA0m2YS-DDAhiyXmjeeUtYJ1E_rTNyOaR-z1yOADg1GBwJmkF3bfOhuM-wpBlAaaxe1UEzSE2PZaiPCZA0SuQYPWm
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.797
+
+TvgMiKw4wl_1BqkqaQAwMw5EeJh_1_TJjAcRf6W1H44-yq11TGARuyCXNzPo5hKVam4qeN5u8r3lF8jgNZX8808rGC8EuTjFhPON2j3I
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.750
+
+WtG89ECxCmm9zrS2Qi-yJV5H9jqzmmHgBAkBKvpTcb-7bgs5-liunYVL-8NBcDyIQC4S79-V3Jl9o2JIMy1gMrjHFzxAT56djkex5b1k
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.750
+
+NY_0aWZ0tDZtPMMBc5WEjzvf1daNVtqSj8Q1a0ih1B-xEYIjjEC1sRarp5IsasTdT2NrXnpjtD16PGXvWJFUSNdVQOw7qOFf1hq0f5x4
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.750
+
+BmInu7jrM6xxD2gSwMJGaVMjP7RJdi1Zv1IxqCQ5DqpBkZJvu_14pFHaGkn_sab_RteC4gn1EhIFwIidgI9lQyJYMxPZdRewgB3Hx1W8N
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.734
+
+nYOcUT1a1P7v0T80MCWdInFMy1LWIufJQjKSFf8QJ4UPim5QIykNJ916jqez6u3__iRygRLM0Zjdg3A37j-lRFPvjGFjJ8sJ7iiLExsM
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.875
+
+TGqhngYhZYcu2eEsj68VQ-Phve-pq9QlFJOFgTZX8WAqJwPsB5zBOYxE9_-x7WF8Y_e7nMQ4Pz9nCteBOOfAyhWPd6V3pluDNrga-1wu
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.750
+
+kmS2NG7LDQaepibNV_bRYyVPs8bmaGJOhUXSyjOFe5Mmbj1kuRPQvf505qDEAGEVoJhKE7aWubapfMcU4NVqueC_evzDoMfsxYs_g0s0
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.812
+
+Bt3kinUUYvkcUCLAY7ebhgQYUcFk2qIrWiPBVIyw1-H2SwGrAaF_VlYYYjcPXw9Liv4VVeT4FXeA3l9cqrNWHXvpG-ge7WhHxp9QiwT8y
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.797
+
+BAXsUJc8WGbNgwQ8HtEPc-wKAZvi8LhtXrNlujim_WE_draasOTk3eh-r9xOnWs1wvmehLl3--HTCxyNGdZvj365YzWjbZcV73fcJHnNu
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+8ezLYKjU04OOK2AhAiQcOALwymQGZEZHRc05_AqRsMDvViZx6Vuhup-s-ES6ADr6Vx9h1Tgb-tHnI5ZFtWFNH-qXhDNumPI9dkGiwGGh
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+2fbdeYgTRO6EP8ig_jah6LxzVwMjky4TBLQo5vAUKGtFJleOZieqm1Iz16_LrkqQLou8pbqGL_OQ39JsqwLMGbGpn9dDgK09EVuH7jFl
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.734
+
+BP6nwqtfr8mRRcqglyCJINtGwOcDLbClvDXAQ32Ix_oHfui7x8BUW_9HEazLx04tBJAXDdXoFZhVScQoXgl8MjEpvzz-8KVygrDySE5Nf
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.828
+
+BO1YxhdWynIUMxAFeukKi_qeZ3X25Ld_nzukB9c0z2SbvOIOEkXg-h3uo7vYx-U57IU_Xr-4edTtfrGs5HsNqRD5_wJVkX6hkrRz_GvG1
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+PvZWhZJgwSsUVrDOg7FFQgQ7HV1vU2XZ5fH5F1khgEIU20vmwPlmx4Fk6GV695vKicmlWrF_TugbKEsFk2m8msnEi-SJSje46wnahl2E
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.797
+
+OS7UwlRFGNF8sKOthiciP2bJgt3ZLaHeK963UnfdoNRmSxNItv7_S0nQvBECn46qe-6HYwq6BkZRvC2MrBN2F1Tve-IOUK0j9r2VK2dO
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.718
+
+BXMfSeTU_8SinlTvJcLLRf2GhKAqbrqeETUTsSHBeQ_Y6SK628yEg2T01gwNfrbST2tykk-92mauvLMv7d5RfMzyaLNZbAAia1zoS4L_9
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.718
+
+vDXYizPHstONDs940iUsbrFGZ5otVUy-RcoSZNpLuoOFJWZisw6waZ8e1kQSxZQoy2a5gBaAnhtBMmWRbnXoOBAmQyxp92bYxsmSFPc5
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.750
+
+kPNli8e-d-gkw1CWNs-dH3S4MYcH2nY0Xu4xvssmwzuYZYszCjYyV4Ip-Dbi-m1RmyfjMyTT8VzwNaDJOz8W7IxNC07gX5HKAJuImtGM
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.781
+
+OjUdeHLBdqpn7vO-DC6_r8_z4nPaZzyrz70YwGi1DQL5K_Rs3vHTnC7DTwbwDBVH_lKTnuMiz5St9P1QUrgbjJgpk0H8-uHbAJERlqmU
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.734
+
+BNSyNAd052q7_mNkW-bOUY7IONbcJpV2iIRPex3N5m8W0qkMRcYiE1H87293S6u3ju4rb0nYqZI50bGBAdmgFdl3pIZoZFG25Qdxy1fAg
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.703
+
+FzxdAoYFU-wybtcrE1z2w5vNzgTV3TdPnIlfO46a0DyEcMCwpmx8_UZxhCqATmvTWNig80kdJq16btOtpInjH8bMMm61iUEs_aS0-t4_
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.750
+
+BCwlUHh9OfadE533YsLk0YtOlQq-yqWuIJj8ECAOU33OkJ_aXMAflmyqHDY-tYmyGypATK9GUfBPEL2DjxeCpEjEexwMdLT6jLBYcQ-ZD
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.750
+
+2IA3RMtvdeKKE3v2u1oc_VyLRrSQ-BKONxdBBxkdCBtzvOUlMlBPECL42QbFhdNGofBGJ1uNUfHw3Ei78REphAtBaoo4S7nSM7Uj1PJY
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.750
+
+UO7F0ZI3yJ6D4gtCyNrbuwbADEpd0rz3ap4eT2DKCz0n4dydZmuXKx7mfigNFfn_GFhHshaQRZGw1zhZVFYQNKqF3LAf5ccB7YwqT49q
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.812
+
+BQgya2fmiTdkNLSps0j9ZzA-OCgwWAVttrrhUU3jINubidPk4LKai0kaU-xecSwbTqsXZy_hqzaxso46koWCa83S0OI7THzDjht03kEWj
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.718
+
+BCg6jwMUcTTd-aM4OHuucWI2urmxnDegPZ7LSp774F20A47cE3y-qwmc5dPj64IDfAJm6sG_Qf6CDAURO0t2X3qi_VnRkm9XkwUtbWAGF
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.765
+
+MO2mzQOY7ah_bcmWEodOoUShCFJRzeFD3IiPJScZwmPHalQ-tXhIo6tDbYPqtEAZ7Ia1RDHq_KzFyFGRCx_-UVl6ydh15tHHm9XnoSqu
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+bTNWNTTvTFoSY-RJldaQTD0J-Ozw4A-thaEO9bwOhLMvqFFDktpp_BVzF_Hnf01L7AtFFq8_AWNxzVcL9Juqf4GqbkJMi4F33jWOaxaw
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.718
+
+UMCUigUy9y3-I5mL08IO1RjcHDm6hF0OyNWj7iIoQNfd6iRDPNpm-z74YWiw9iEu2xBKu7_UZhoSTacbM0fIpa16xjTroS5YQ0X3nFC
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.797
+
+BHi7QTn7WvA-XM2vNpQuf_FJy__nRbsxLwB12VxyQI1Z0FieooL5c-qGchmjLamv_24Azn9CLYeRzmxmU0IH9kspeL_VjutvbrTHyQK5W
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.781
+
+BtKyzjeMWBVdKPO-j2_INJitPqQbUrHDawKZp0LsXP6bQje6oLWfiDrY8e5dQqnBt42A4zdjc4z8E3ZrbihjqSF5iQB3kLz4BozfUFt0s
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.718
+
+t8ed9wMLWvw_XiFUWJaIfJR2rVYcapv5iHSRhDmJ8meLERDW7_Ymy2k8AM2g24Stk61m_SsuMkT-ACu1X_sLe6JzqaNT2aZNyKQgKPkJ
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.781
+
+Blhb8Tx76S59cOJrHl0rUW5aIqmVickQ7yEi7S9y3ZH8VCPn0jZprvQCY1jmMO6YfvC4lF20Q8SEIWXLmBWgyM3akRjsRmTM7KhRYAla7
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.750
+
+zdyzpQTQORTa-ONMLyy1NiJVbHjGIvWwcdh6MVpFGct6XveqTQrbJYWMwiweVdIXy2ntke-VDg-bFOnkEhjgS8HGLkl7b03IxT1ecIRs
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.750
+
+hPDTgUBxRFDdhozh6xPEXWjFLLMos3nimUyZs99Txnn-NY9hOM8NOtK3f9N4SHORlv6qQf-3kw6HR9NZkOiKMY83-y6Q-wPXs9pprp7h
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+-b_aCMEuvJnyOrcGL4U7sU-qGrFxH6Jj46lhYOHw3z_pXYS1tFCQTqgOlnQvcNZQPZUIJZ9TebHoaU7UbckR5T6-_d1lLUDdn5SEL6ST
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.734
+
+BPFxRry9RIZX8eBhqU8vlaYzz3bzvoz30pIAHrtDHrWpVXDBkXgKlrRXCsM9zoehIpvAthGrtZ2GsALLKGtxwFxYcrdExkmP7kRiSvGCa
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.718
+
+kZIKdST4CXZUuQkZscMXeyIfbDJMGkUSwig3LilWkHiqdDYTJCCci_VZmi-Q28GPhrcX3VQATVoNLoZYXgydyDsXe50VwU2O8Ay_jnjQ
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.797
+
+MSl7Zh3g0nWeB_gIEszeFAJ7-yBAFHwMPJt1A9icdxhYJXP5vqJgYDQ_eIQlzJ_7t977-mmm_EMje5qsSELAkAJX8FgA1MDy1TRRyHIV
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.781
+
+up0URggd2bnKkhTcF6HgICVWB6clxo4CTtaeiq_TWe3yt9pT80BqQcG7SehRI08LQfWHzMlZYHWk4oU_WahU10zgMLdEF6yCXWMCcSn3
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.765
+
+sZ1fHEOnjZsuQCCcYV4CaLZvSGfTOc3Z5QmTnEd92zEGCqbcCWm0XRFudyrMqnncP1-m1tfTanKUjxwpTxbb5QFflXGq3t7e8zGgU2kI
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.797
+
+BJ6me5r1qqF3ZPRTnGQh-P7J0WBJA44NPliHsWKBZ0j6Tm_TcEQ4nBUmPB0U4933zHntxDg8_L1iTilfiljLuHfZdosSSVG5qis7YxWp_
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.750
+
+B-tfCIyOTlC8M2rEm9jegUYazCHMJklg0dxwCA1tC5VscBNeunpMFLy2mxI54mFxa9uVtwPYf80FQSt_OpnL-LLW_8BDpJnIQv7_zjD04
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.734
+
+4YD6ATpDFIcoyObtRfaXciRcxOikuy3mDoPZjltxzLy9oa_nv5ATB-5CEXY7QjVFGedLJ0yMKZ_rXiYZu8Tarqrwwtpf1Xzw7JxYVb-L
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+-smpP7_qWCjTOcdSb3fgXahtuO5lkw-e2ECK4mZnzX2vD8npFGH65YWEKAxo8ngBJi-p1oVrpwqfjNuQHLI4s5fA31FpiiepTogLQuPB
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+Xqk0uUJ8vXd1f3opVV9NDcPnllBQpcq8My0MaUkZtCcM-Ai2JElFiLoL_s9R6laPrpdz3XdPZISivT0IX3tqaXmJsHz4sOS1Q0vW3khK
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.765
+
+Z25GNHwGcIE_ZjyKq_VUO8f4LPsFqnQSRrMoOPNmLioK1yRBJtUfLM1Q9GHJDWCkfBsr4KR1k1xrtzc4swI8ishIy_CRH-ViAP_HYROc
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.750
+
+WlExR_4emvt6i4bK7lHbCCXgWIHLiD7Q5K-PHEucNnTLK_2K41sY1JSQUWcHb3kbm7ekb-x55nTuM0U6ua1pjZtrD53K1XPksZTbQ8GM
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.781
+
+qqQhBEn1G8cRDWsnj6QjTwn7sV4L5G7G9PzN-Tb8DaLkeFWPEta6qY05ovBIklvWMxyZAD8UXTStY79GDIF3b2DAGiDrPT2zSi8FtCSj
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.750
+
+B6C-61GNnHJCKI-oVWO1P2H6-_B51odhhV_1dE2aRz00tuUnraWGL7wFhZeccka3kIZLf6XacICohwwbN5ou5Q1kRFhSLdjg14yxRooCy
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.718
+
+XizlNiUkaayJ6fb8NOiGfMfHltdme5L5kQR_okCYYG54iTY2n-Pvgxjp7oV6Uv-QV0mR_wgITCjRBdlCRZBROCTq-KYAE8yJOO3OQmjO
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+n2iVKWeC0BYD3lbB0OKPWSL6fCB0gw8QGk_NhIBgwP9VHqcYczR1NrYW8l9v2l2LxDH3tnNckDKVl3MpcobqfsYJ9UYrIuGoEcO9FBgH
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.797
+
+yVgUE62sd1ezZbnARPPVEe82GU2-uEfxIHzzsOjla8ATVDDEgN6OGdA05unmtT702ZJZTw53D9AIdNUk2ycoiXFiX6CdPbHwypWNgsN-
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.781
+
+M7D0pwns9izX7ZYVJEyJWKJLCX9YbD99EtBfU1uMvVafxDtMEmiUFDrZojh8LpGn2qJ_am2_3qjq5HF8p8R_Y0QF5igQyjWSbj61KEQT
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.781
+
+BGU9OMT8mOEERnuc48mUAbqxPV1psBiOesM3ift0C5baXiXQMjfwIZi5_T08KinvDBdX81W0votmPjrE8aWTr9Nvl12dOJfkuxkli1_To
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+ Fitness: 12
+ Cycles: 200
+ Time: 4.781
+
+v-VNzZRoCPdKehYxpmajbCmMsW3WZz-lF9IlRAZqB2n_WfCbY6NUTqvNZfMLs-_7aJJFVUihIx3LdY6AkiOEktBIzNlnQBoYmPhECaf9
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.734
+
+Bbx36nO0vT91Pgs5OWLzGYnJ3OoWStMhKowL_kXQ9WWWj5tqfwDdQrmMYny11j2bi86-iMQVJYZACyTnmnr6jID0iooKqGdHXyK96O-SN
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.703
+
+BlCwXQlhvGuBeXVG7_c78wWySImqzt_H4TpLHaw3Ow4_pSNgZZLFhSwsklB8fTBT13-vYoBBVkv1txQlHaKyFpL24cB90a5y0_BYd4GCA
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.781
+
+BLYDCCmkv2NXSJDDs-DeilbjVOOOFtxwguFlI0l9jyEwWLSBBfQemUb7_daM7d6bZLtqSkCfTYU99yaBon_BQQOXlNZh2NG9NxOkKVPZz
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+vXTvxAKUSwfXtzINPM5jDjMeZR6vJcM9NSfCvRjRD7WEaadywW__u6-y76UD22Qe_bJ1zFTXAh0wwpxeF_xgFqeHGMG_oPz19e-HgFyW
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.734
+
+Bvrh-NBn6eW3wo9JhFUFO-CT1L-Wgc4Ht_PxRi5-50Aq3eLm8lZt8pKDnsNzW6tpzB-OlzO7RBd1bjigjLCtkNzm268iFvS0LInvKdzum
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+SBDOEKqr3FI8YlHo8aVClpW9V7lg6m6bgvHcTx_qSeVy4Ye8HCTNfdLbTi-a5bZuaWnDHaCA_mlVC8krmIB3SQc80WvnmN9lZX7zs69O
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.734
+
+yGk_VuAcUQPHXFm_E3n1gP4rttrlECVof0ebj0_hPsHOUZOrreyJCzxZ6BmbOq1xqj9ezURH_G4G39AW9TNa2OKzqFZskiRhaqK79LRB
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.781
+
+BfgRVia4FOo6Xxh1N5B_Uhe0LdYyKggSaek1ajgIXYa5S5rlqyZUS8lBeJ182LFm6W50GtvMulpVwoEOQ9oBz0vW5bWkV2--05_xnYs7V
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.797
+
+nIX8rz7PAGOeyBNKT1LCYtCOlHaN74UDWNJoc-haOSms-sASOy9DY1nlqPpoEIBv3o_DziwHCr-3NfdHAlvd4wD4TzHO3dB47taayL1o
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.734
+
+-R_kaSb4vAvEdVgH2cjWeLrHViTnE4s0QrPmzuT5GzfzeJcrUm5K_OdAvA9tqkdUb_PPlO9KDi67g4w9IM2fPjdnj9uRRYmUZa4QoXZ2
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.797
+
+Bq9AeuG071BSoHetX-mFeG9D669Pr7aE5omAtYgiFQtLnAp4yfDRqHwmX921AeVhfmj6-fMrLdKHjrtE9AyQuPS7QtJhcM1NcRz4pb95v
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.750
+
+vnsV53E7ymCE1bDTG5HyvEHJ3dFvJIq2OeacrzifIMuQHPIMtEYPFPajwUBqkYSfzoAhAA-gxtGyT2atCNfhCkiwsJOugIc2-xKvkiQv
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.797
+
+vPJV9Z1a167zzPIHDdjHiNwnjdmvLWsYo6Hlo7sLrXqU7Ew-vtNLYRd-N0QfJgxggZdRQeyfoJdKKWOMHUJJKFR2Vi92LdinO2IMpMkX
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.797
+
+YWEUGdLN_CFg-YC134U310-QbsXXPlJyQlYlxyZva-BfBnrJHBu30vfh-qjHwVQmZyQbdL_KWCMvvc1SSJbI3_m4jD9P8jEeetLiVpwE
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.859
+
+D2hiOXsX3I4wUny86Ub6StyCylkrhRJJmnvtgtD6i6XGAfBtM0z6_C5QN2qWzIoK6tUVqe1fM4Au47rTCTwqCW9L_zab5LEs9AcAfE6k
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+ Fitness: 12
+ Cycles: 200
+ Time: 4.781
+
+W4AznBYNI0w1w4UDFPcoNt2CBb51c1RT29z761t6gEYXPva-aP8i6fAU92kyRu_SgyAAPgReNfMxnH93G-_zWvfVHQJ7jXr5d99srr7z
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.781
+
+BU1jZVydCEq5Ci9skliEpCxgBsUGuTZu0uxoLwCz4tt4raYLNxSYI6ZSwV1f-LzBNFmE7A9Q-ulDY3xLpCNEaDuCzzlmnTmeK4pznDmb3
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.781
+
+gkJIP3b2x3i7jWHFK2h0RJGHv5jsHLSWlAjIH1GsIq1L1PIl9HcJvW1BuMu-NcrU0BjF6R-Kz5ym8nr_4Y2Cg8tg2qQ-6D9HscAhLau8
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.734
+
+BP_K3TNvv-8gEHOcspQN57KnWYC5pXHUtwrt8mrgVdZ50u4F0ZR2HjElWvGuRkvCgfRQG8w7nDFLbvDEhfIIg_7z8ujBDVNWzXERbIo66
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.765
+
+ujTwCyweuo3hXBfGV63ryekHVXE_NlFSC9kJZUo4zvEXWJar7hGNac5ugDn0aA4_Eg7Eiype6xGXcCuZZyK1LcxVn4d8slvnP8p0Y6Wu
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.734
+
+BA-w3cHAMNu2xY5WSSLa1imhA0bC1NY2E-Ibjf7SnRPgYX0BytEnZQu1PJC8dfZfN75I4Rtsm-HvB5FEfwN_vwcwf7n6m_VZKi0vjbZyf
+1 1 0 1 1
+1 0 0 0 1
+0 0 0 0 0
+1 0 0 0 1
+1 1 0 1 1
+ Fitness: 12
+ Cycles: 200
+ Time: 4.750
+
+dVfOA2XnVMKZlXZzdAq3onQZF1udBraUam5riC2QO1TIeZtSsBMcGYQHrBBVnXnpamBlriKauM4iIi671plLlsQw2vnXT3yHi5tOaH6M
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+ Fitness: 12
+ Cycles: 200
+ Time: 4.781
+
+BlE6kf1d5ur4uUM_8e3sBJth0TSPa8rGT3q9haaPwDyLw-8WQNo0VtqE31aciEYUA3ih4WVKFokeh9d-woqMe8FSGI4Exn6AH_N13EG1h
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.812
+
+BR-B5HyNVlOO53wHcp8MvINWSk30xVbgou8_ssCL5gcCvLfI81E-zMRHlmJc-6AQjf2xCRoRoRipgrlteg4ngxsXYwINPraVYtSwOk4Kv
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.718
+
+BNg1HJ6guklY5bHHPo8cfwGsFpQWfRT27It4Ic1r9YcAU9TZ1qUUXCuLPESuB5i2DkyGsiJxcfj1FlOSuHzo2kw3CZ2F-261zTtEs_Exd
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+ Fitness: 13
+ Cycles: 200
+ Time: 4.828
