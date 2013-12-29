@@ -1,15 +1,15 @@
 import Knights
 import Genetic
-import profile
-import pstats
+# import profile
+# import pstats
 import tkinter
 
 
-params = {'random_parents': True,
+params = {'random_parents': False,
           'mother_is_good': True,
           'father_is_good': True,
           'size': 25,
-          'num_of_children': 50,
+          'num_of_children': 150,
           'mutate_before_breeding': False,
           'max_num_of_mutations': 3,
           'max_num_of_old_mutations': 0,

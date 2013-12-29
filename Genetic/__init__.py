@@ -44,8 +44,8 @@ class Population(metaclass=ABCMeta):
 
         self.attributes = attributes
 
-        print('Population started with parametres:')
-        print(self.attributes)
+        # print('Population started with parametres:')
+        # print(self.attributes)
 
         try:  # I agree that this is bad, but it seems to be logical
             self.individuals
@@ -180,15 +180,15 @@ class GUI():
         butframe = Tk.Frame()
         Tk.Button(command=lambda: self.redraw(self.population.cycle),
                   text='Cycle', master=butframe).pack(side='left')
-        Tk.Button(command=lambda: self.redraw(self.population.mutate_all),
-                  text='Mutate', master=butframe).pack(side='left')
-        Tk.Button(command=lambda: self.redraw(self.population.breed_all),
-                  text='Breed', master=butframe).pack(side='left')
-        Tk.Button(command=lambda: self.redraw(self.population.select),
-                  text='Select', master=butframe).pack(side='left')
+        # Tk.Button(command=lambda: self.redraw(self.population.mutate_all),
+        #           text='Mutate', master=butframe).pack(side='left')
+        # Tk.Button(command=lambda: self.redraw(self.population.breed_all),
+        #           text='Breed', master=butframe).pack(side='left')
+        # Tk.Button(command=lambda: self.redraw(self.population.select),
+        #           text='Select', master=butframe).pack(side='left')
 
-        Tk.Button(command=self.dump, text='Dump to file',
-                  master=butframe).pack(side='left')
+        # Tk.Button(command=self.dump, text='Dump to file',
+        #           master=butframe).pack(side='left')
         Tk.Button(command=lambda: self.redraw(self.population.restart),
                   text='Restart', master=butframe).pack(side='left')
 
