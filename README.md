@@ -2,7 +2,7 @@ Genetic-algorithms
 ==================
 This program based on a genetic algorithm is aimed on finding the best configuration of knights on a chess desk which follows these simple rules:
 - The more knights - the better
-- The more of them can occupy each other - the worse
+- The more of them can capture each other - the worse
 
 The genetic algorithm lying in the base of this project can also be applied to different tasks.
 
