@@ -127,7 +127,11 @@ class Population(metaclass=ABCMeta):
             f.write(str(self))
 
     def is_stable(self):
-        return all(x == self.individuals[0] for x in self.individuals[1:])
+        for x in self.individuals[1:]:
+            if x != self.individuals[0]:
+                return False
+        else:
+            return True
 
     @abstractmethod
     def __str__():

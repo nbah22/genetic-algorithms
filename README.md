@@ -26,3 +26,4 @@ To launch the project, execute _Launch.py_
   * Maybe force breeding of alpha individuals?
 - Some analytics:
   * Count the percent of mutated nextgens on the list
+- Implement printing from pool
