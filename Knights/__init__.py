@@ -12,7 +12,7 @@ class Population(Genetic.Population):
             binary = '0'*(args['x_size'] * args['y_size'] * args['size'] - len(binary)) + binary
             seeds = [binary[i:i + args['x_size'] * args['y_size']]
                      for i in range(0, len(binary), args['x_size']*args['y_size'])]
-            self.individuals = [Field(seed=seeds[i], **args)
+            self.individuals = [Field(self, seed=seeds[i])
                                 for i in range(args['size'])]
         super(Population, self).__init__(**args)
 
@@ -45,16 +45,16 @@ class Population(Genetic.Population):
 
 class Field(Genetic.Species):
 
-    def __init__(self, seed=None, **args):
-        self.attributes = args
+    def __init__(self, population, seed=None):
+        self.population = population
         if seed:
-            self.field = [[int(seed[x + y * args['y_size']])
-                          for x in range(args['x_size'])]
-                          for y in range(args['y_size'])]
+            self.field = [[int(seed[x + y * self.population.attributes['y_size']])
+                          for x in range(self.population.attributes['x_size'])]
+                          for y in range(self.population.attributes['y_size'])]
         else:
             self.field = [[random.randint(0, 1)
-                          for x in range(args['x_size'])]
-                          for y in range(args['y_size'])]
+                          for x in range(self.population.attributes['x_size'])]
+                          for y in range(self.population.attributes['y_size'])]
 
     def fitness(self):
         k = 0
@@ -79,13 +79,13 @@ class Field(Genetic.Species):
     def mutate(self):
         y = random.randint(0, len(self.field) - 1)
         x = random.randint(0, len(self.field[0]) - 1)
-        if self.field[y][x]:
+        if self.field[y][x] == 1:
             self.field[y][x] = 0
         else:
             self.field[y][x] = 1
 
     def breed(self, mate):
-        child = Field(**self.attributes)
+        child = Field(self.population)
         for y in range(len(self.field)):
             for x in range(len(self.field[0])):
                 if random.randint(0, 1):

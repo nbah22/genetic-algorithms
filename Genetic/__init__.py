@@ -44,13 +44,10 @@ class Population(metaclass=ABCMeta):
 
         self.attributes = attributes
 
-        # print('Population started with parametres:')
-        # print(self.attributes)
-
         try:  # I agree that this is bad, but it seems to be logical
             self.individuals
         except:
-            self.individuals = [self.kind(**attributes) for i in range(self.attributes['size'])]
+            self.individuals = [self.kind(population=self) for i in range(self.attributes['size'])]
 
     def mutate_all(self):
         if self.attributes['mutate_before_breeding']:
@@ -176,8 +173,9 @@ class GUI():
         self.columns = columns
         self.population = population
         self.win = Tk.Tk()
+        self.win.resizable(0, 0)
         if title:
-            self.win.title("Genetic: " + title)
+            self.win.title("Genetic: %s" % (title))
         else:
             self.win.title("Genetic")
 
@@ -195,6 +193,8 @@ class GUI():
         #           master=butframe).pack(side='left')
         Tk.Button(command=lambda: self.redraw(self.population.restart),
                   text='Restart', master=butframe).pack(side='left')
+        Tk.Button(command=lambda: self.show_settings_window(),
+                  text='Settings', master=butframe).pack(side='left')
 
         butframe.pack()
         self.popframe = None
@@ -223,3 +223,18 @@ class GUI():
         filename = filedialog.asksaveasfilename()
         if filename:
             self.population.dump(filename)
+
+    def change_parameter(self, param, value):
+        self.population.attributes[param] = value
+
+    def make_scale(self, param, label, from_, to):
+        s = Tk.Scale(command=lambda x: self.change_parameter(param, int(x)),
+                  from_=from_, to=to, master=self.settings_window, orient='horizontal', label=label)
+        s.set(self.population.attributes[param])
+        s.pack()
+
+    def show_settings_window(self):
+        self.settings_window = Tk.Tk()
+        self.settings_window.title('Genetic: Settings')
+        self.make_scale('num_of_children', 'Children:', 0, 1000)
+        self.settings_window.mainloop()
