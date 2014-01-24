@@ -1,6 +1,7 @@
 import Genetic
 import tkinter as Tk
 import random
+import copy
 from Knights.encode import *
 
 
@@ -44,7 +45,6 @@ class Population(Genetic.Population):
 
 
 class Field(Genetic.Species):
-
     def __init__(self, population, seed=None):
         self.population = population
         if seed:
@@ -105,6 +105,11 @@ class Field(Genetic.Species):
                     color = 'grey'
                 Tk.Frame(master=frame, bg=color, width=20,
                          height=20).grid(row=y, column=x, padx=0, pady=0)
+
+    def clone(self):
+        clone = copy.copy(self)
+        clone.field = copy.deepcopy(self.field)
+        return clone
 
     def __str__(self):
         return '\n'.join(' '.join(str(self.field[y][x])

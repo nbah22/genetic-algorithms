@@ -82,13 +82,14 @@ class Population(metaclass=ABCMeta):
         for i in range(self.attributes['num_of_children']):
             mother = self.choose_parent(self.attributes['mother_is_good'])
             father = self.choose_parent(self.attributes['father_is_good'])
-            while father == mother:
-                father = self.choose_parent(self.attributes['father_is_good'])
+            if not self.attributes['equal_parents_are_allowed']:
+                while father == mother:
+                    father = self.choose_parent(self.attributes['father_is_good'])
             new_generation.append(mother + father)
         if self.attributes['mutate_before_breeding']:
             self.individuals += new_generation
         else:
-            self.new_generation = new_generation + copy.deepcopy(self.individuals)
+            self.new_generation = new_generation + [individ.clone() for individ in self.individuals]
 
     def choose_parent(self, good = True):
         if self.attributes['random_parents']:
@@ -162,6 +163,10 @@ class Species(metaclass=ABCMeta):
         '''Used in GUI'''
 
     @abstractmethod
+    def clone(self):
+        '''A method which returns a copy of an object'''
+
+    @abstractmethod
     def __eq__(self, other):
         '''Says whether two individuals are equal'''
         return True
@@ -224,17 +229,43 @@ class GUI():
         if filename:
             self.population.dump(filename)
 
-    def change_parameter(self, param, value):
+    def change_parameter(self, param, value=None):
+        if value is None:
+            value = False if self.population.attributes[param] else True
         self.population.attributes[param] = value
 
     def make_scale(self, param, label, from_, to):
         s = Tk.Scale(command=lambda x: self.change_parameter(param, int(x)),
                   from_=from_, to=to, master=self.settings_window, orient='horizontal', label=label)
         s.set(self.population.attributes[param])
-        s.pack()
+        s.pack(anchor="w")
+
+    def make_checkbutton(self, param, label):
+        c = Tk.Checkbutton(command=lambda: self.change_parameter(param),
+            master=self.settings_window, text=label)
+        if self.population.attributes[param]:
+            c.select()
+        c.pack(anchor="w")
 
     def show_settings_window(self):
-        self.settings_window = Tk.Tk()
-        self.settings_window.title('Genetic: Settings')
-        self.make_scale('num_of_children', 'Children:', 0, 1000)
-        self.settings_window.mainloop()
+        try:
+            self.settings_window.focus()
+        except:
+            self.settings_window = Tk.Toplevel()
+            self.settings_window.resizable(0, 0)
+            self.settings_window.title('Genetic: Settings')
+            
+            self.make_scale('size', 'Size:', 1, 40)
+            self.make_scale('num_of_children', 'Children:', 0, 1000)
+            self.make_scale('max_num_of_mutations', 'Mutations:', 0, 25)
+            self.make_scale('max_num_of_old_mutations', 'Old mutations:', 0, 25)
+            self.make_checkbutton('random_parents', 'Parents are random')
+            self.make_checkbutton('mutate_before_breeding', 'Mutate before breeding')
+            self.make_checkbutton('equal_individuals_are_allowed', 'Equal individuals are allowed')
+            self.make_checkbutton('equal_parents_are_allowed', 'Equal parents are allowed')
+
+            geom_arr = self.win.geometry().split('+')
+            size_x, size_y = geom_arr[0].split('x')
+            self.settings_window.geometry('+%d+%d' % (int(size_x) + int(geom_arr[1]) + 1, int(geom_arr[2])))
+
+            self.settings_window.mainloop()

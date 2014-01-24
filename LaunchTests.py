@@ -10,7 +10,8 @@ if __name__ == '__main__':
 	          'mutate_before_breeding': False,
 	          'max_num_of_mutations': 5,
 	          'max_num_of_old_mutations': 5,
-	          'equal_individuals_are_allowed': False}
+	          'equal_individuals_are_allowed': False,
+	          'equal_parents_are_allowed': True}
 	params_range = {'size': 15,
 	                'num_of_children': 120,
 	                'max_num_of_mutations': 5,
