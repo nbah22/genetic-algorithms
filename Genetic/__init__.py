@@ -230,20 +230,28 @@ class GUI():
         if value is None:
             value = False if self.population.attributes[param] else True
         self.population.attributes[param] = value
+        self.tk_vars[param].set(self.population.attributes[param])
 
     def make_scale(self, param, label, from_, to):
+        self.tk_vars[param] = Tk.IntVar()
+        self.tk_vars[param].set(self.population.attributes[param])
         s = Tk.Scale(command=lambda x: self.change_parameter(param, int(x)),
                      from_=from_, to=to, master=self.settings_window,
-                     orient='horizontal', label=label)
-        s.set(self.population.attributes[param])
+                     orient='horizontal', label=label,
+                     variable=self.tk_vars[param])
         s.pack(anchor="w")
 
     def make_checkbutton(self, param, label):
-        c = Tk.Checkbutton(command=lambda: self.change_parameter(param),
-                           master=self.settings_window, text=label)
-        if self.population.attributes[param]:
-            c.select()
-        c.pack(anchor="w")
+        self.tk_vars[param] = Tk.IntVar()
+        self.tk_vars[param].set(self.population.attributes[param])
+        Tk.Checkbutton(command=lambda: self.change_parameter(param),
+                       master=self.settings_window, text=label,
+                       variable=self.tk_vars[param]).pack(anchor="w")
+
+    def load_preset(self, preset):
+        self.population.attributes.update(preset)
+        for key in self.tk_vars:
+            self.tk_vars[key].set(self.population.attributes[key])
 
     def show_settings_window(self):
         try:
@@ -252,6 +260,7 @@ class GUI():
             self.settings_window = Tk.Toplevel()
             self.settings_window.resizable(0, 0)
             self.settings_window.title('Genetic: Settings')
+            self.tk_vars = {}
 
             self.make_scale('size', 'Size:', 1, 40)
             self.make_scale('num_of_children', 'Children:', 0, 1000)
@@ -261,6 +270,48 @@ class GUI():
             self.make_checkbutton('mutate_before_breeding', 'Mutate before breeding')
             self.make_checkbutton('equal_individuals_are_allowed', 'Equal individuals are allowed')
             self.make_checkbutton('equal_parents_are_allowed', 'Equal parents are allowed')
+            Tk.Label(master=self.settings_window, text="Presets:").pack()
+
+            # Presets
+            good = {'random_parents': False,
+                    'mother_is_good': True,
+                    'father_is_good': True,
+                    'size': 25,
+                    'num_of_children': 1000,
+                    'mutate_before_breeding': False,
+                    'max_num_of_mutations': 10,
+                    'max_num_of_old_mutations': 0,
+                    'equal_individuals_are_allowed': True,
+                    'equal_parents_are_allowed': True}
+
+            default = {'random_parents': True,
+                       'mother_is_good': True,
+                       'father_is_good': True,
+                       'size': 25,
+                       'num_of_children': 300,
+                       'mutate_before_breeding': False,
+                       'max_num_of_mutations': 5,
+                       'max_num_of_old_mutations': 0,
+                       'equal_individuals_are_allowed': False,
+                       'equal_parents_are_allowed': True}
+
+            long_lasting = {'random_parents': False,
+                            'mother_is_good': True,
+                            'father_is_good': True,
+                            'size': 25,
+                            'num_of_children': 20,
+                            'mutate_before_breeding': False,
+                            'max_num_of_mutations': 3,
+                            'max_num_of_old_mutations': 0,
+                            'equal_individuals_are_allowed': False,
+                            'equal_parents_are_allowed': False}
+
+            Tk.Button(master=self.settings_window, text="Good but slow",
+                      command=lambda: self.load_preset(good)).pack(side="left")
+            Tk.Button(master=self.settings_window, text="Default",
+                      command=lambda: self.load_preset(default)).pack(side="left")
+            Tk.Button(master=self.settings_window, text="Long-lasting",
+                      command=lambda: self.load_preset(long_lasting)).pack(side="left")
 
             geom_arr = self.win.geometry().split('+')
             size_x, size_y = geom_arr[0].split('x')

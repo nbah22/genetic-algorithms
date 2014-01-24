@@ -9,6 +9,7 @@ class Population(Genetic.Population):
 
     def __init__(self, seed=None, **args):
         if seed:
+            self.attributes = args
             binary = bin(num_decode(seed))[2:]
             binary = '0'*(args['x_size'] * args['y_size'] * args['size'] - len(binary)) + binary
             seeds = [binary[i:i + args['x_size'] * args['y_size']]

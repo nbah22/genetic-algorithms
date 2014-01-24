@@ -27,3 +27,4 @@ To launch the project, execute _Launch.py_
 - Some analytics:
   * Count the percent of mutated nextgens on the list
 - Implement printing from pool
+- Add tooltips for settings
