@@ -6,7 +6,7 @@ This program based on a genetic algorithm is aimed on finding the best configura
 
 The genetic algorithm lying in the base of this project can also be applied to different tasks.
 
-To launch the project, execute _Launch.py_
+To launch the program, execute _Launch.py_ with Python 3 interpreter or execute _Launch.bat_ if you are using Windows.
 
 **TODO:**
 - Make individuals differentiate
