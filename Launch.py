@@ -1,6 +1,6 @@
 import Knights
 import Genetic
-import tkinter
+
 
 # You can change some parameters and see what happens
 params = {'random_parents': True,

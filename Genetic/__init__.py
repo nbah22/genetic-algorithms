@@ -2,8 +2,6 @@ from abc import ABCMeta, abstractmethod, abstractproperty
 import random
 import tkinter as Tk
 from tkinter import filedialog
-import copy
-import time
 
 
 class Population(metaclass=ABCMeta):
@@ -19,10 +17,10 @@ class Population(metaclass=ABCMeta):
         # wow such code
         # many parametres
         if 'num_of_children' not in attributes:
-            attributes['num_of_children'] = attributes['size'] * 5            
+            attributes['num_of_children'] = attributes['size'] * 5
 
         if 'mutate_before_breeding' not in attributes:
-            attributes['mutate_before_breeding'] = False            
+            attributes['mutate_before_breeding'] = False
 
         if 'max_num_of_mutations' not in attributes:
             attributes['max_num_of_mutations'] = 1
@@ -91,13 +89,13 @@ class Population(metaclass=ABCMeta):
         else:
             self.new_generation = new_generation + [individ.clone() for individ in self.individuals]
 
-    def choose_parent(self, good = True):
+    def choose_parent(self, good=True):
         if self.attributes['random_parents']:
             return random.choice(self.individuals)
         else:
             if good:
                 fitnesses = [i.fitness() for i in self.individuals]
-            else: # such constant. many bad
+            else:  # such constant. many bad
                 fitnesses = [13 - i.fitness() for i in self.individuals]
             rnd = random.random() * sum(fitnesses)
             t = 0
@@ -107,7 +105,6 @@ class Population(metaclass=ABCMeta):
                     return self.individuals[i]
 
     def cycle(self):
-        start = time.time()
         if self.attributes['mutate_before_breeding']:
             self.mutate_all()
             self.breed_all()
@@ -236,13 +233,14 @@ class GUI():
 
     def make_scale(self, param, label, from_, to):
         s = Tk.Scale(command=lambda x: self.change_parameter(param, int(x)),
-                  from_=from_, to=to, master=self.settings_window, orient='horizontal', label=label)
+                     from_=from_, to=to, master=self.settings_window,
+                     orient='horizontal', label=label)
         s.set(self.population.attributes[param])
         s.pack(anchor="w")
 
     def make_checkbutton(self, param, label):
         c = Tk.Checkbutton(command=lambda: self.change_parameter(param),
-            master=self.settings_window, text=label)
+                           master=self.settings_window, text=label)
         if self.population.attributes[param]:
             c.select()
         c.pack(anchor="w")
@@ -254,7 +252,7 @@ class GUI():
             self.settings_window = Tk.Toplevel()
             self.settings_window.resizable(0, 0)
             self.settings_window.title('Genetic: Settings')
-            
+
             self.make_scale('size', 'Size:', 1, 40)
             self.make_scale('num_of_children', 'Children:', 0, 1000)
             self.make_scale('max_num_of_mutations', 'Mutations:', 0, 25)
@@ -266,6 +264,6 @@ class GUI():
 
             geom_arr = self.win.geometry().split('+')
             size_x, size_y = geom_arr[0].split('x')
-            self.settings_window.geometry('+%d+%d' % (int(size_x) + int(geom_arr[1]) + 1, int(geom_arr[2])))
+            self.settings_window.geometry('+%d+%d' % (int(size_x) + int(geom_arr[1]) + 5, int(geom_arr[2])))
 
             self.settings_window.mainloop()
