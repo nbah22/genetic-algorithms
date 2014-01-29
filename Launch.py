@@ -1,3 +1,9 @@
+import sys
+if sys.version_info[0] < 3:
+    print('Your interpreter has version %d.%d.%d.' % (sys.version_info[:3]))
+    print('Please use Python 3 interpreter as this program does not support backwards compatibility.')
+    sys.exit()
+
 import Knights
 import Genetic
 
