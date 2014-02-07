@@ -7,7 +7,7 @@ from tkinter import filedialog
 class Population(metaclass=ABCMeta):
 
     @abstractproperty
-    def kind():
+    def kind(self):
         '''Returns species of population'''
 
     def __init__(self, **attributes):
@@ -129,7 +129,7 @@ class Population(metaclass=ABCMeta):
             return True
 
     @abstractmethod
-    def __str__():
+    def __str__(self):
         '''Returns a visual representation of population'''
         return ''
 

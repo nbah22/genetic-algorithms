@@ -5,6 +5,7 @@ ALPHABET_REVERSE = dict((c, i) for (i, c) in enumerate(ALPHABET))
 BASE = len(ALPHABET)
 SIGN_CHARACTER = '$'
 
+
 def num_encode(n):
     if n < 0:
         return SIGN_CHARACTER + num_encode(-n)
@@ -12,8 +13,10 @@ def num_encode(n):
     while True:
         n, r = divmod(n, BASE)
         s.append(ALPHABET[r])
-        if n == 0: break
+        if n == 0:
+            break
     return ''.join(reversed(s))
+
 
 def num_decode(s):
     if s[0] == SIGN_CHARACTER:
