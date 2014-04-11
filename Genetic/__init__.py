@@ -23,7 +23,7 @@ class Population(metaclass=ABCMeta):
             attributes['mutate_before_breeding'] = False
 
         if 'max_num_of_mutations' not in attributes:
-            attributes['max_num_of_mutations'] = 1
+            attributes['max_num_of_mutations'] = 3
 
         if 'max_num_of_old_mutations' not in attributes:
             attributes['max_num_of_old_mutations'] = 0
@@ -38,7 +38,10 @@ class Population(metaclass=ABCMeta):
             attributes['mother_is_good'] = True
 
         if 'father_is_good' not in attributes:
-            attributes['father_is_good'] = False
+            attributes['father_is_good'] = True
+
+        if 'equal_parents_are_allowed' not in attributes:
+            attributes['equal_parents_are_allowed'] = True
 
         self.attributes = attributes
 

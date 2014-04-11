@@ -29,3 +29,5 @@ To launch the program, execute _Launch.py_ with Python 3 interpreter or execute 
 - Implement printing from pool
 - Add tooltips for settings
 - Try using canvas instead of frames for improved performance on linux
+
+- Try to find the dependence of number of cycles needed for population to become stable on field size

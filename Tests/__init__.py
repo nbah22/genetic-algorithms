@@ -1,10 +1,12 @@
-import Genetic
-import Knights
 import random
 import time
+import copy
 import re
 from multiprocessing import *
 import tkinter as Tk
+
+import Genetic
+import Knights
 
 
 class Population(Genetic.Population):
@@ -141,9 +143,12 @@ class Population(Genetic.Population):
 
 
 class Test(Genetic.Species):
-
-    def __init__(self, params, params_range=None, test=True, **args):
-        self.attributes = args
+    def __init__(self, population, loaded=False):
+        self.population = population
+        params = population.attributes['params']
+        params_range = population.attributes['params_range']
+        self.log_file = population.attributes['log_file']
+        self.settings_file = population.attributes['settings_file']
         self.num_of_tests = 25
         self.max_num_of_cycles = 30
         if params_range is None:
@@ -159,8 +164,8 @@ class Test(Genetic.Species):
                 else:
                     print('Wrong type of parameter %s = %s: %s' % (k, v, type(v)))
             print()
-        if test:
-            with open(self.attributes['log_file'], 'a') as f:
+        if loaded is False:
+            with open(self.log_file, 'a') as f:
                 f.write('New individual:\n')
             self.calculate()
 
@@ -186,14 +191,14 @@ class Test(Genetic.Species):
         self.cycles = 0
         self.timer = 0
 
-        with open(self.attributes['log_file'], 'a') as f:
+        with open(self.log_file, 'a') as f:
             for k, v in self.params.items():
                 f.write('%s: %s\n' % (k, v))
                 print('%s: %d' % (k, v))
             f.write('\n')
 
         try:
-            with open(self.attributes['settings_file']) as f:
+            with open(self.settings_file) as f:
                 t = re.search(r'Pools: (.+)', f.read()).group(1)
                 num_of_pools = int(t)
         except:
@@ -212,11 +217,11 @@ class Test(Genetic.Species):
         max_time = max(tmp[2])
         tmp = [sum(tmp[i]) / self.num_of_tests for i in range(len(tmp))]
         [self.fit, self.cycles, self.timer] = tmp
-        with open(self.attributes['log_file'], 'a') as f:
+        with open(self.log_file, 'a') as f:
             f.write('Average:\nFitness: %.2f\nCycles: %.2f\nTime: %.4f\n\n' % (self.fit, self.cycles, self.timer))
 
     def mutate(self):
-        with open(self.attributes['log_file'], 'a') as f:
+        with open(self.log_file, 'a') as f:
             f.write('Mutation:\nOld params:\n')
             for k, v in self.params.items():
                 f.write('%s: %s\n' % (k, v))
@@ -230,12 +235,12 @@ class Test(Genetic.Species):
                     self.params[key] = 1
                 else:
                     self.params[key] = 0
-        with open(self.attributes['log_file'], 'a') as f:
+        with open(self.log_file, 'a') as f:
             f.write('\nNew params:\n')
         self.calculate()
 
     def breed(self, mate):
-        with open(self.attributes['log_file'], 'a') as f:
+        with open(self.log_file, 'a') as f:
             f.write('Breeding:\n')
             f.write('Mother\'s params:\n')
             for k, v in self.params.items():
@@ -252,7 +257,7 @@ class Test(Genetic.Species):
                     [self.params[key], mate.params[key]])
             else:
                 params[key] = (self.params[key] + mate.params[key]) // 2
-        child = Test(params=params, **self.attributes)
+        child = Test(self.population)
         return child
 
     def draw(self, master):
@@ -265,7 +270,7 @@ class Test(Genetic.Species):
         Tk.Label(master=frame, text='Cycles: %.2f' %
                  (self.cycles)).pack(side='top')
         Tk.Label(master=frame, text='Time: %.2f' %
-                 (self.time)).pack(side='top')
+                                    (self.timer)).pack(side='top')
 
     def __str__(self):
         output = 'Fitness: %(fit).4f\nCycles: %(cycles).4f\nTime: %(time).4f\n'
@@ -277,3 +282,8 @@ class Test(Genetic.Species):
 
     def __eq__(self, other):
         return self.params == other.params
+
+    def clone(self):
+        clone = copy.copy(self)
+        clone.params = copy.deepcopy(self.params)
+        return clone
