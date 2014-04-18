@@ -23,7 +23,7 @@ class Population(metaclass=ABCMeta):
             attributes['mutate_before_breeding'] = False
 
         if 'max_num_of_mutations' not in attributes:
-            attributes['max_num_of_mutations'] = 3
+            attributes['max_num_of_mutations'] = 5
 
         if 'max_num_of_old_mutations' not in attributes:
             attributes['max_num_of_old_mutations'] = 0

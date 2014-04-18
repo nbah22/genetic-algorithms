@@ -132,6 +132,10 @@ class Population(Genetic.Population):
     #     self.individuals += new_generation
     #     print('INDIVIDUALS:', len(self.individuals))
 
+    def __init__(self, **args):
+        self.current_cycle = 1
+        super().__init__(**args)
+
     def kind(self, **args):
         return Test(**args)
 
@@ -141,13 +145,23 @@ class Population(Genetic.Population):
             ret += str(individ) + '\n'
         return ret
 
+    def cycle(self):
+        with open(self.attributes['averages_log'], 'a') as f:
+            f.write('\n-- Cycle: %d\n' % self.current_cycle)
+        self.current_cycle += 1
+        super().cycle()
+
 
 class Test(Genetic.Species):
-    def __init__(self, population, loaded=False):
+    def __init__(self, population, params=None, loaded=False):
         self.population = population
-        params = population.attributes['params']
-        params_range = population.attributes['params_range']
+        if params is None:
+            params = population.attributes['params']
+            params_range = population.attributes['params_range']
+        else:
+            params_range = None
         self.log_file = population.attributes['log_file']
+        self.averages_log = population.attributes['averages_log']
         self.settings_file = population.attributes['settings_file']
         self.num_of_tests = 25
         self.max_num_of_cycles = 30
@@ -162,11 +176,13 @@ class Test(Genetic.Species):
                 elif type(v) == int:
                     self.params[k] = params[k] + random.randint(-params_range[k], params_range[k])
                 else:
-                    print('Wrong type of parameter %s = %s: %s' % (k, v, type(v)))
+                    print('\033[91m-- Wrong type of parameter %s = %s: %s\033[0m' % (k, v, type(v)))
             print()
+        print('Loaded =', loaded)
         if loaded is False:
             with open(self.log_file, 'a') as f:
                 f.write('New individual:\n')
+                print('New individual:')
             self.calculate()
 
     def fitness(self):
@@ -177,9 +193,14 @@ class Test(Genetic.Species):
         p = Knights.Population(x_size=5, y_size=5, **self.params)
 
         n = 0
-        while not p.is_stable() and n < self.max_num_of_cycles:
-            p.cycle()
-            n += 1
+        if self.params['equal_individuals_are_allowed']:
+            while not p.is_stable() and n < self.max_num_of_cycles:
+                p.cycle()
+                n += 1
+        else:
+            while n < self.max_num_of_cycles:
+                p.cycle()
+                n += 1
 
         with open('current_test.txt', 'a') as f:
             print('Fitness: %d\nCycles: %d\nTime: %.3f\n' % (p.individuals[0].fitness(), n, time.time() - start))  # Does not print from pool
@@ -194,15 +215,16 @@ class Test(Genetic.Species):
         with open(self.log_file, 'a') as f:
             for k, v in self.params.items():
                 f.write('%s: %s\n' % (k, v))
-                print('%s: %d' % (k, v))
+                print('%s: %s' % (k, v))
             f.write('\n')
+            print()
 
         try:
             with open(self.settings_file) as f:
                 t = re.search(r'Pools: (.+)', f.read()).group(1)
                 num_of_pools = int(t)
         except:
-            print('Failed to read the number of pools setting')
+            print('\033[91m-- Failed to read the number of pools setting\033[0m')
             if time.localtime()[3] < 7:
                 num_of_pools = 1
             else:
@@ -219,12 +241,17 @@ class Test(Genetic.Species):
         [self.fit, self.cycles, self.timer] = tmp
         with open(self.log_file, 'a') as f:
             f.write('Average:\nFitness: %.2f\nCycles: %.2f\nTime: %.4f\n\n' % (self.fit, self.cycles, self.timer))
+            print('Average:\nFitness: %.2f\nCycles: %.2f\nTime: %.4f\n' % (self.fit, self.cycles, self.timer))
+        with open(self.averages_log, 'a') as f:
+            f.write('%s\n' % self.fit)
 
     def mutate(self):
         with open(self.log_file, 'a') as f:
             f.write('Mutation:\nOld params:\n')
+            print('Mutation:\nOld params:')
             for k, v in self.params.items():
                 f.write('%s: %s\n' % (k, v))
+                print('%s: %s' % (k, v))
         key = random.choice(list(self.params.keys()))
         if type(self.params[key]) == bool:
             self.params[key] = [True, False][int(self.params[key])]  # Swapping true and false
@@ -237,18 +264,25 @@ class Test(Genetic.Species):
                     self.params[key] = 0
         with open(self.log_file, 'a') as f:
             f.write('\nNew params:\n')
+            print('\nNew params:\n')
         self.calculate()
 
     def breed(self, mate):
         with open(self.log_file, 'a') as f:
             f.write('Breeding:\n')
+            print('Breeding:')
             f.write('Mother\'s params:\n')
+            print('Mother\'s params:')
             for k, v in self.params.items():
                 f.write('%s: %s\n' % (k, v))
+                print('%s: %s' % (k, v))
             f.write('\nFather\'s params:\n')
+            print('\nFather\'s params:')
             for k, v in self.params.items():
                 f.write('%s: %s\n' % (k, v))
+                print('%s: %s' % (k, v))
             f.write('\n')
+            print()
 
         params = self.params.copy()
         for key in params.keys():
@@ -257,7 +291,7 @@ class Test(Genetic.Species):
                     [self.params[key], mate.params[key]])
             else:
                 params[key] = (self.params[key] + mate.params[key]) // 2
-        child = Test(self.population)
+        child = Test(self.population, params=params)
         return child
 
     def draw(self, master):
