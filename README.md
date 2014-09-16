@@ -17,12 +17,12 @@ To launch the program, execute _Launch.py_ with Python 3 interpreter or execute 
 - Think of a better `__init__()` for Population
 - Add loading placeholders in GUI
 - Implement saving the progress of evolution (partially done)
-- Think about passing all the parametres to the individuals (extra memory)
+- Think about passing all the parameters to the individuals (extra memory)
 - Fitness_multiplier?
 
 - CHECK ALL THE CODE FOR REFERENCE TYPE MISTAKES
 - Optimize the number of fitness function calls
-- Correct `choose_parent()`. Something is definetely wrong with it
+- Correct `choose_parent()`. Something is definitely wrong with it
   * Maybe force breeding of alpha individuals?
 - Some analytics:
   * Count the percent of mutated nextgens on the list

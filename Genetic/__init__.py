@@ -5,10 +5,9 @@ from tkinter import filedialog
 
 
 class Population(metaclass=ABCMeta):
-
     @abstractproperty
     def kind(self):
-        '''Returns species of population'''
+        """Returns species of population"""
 
     def __init__(self, **attributes):
         if 'size' not in attributes:
@@ -17,7 +16,7 @@ class Population(metaclass=ABCMeta):
         # wow such code
         # many parametres
         if 'num_of_children' not in attributes:
-            attributes['num_of_children'] = attributes['size'] * 5
+            attributes['num_of_children'] = attributes['size'] * 3
 
         if 'mutate_before_breeding' not in attributes:
             attributes['mutate_before_breeding'] = False
@@ -41,7 +40,13 @@ class Population(metaclass=ABCMeta):
             attributes['father_is_good'] = True
 
         if 'equal_parents_are_allowed' not in attributes:
-            attributes['equal_parents_are_allowed'] = True
+            attributes['equal_parents_are_allowed'] = False
+
+        if 'random_individs_added_each_cycle' not in attributes:
+            attributes['random_individs_added_each_cycle'] = 0
+
+        if 'number_of_fathers' not in attributes:
+            attributes['number_of_fathers'] = 1
 
         self.attributes = attributes
 
@@ -55,19 +60,22 @@ class Population(metaclass=ABCMeta):
             for i in range(len(self.individuals)):
                 for k in range(random.randint(0, self.attributes['max_num_of_mutations'])):
                     self.individuals[i].mutate()
+                self.individuals[i]._fit = self.individuals[i].fitness()
         else:
             for i in range(len(self.individuals)):
                 for k in range(random.randint(0, self.attributes['max_num_of_old_mutations'])):
                     self.individuals[i].mutate()
+                self.individuals[i]._fit = self.individuals[i].fitness()
 
             for i in range(len(self.new_generation)):
                 for k in range(random.randint(0, self.attributes['max_num_of_mutations'])):
                     self.new_generation[i].mutate()
+                self.new_generation[i]._fit = self.new_generation[i].fitness()
 
             self.individuals += self.new_generation
 
     def select(self):
-        '''Selection mechanism'''
+        """Selection mechanism"""
         if not self.attributes['equal_individuals_are_allowed']:
             new_individuals = []
             for individ in self.individuals:
@@ -75,39 +83,49 @@ class Population(metaclass=ABCMeta):
                     new_individuals.append(individ)
             self.individuals = new_individuals
 
-        self.individuals.sort(key=lambda x: -x.fitness())
+        self.individuals.sort(key=lambda x: -x._fitness())
         self.individuals = self.individuals[:self.attributes['size']]
 
     def breed_all(self):
         new_generation = []
         for i in range(self.attributes['num_of_children']):
             mother = self.choose_parent(self.attributes['mother_is_good'])
-            father = self.choose_parent(self.attributes['father_is_good'])
+            fathers = [self.choose_parent(self.attributes['father_is_good']) for _ in
+                       range(self.attributes['number_of_fathers'])]
             if not self.attributes['equal_parents_are_allowed']:
-                while father == mother:
-                    father = self.choose_parent(self.attributes['father_is_good'])
-            new_generation.append(mother + father)
+                for k in range(len(fathers)):
+                    while fathers[k] == mother or fathers.count(fathers[k]) > 1:
+                        fathers[k] = self.choose_parent(self.attributes['father_is_good'],
+                                                        [i for i in self.individuals if i not in fathers])
+            new_generation.append(mother.breed(fathers))
         if self.attributes['mutate_before_breeding']:
             self.individuals += new_generation
         else:
             self.new_generation = new_generation + [individ.clone() for individ in self.individuals]
 
-    def choose_parent(self, good=True):
+    def choose_parent(self, good=True, variants=None):
+        if variants is None:
+            variants = self.individuals
         if self.attributes['random_parents']:
-            return random.choice(self.individuals)
+            return random.choice(variants)
         else:
             if good:
-                fitnesses = [i.fitness() for i in self.individuals]
+                fitnesses = [i._fitness() for i in variants]
             else:  # such constant. many bad
-                fitnesses = [13 - i.fitness() for i in self.individuals]
+                fitnesses = [13 - i._fitness() for i in variants]
+            m = min(fitnesses) - 1
+            fitnesses = [f - m for f in fitnesses]
             rnd = random.random() * sum(fitnesses)
             t = 0
             for i in range(len(fitnesses)):
                 t += fitnesses[i]
                 if t >= rnd:
-                    return self.individuals[i]
+                    return variants[i]
 
     def cycle(self):
+        for _ in range(self.attributes['random_individs_added_each_cycle']):
+            self.individuals.append(self.kind(population=self))
+
         if self.attributes['mutate_before_breeding']:
             self.mutate_all()
             self.breed_all()
@@ -131,49 +149,53 @@ class Population(metaclass=ABCMeta):
         else:
             return True
 
-    @abstractmethod
     def __str__(self):
-        '''Returns a visual representation of population'''
-        return ''
+        """Returns a visual representation of population"""
+        return '__str__ method is not implemented'
 
 
 class Species(metaclass=ABCMeta):
-
     @abstractmethod
     def __init__(self):
-        '''Constructor'''
+        """Constructor"""
 
     def __add__(self, other):
         return self.breed(other)
 
     @abstractmethod
     def mutate(self):
-        '''Mutation mechanism'''
+        """Mutation mechanism"""
 
     @abstractmethod
     def breed(self, mate):
-        '''Interbreeding mechanism'''
+        """Interbreeding mechanism"""
 
     @abstractproperty
     def fitness(self):
-        '''Fit - function'''
+        """Fit - function"""
+
+    def _fitness(self):
+        try:
+            return self._fit
+        except:
+            self._fit = self.fitness()
+            return self._fit
 
     @abstractmethod
     def draw(self, master):
-        '''Used in GUI'''
+        """Used in GUI"""
 
     @abstractmethod
     def clone(self):
-        '''A method which returns a copy of an object'''
+        """A method which returns a copy of an object"""
 
     @abstractmethod
     def __eq__(self, other):
-        '''Says whether two individuals are equal'''
+        """Says whether two individuals are equal"""
         return True
 
 
 class GUI():
-
     def __init__(self, population, columns, title=None):
         self.columns = columns
         self.population = population

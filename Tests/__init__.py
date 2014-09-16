@@ -10,7 +10,6 @@ import Knights
 
 
 class Population(Genetic.Population):
-
     # def __init__(self, size, log_file, settings_file, load=False, tests_params, **args):
     #     if 'num_of_children' in args:
     #         self.NUM_OF_CHILDREN = args['num_of_children']
@@ -164,7 +163,8 @@ class Test(Genetic.Species):
         self.averages_log = population.attributes['averages_log']
         self.settings_file = population.attributes['settings_file']
         self.num_of_tests = 25
-        self.max_num_of_cycles = 30
+        self.max_num_of_cycles = 50
+        self.max_time = 15
         if params_range is None:
             self.params = params
         else:
@@ -183,31 +183,31 @@ class Test(Genetic.Species):
             with open(self.log_file, 'a') as f:
                 f.write('New individual:\n')
                 print('New individual:')
-            self.calculate()
+
+    def one_test(self, _):
+        try:
+            start = time.time()
+            p = Knights.Population(x_size=5, y_size=5, **self.params)
+
+            n = 0
+            if self.params['equal_individuals_are_allowed']:
+                while not p.is_stable() and time.time() - start < self.max_time and n < self.max_num_of_cycles:
+                    p.cycle()
+                    n += 1
+            else:
+                while time.time() - start < self.max_time and n < self.max_num_of_cycles:
+                    p.cycle()
+                    n += 1
+
+            with open('current_test.txt', 'a') as f:
+                print('Fitness: %d\nCycles: %d\nTime: %.3f\n' % (p.individuals[0].fitness(), n, time.time() - start))
+                f.write(
+                    'Fitness: %d\nCycles: %d\nTime: %.3f\n\n' % (p.individuals[0].fitness(), n, time.time() - start))
+            return p.individuals[0].fitness(), n, time.time() - start
+        except:
+            return 0, 0, 0
 
     def fitness(self):
-        return self.fit
-
-    def one_test(self, i):
-        start = time.time()
-        p = Knights.Population(x_size=5, y_size=5, **self.params)
-
-        n = 0
-        if self.params['equal_individuals_are_allowed']:
-            while not p.is_stable() and n < self.max_num_of_cycles:
-                p.cycle()
-                n += 1
-        else:
-            while n < self.max_num_of_cycles:
-                p.cycle()
-                n += 1
-
-        with open('current_test.txt', 'a') as f:
-            print('Fitness: %d\nCycles: %d\nTime: %.3f\n' % (p.individuals[0].fitness(), n, time.time() - start))  # Does not print from pool
-            f.write('Fitness: %d\nCycles: %d\nTime: %.3f\n\n' % (p.individuals[0].fitness(), n, time.time() - start))
-        return p.individuals[0].fitness(), n, time.time() - start
-
-    def calculate(self):
         self.fit = 0
         self.cycles = 0
         self.timer = 0
@@ -223,6 +223,7 @@ class Test(Genetic.Species):
             with open(self.settings_file) as f:
                 t = re.search(r'Pools: (.+)', f.read()).group(1)
                 num_of_pools = int(t)
+                print('\033[91m-- Number of pools: %d\033[0m' % num_of_pools)
         except:
             print('\033[91m-- Failed to read the number of pools setting\033[0m')
             if time.localtime()[3] < 7:
@@ -244,6 +245,7 @@ class Test(Genetic.Species):
             print('Average:\nFitness: %.2f\nCycles: %.2f\nTime: %.4f\n' % (self.fit, self.cycles, self.timer))
         with open(self.averages_log, 'a') as f:
             f.write('%s\n' % self.fit)
+        return self.fit
 
     def mutate(self):
         with open(self.log_file, 'a') as f:
@@ -256,7 +258,8 @@ class Test(Genetic.Species):
         if type(self.params[key]) == bool:
             self.params[key] = [True, False][int(self.params[key])]  # Swapping true and false
         else:
-            self.params[key] += random.randint(-5, 5)
+            r = self.population.attributes['params_range'][key] // 4  # random value
+            self.params[key] += random.randint(-r, r)
             if self.params[key] <= 0:
                 if key == 'size':
                     self.params[key] = 1
@@ -265,9 +268,8 @@ class Test(Genetic.Species):
         with open(self.log_file, 'a') as f:
             f.write('\nNew params:\n')
             print('\nNew params:\n')
-        self.calculate()
 
-    def breed(self, mate):
+    def breed(self, mates):
         with open(self.log_file, 'a') as f:
             f.write('Breeding:\n')
             print('Breeding:')
@@ -278,7 +280,7 @@ class Test(Genetic.Species):
                 print('%s: %s' % (k, v))
             f.write('\nFather\'s params:\n')
             print('\nFather\'s params:')
-            for k, v in self.params.items():
+            for k, v in mates[0].params.items():
                 f.write('%s: %s\n' % (k, v))
                 print('%s: %s' % (k, v))
             f.write('\n')
@@ -288,9 +290,16 @@ class Test(Genetic.Species):
         for key in params.keys():
             if type(self.params[key]) == bool:
                 params[key] = random.choice(
-                    [self.params[key], mate.params[key]])
+                    [self.params[key], mates[0].params[key]])
             else:
-                params[key] = (self.params[key] + mate.params[key]) // 2
+                # a = bin(self.params[key])[2:]
+                # b = bin(mate.params[key])[2:]
+                # if len(a) > len(b):
+                #     b = '0'*(len(a) - len(b)) + b
+                # else:
+                #     a = '0'*(len(b) - len(a)) + a
+                # params[key] = int(''.join([random.choice([a[i], b[i]]) for i in range(len(a))]), 2)
+                params[key] = (self.params[key] + mates[0].params[key]) // 2
         child = Test(self.population, params=params)
         return child
 
@@ -300,9 +309,9 @@ class Test(Genetic.Species):
         for k, v in self.params.items():
             Tk.Label(master=frame, text='%s: %s' % (k, v)).pack(side='top')
         Tk.Label(master=frame, text='Fitness: %.2f' %
-                 (self.fit)).pack(side='top')
+                                    (self.fit)).pack(side='top')
         Tk.Label(master=frame, text='Cycles: %.2f' %
-                 (self.cycles)).pack(side='top')
+                                    (self.cycles)).pack(side='top')
         Tk.Label(master=frame, text='Time: %.2f' %
                                     (self.timer)).pack(side='top')
 
