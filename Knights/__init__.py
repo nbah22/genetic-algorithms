@@ -105,8 +105,8 @@ class Field(Genetic.Species):
                     color = 'black'
                 else:
                     color = 'grey'
-                Tk.Frame(master=frame, bg=color, width=20,
-                         height=20).grid(row=y, column=x, padx=0, pady=0)
+                Tk.Frame(master=frame, bg=color, width=7,
+                         height=7).grid(row=y, column=x, padx=0, pady=0)
 
     def clone(self):
         clone = copy.copy(self)
